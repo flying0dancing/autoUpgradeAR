@@ -1,0 +1,16 @@
+logfl="$(basename "$0")"
+logfile="${logfl%.*}.tmp"
+detaillog="${logfl%.*}.log"
+if [ "${installfolder}" = "None" ];then
+    echo "error, installfolder is null"
+    echo "stop AR fail">$logfile
+    exit 1
+else
+    cd "${installfolder}"
+    bash bin/stop.sh 2>&1 | tee $detaillog
+    echo "stop AR pass">$logfile
+    rm -f bin/run.lock
+    rm -f bin/stop.lock
+    rm -f bin/stop.error
+    exit 0
+fi

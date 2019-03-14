@@ -1,0 +1,79 @@
+2017-07-12 13:53:38 copy Z:\ProductLine\ReportPortalPackage\1.15.3.1/AgileREPORTER-1.15.3.1-b1019.jar to host.
+2017-07-12 13:55:37 copy Z:\ProductLine\TrumpTest/ARInstall qa11_testp.properties to host.
+2017-07-12 13:55:37 execute RemoteInstall_0.sh in host.
+2017-07-12 13:57:53 copy RemoteInstall_0.log from host.
+2017-07-12 13:57:53 copy installproducts.tmp from host.
+2017-07-12 13:57:54 install AgileREPORTER-1.15.3.1-b1019.jar pass
+
+2017-07-12 13:57:54 copy Z:\ProductLine\FED\Package\v1.9.0/ARforFED_v1.9.0.6.lrm to host.
+2017-07-12 13:58:10 execute RemoteInstall_1.sh in host.
+2017-07-12 14:11:06 copy RemoteInstall_1.log from host.
+2017-07-12 14:11:06 copy installproducts.tmp from host.
+2017-07-12 14:11:07 install ARforFED_v1.9.0.6.lrm pass
+
+2017-07-12 14:11:07 copy Z:\ProductLine\FED\Package\v1.8.1/LRM_FED_DID_v1.3.1.1.zip to host.
+2017-07-12 14:11:08 copy Z:\ProductLine\TrumpTest/FEDalias.properties to host's installfolder/bin folder.
+2017-07-12 14:11:09 execute RemoteInstall_2.sh in host.
+2017-07-12 14:12:02 copy RemoteInstall_2.log from host.
+2017-07-12 14:12:02 copy installproducts.tmp from host.
+2017-07-12 14:12:03 install LRM_FED_DID_v1.3.1.1.zip pass
+2017-07-12 14:12:03 configure LRM FED DATA SOURCE pass
+
+2017-07-12 14:12:03 copy Z:\ProductLine\MAS\Package\ARforMAS2.23/ARforMAS_2.23.1.7.zip to host.
+2017-07-12 14:12:07 execute RemoteInstall_3.sh in host.
+2017-07-12 14:14:32 copy RemoteInstall_3.log from host.
+2017-07-12 14:14:32 copy installproducts.tmp from host.
+2017-07-12 14:14:33 install ARforMAS_2.23.1.7.zip pass
+
+2017-07-12 14:14:33 copy Z:\ProductLine\TrumpTest/MAS oracleDataaliasinfo.properties to host's installfolder/bin folder.
+2017-07-12 14:14:33 execute RemoteInstall_4.sh in host.
+2017-07-12 14:15:19 copy RemoteInstall_4.log from host.
+2017-07-12 14:15:20 copy installproducts.tmp from host.
+2017-07-12 14:15:20 configure STB Data MAS pass
+2017-07-12 14:15:20 configure STB CORE Data pass
+
+2017-07-12 14:15:20 copy Z:\ProductLine\TrumpTest/MASoracleSystemaliasinfo.properties to host's installfolder/bin folder.
+2017-07-12 14:15:21 execute RemoteInstall_5.sh in host.
+2017-07-12 14:17:27 copy RemoteInstall_5.log from host.
+2017-07-12 14:17:27 copy installproducts.tmp from host.
+2017-07-12 14:17:28 configure STB Work pass
+2017-07-12 14:17:28 configure STB System pass
+2017-07-12 14:17:28 configure STB System MAS pass
+
+2017-07-12 14:17:28 copy Z:\ProductLine\HKMA\Package/AR for HKMA5.22.2.4.zip to host.
+2017-07-12 14:17:29 execute RemoteInstall_6.sh in host.
+2017-07-12 14:19:23 copy RemoteInstall_6.log from host.
+2017-07-12 14:19:24 copy installproducts.tmp from host.
+2017-07-12 14:19:25 install AR for HKMA5.22.2.4.zip pass
+
+2017-07-12 14:19:25 copy Z:\ProductLine\TrumpTest/HKMAoracleDataaliasinfo.properties to host's installfolder/bin folder.
+2017-07-12 14:19:25 execute RemoteInstall_7.sh in host.
+2017-07-12 14:20:05 copy RemoteInstall_7.log from host.
+2017-07-12 14:20:05 copy installproducts.tmp from host.
+2017-07-12 14:20:06 configure STB Data HKMA pass
+2017-07-12 14:20:06 configure STB CORE Data pass
+
+2017-07-12 14:20:06 copy Z:\ProductLine\TrumpTest/HKMAoracleSystemaliasinfo.properties to host's installfolder/bin folder.
+2017-07-12 14:20:06 execute RemoteInstall_8.sh in host.
+2017-07-12 14:22:55 copy RemoteInstall_8.log from host.
+2017-07-12 14:22:55 copy installproducts.tmp from host.
+2017-07-12 14:22:56 configure STB Work pass
+2017-07-12 14:22:56 configure STB System pass
+2017-07-12 14:22:56 configure STB System HKMA pass
+
+2017-07-12 14:22:56 copy Z:\ProductLine\EBA\Package\AR4ECR1.26.1/AR_ECR_Package_v1_26_1_3.zip to host.
+2017-07-12 14:23:27 execute RemoteInstall_9.sh in host.
+2017-07-12 15:01:37 copy RemoteInstall_9.log from host.
+2017-07-12 15:01:38 copy installproducts.tmp from host.
+2017-07-12 15:01:38 install AR_ECR_Package_v1_26_1_3.zip pass
+
+2017-07-13 15:20:41 start Agile REPORTER pass
+2017-07-13 15:20:41 copy RemoteStartAR.log from host.
+2017-07-18 14:34:07 stop Agile REPORTER pass
+2017-07-18 14:34:07 copy RemoteStoptAR.log from host.
+2017-07-18 14:34:44 stop Agile REPORTER pass
+2017-07-18 14:34:44 copy RemoteStoptAR.log from host.
+2017-07-18 16:00:45 stop Agile REPORTER pass
+2017-07-18 16:00:45 copy RemoteStoptAR.log from host.
+2017-07-18 16:01:23 start Agile REPORTER pass
+2017-07-18 16:01:23 copy RemoteStartAR.log from host.

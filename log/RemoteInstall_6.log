@@ -1,0 +1,1071 @@
+./bin/config.sh -a AR for HKMA5.22.2.4.zip
+================================================================================
+enter config.sh
+JAVA_HOME NOT SET IN OCELOT.PROPERTIES
+JAVA_HOME NOT SET IN SYSTEM
+JAVA FIND IN PATH
+JAVA VERSION IS OK
+java version "1.7.0_79"
+OpenJDK Runtime Environment (rhel-2.5.5.4.el6-x86_64 u79-b14)
+OpenJDK 64-Bit Server VM (build 24.79-b02, mixed mode)
+java installed
+version: 1.15.3.1-b1019
+Start to UPLOAD config package AR for HKMA5.22.2.4.zip 
+System property [org.owasp.esapi.opsteam] is not set
+System property [org.owasp.esapi.devteam] is not set
+Attempting to load ESAPI.properties via file I/O.
+Attempting to load ESAPI.properties as resource file via file I/O.
+Not found in 'org.owasp.esapi.resources' directory or file not readable: /home/testp/trump_11/ESAPI.properties
+Not found in SystemResource Directory/resourceDirectory: .esapi/ESAPI.properties
+Not found in 'user.home' (/home/testp) directory: /home/testp/esapi/ESAPI.properties
+Loading ESAPI.properties via file I/O failed. Exception was: java.io.FileNotFoundException
+Attempting to load ESAPI.properties via the classpath.
+SUCCESSFULLY LOADED ESAPI.properties via the CLASSPATH from '/ (root)' using current thread context class loader!
+SecurityConfiguration for Validator.ConfigurationFile.MultiValued not found in ESAPI.properties. Using default: false
+SecurityConfiguration for Validator.ConfigurationFile not found in ESAPI.properties. Using default: validation.properties
+Attempting to load validation.properties via file I/O.
+Attempting to load validation.properties as resource file via file I/O.
+Not found in 'org.owasp.esapi.resources' directory or file not readable: /home/testp/trump_11/validation.properties
+Not found in SystemResource Directory/resourceDirectory: .esapi/validation.properties
+Not found in 'user.home' (/home/testp) directory: /home/testp/esapi/validation.properties
+Loading validation.properties via file I/O failed.
+Attempting to load validation.properties via the classpath.
+validation.properties could not be loaded by any means. fail. Exception was: java.lang.IllegalArgumentException: Failed to load ESAPI.properties as a classloader resource.
+SecurityConfiguration for ESAPI.printProperties not found in ESAPI.properties. Using default: false
+SecurityConfiguration for Encryptor.CipherTransformation not found in ESAPI.properties. Using default: AES/CBC/PKCS5Padding
+SecurityConfiguration for ESAPI.Encoder not found in ESAPI.properties. Using default: org.owasp.esapi.reference.DefaultEncoder
+SecurityConfiguration for ESAPI.Logger not found in ESAPI.properties. Using default: org.owasp.esapi.reference.JavaLogFactory
+SecurityConfiguration for Logger.LogApplicationName not found in ESAPI.properties. Using default: true
+SecurityConfiguration for Logger.LogServerIP not found in ESAPI.properties. Using default: true
+SecurityConfiguration for Logger.ApplicationName not found in ESAPI.properties. Using default: DefaultName
+Access db has been linked:/home/testp/trump_11/19207faa-bce7-4a15-a298-b5720fa88292
+validating table CFG_CONFIG_DEFINED_VARIABLES exists in Microsoft Access's database 
+validating table CFG_CONFIG_DEFINED_VARIABLES exists in  the destination database
+validating column ID of dpm table CFG_CONFIG_DEFINED_VARIABLES
+validating column VARIABLE_TYPE of dpm table CFG_CONFIG_DEFINED_VARIABLES
+validating column CALC_ENGINE of dpm table CFG_CONFIG_DEFINED_VARIABLES
+validating column VARIABLE_NAME of dpm table CFG_CONFIG_DEFINED_VARIABLES
+validating column DOMAIN_ID of dpm table CFG_CONFIG_DEFINED_VARIABLES
+validating column VARIABLE_LABEL of dpm table CFG_CONFIG_DEFINED_VARIABLES
+validating column VARIABLE_DESCRIPTION of dpm table CFG_CONFIG_DEFINED_VARIABLES
+validating column FORM_CODE of dpm table CFG_CONFIG_DEFINED_VARIABLES
+validating column VARIABLE_SCOPE of dpm table CFG_CONFIG_DEFINED_VARIABLES
+validating column MANDATORY of dpm table CFG_CONFIG_DEFINED_VARIABLES
+validating column VARIABLE_VALUE_TYPE of dpm table CFG_CONFIG_DEFINED_VARIABLES
+validating column DEFAULT_NUMBER_VALUE of dpm table CFG_CONFIG_DEFINED_VARIABLES
+validating column DEFAULT_CHAR_VALUE of dpm table CFG_CONFIG_DEFINED_VARIABLES
+validating column DEFAULT_DATE_VALUE of dpm table CFG_CONFIG_DEFINED_VARIABLES
+validating column DEFAULT_TIMESTAMP_VALUE of dpm table CFG_CONFIG_DEFINED_VARIABLES
+validating table FormLink exists in Microsoft Access's database 
+validating table CFG_FORM_LINK exists in  the destination database
+unsupported collating sort order SortOrder[1028(0)] for text index (Db=19207faa-bce7-4a15-a298-b5720fa88292;Table=FormLink;Index=0), making read-only
+validating column ID of dpm table FormLink
+validating column ConfigPrefix of dpm table FormLink
+validating column FormLinkType of dpm table FormLink
+validating column FormCode of dpm table FormLink
+validating column FormVersion of dpm table FormLink
+validating table FormLinkModule exists in Microsoft Access's database 
+validating table CFG_FORM_LINK_MODULE exists in  the destination database
+validating column ID of dpm table FormLinkModule
+validating column FormLinkId of dpm table FormLinkModule
+validating column ModuleId of dpm table FormLinkModule
+validating table ExportFormat exists in Microsoft Access's database 
+validating table CFG_EXPORT_FORMAT exists in  the destination database
+validating column ID of dpm table ExportFormat
+validating column Type of dpm table ExportFormat
+validating column SubType of dpm table ExportFormat
+validating column Label of dpm table ExportFormat
+validating column SchemaLocation of dpm table ExportFormat
+validating table ExportFormatModule exists in Microsoft Access's database 
+validating table CFG_EXPORT_FORMAT_MODULE exists in  the destination database
+validating column ExportFormatId of dpm table ExportFormatModule
+validating column ModuleId of dpm table ExportFormatModule
+validating table XmlXSLTExport exists in Microsoft Access's database 
+validating table CFG_XMLXSLT_EXPORT exists in  the destination database
+validating column ID of dpm table XmlXSLTExport
+validating column ExportFormatId of dpm table XmlXSLTExport
+validating column TransFormName of dpm table XmlXSLTExport
+validating column TransFormOrder of dpm table XmlXSLTExport
+validating table CFG_DT_FORM_IMPORT_SET exists in Microsoft Access's database 
+table CFG_DT_FORM_IMPORT_SET is skipped ,reason: table CFG_DT_FORM_IMPORT_SET can't be found in Microsoft Access's database
+validating table CFG_DT_FORM_IMPORT exists in Microsoft Access's database 
+table CFG_DT_FORM_IMPORT is skipped ,reason: table CFG_DT_FORM_IMPORT can't be found in Microsoft Access's database
+validating table CFG_DT_DECISION_TABLE exists in Microsoft Access's database 
+table CFG_DT_DECISION_TABLE is skipped ,reason: table CFG_DT_DECISION_TABLE can't be found in Microsoft Access's database
+validating table CFG_DT_ENTRY exists in Microsoft Access's database 
+table CFG_DT_ENTRY is skipped ,reason: table CFG_DT_ENTRY can't be found in Microsoft Access's database
+validating table CFG_DT_KEY_FIELD exists in Microsoft Access's database 
+table CFG_DT_KEY_FIELD is skipped ,reason: table CFG_DT_KEY_FIELD can't be found in Microsoft Access's database
+validating table CFG_DT_VALUE_FIELD exists in Microsoft Access's database 
+table CFG_DT_VALUE_FIELD is skipped ,reason: table CFG_DT_VALUE_FIELD can't be found in Microsoft Access's database
+validating table CFG_DW_SYSTEM exists in Microsoft Access's database 
+table CFG_DW_SYSTEM is skipped ,reason: table CFG_DW_SYSTEM can't be found in Microsoft Access's database
+validating table CFG_DW_BINDING_SET exists in Microsoft Access's database 
+table CFG_DW_BINDING_SET is skipped ,reason: table CFG_DW_BINDING_SET can't be found in Microsoft Access's database
+validating table CFG_DW_VIEW_BINDING exists in Microsoft Access's database 
+table CFG_DW_VIEW_BINDING is skipped ,reason: table CFG_DW_VIEW_BINDING can't be found in Microsoft Access's database
+validating table CFG_DW_FIELD_BINDING exists in Microsoft Access's database 
+table CFG_DW_FIELD_BINDING is skipped ,reason: table CFG_DW_FIELD_BINDING can't be found in Microsoft Access's database
+validating table CFG_DW_VIEW_STRUCTURE exists in Microsoft Access's database 
+table CFG_DW_VIEW_STRUCTURE is skipped ,reason: table CFG_DW_VIEW_STRUCTURE can't be found in Microsoft Access's database
+validating table DpmMapping exists in Microsoft Access's database 
+table DpmMapping is skipped ,reason: table DpmMapping can't be found in Microsoft Access's database
+validating table FormVarDataPoint exists in Microsoft Access's database 
+table FormVarDataPoint is skipped ,reason: table FormVarDataPoint can't be found in Microsoft Access's database
+validating table FormVars exists in Microsoft Access's database 
+validating table CFG_RPT_FormVars exists in  the destination database
+validating column ReturnId of dpm table FormVars
+validating column CCName of dpm table FormVars
+validating column CCType of dpm table FormVars
+validating column Mandatory of dpm table FormVars
+validating column CCValue of dpm table FormVars
+validating column CCDate of dpm table FormVars
+validating column CCNumber of dpm table FormVars
+validating table GridKey exists in Microsoft Access's database 
+validating table CFG_RPT_GridKey exists in  the destination database
+validating column ReturnId of dpm table GridKey
+validating column TabName of dpm table GridKey
+validating column KeyFieldName of dpm table GridKey
+validating column RowNumbering of dpm table GridKey
+validating column SourceTableName of dpm table GridKey
+validating column SourceTableAlias of dpm table GridKey
+validating column DisplayText of dpm table GridKey
+validating column KeyFieldText of dpm table GridKey
+validating column DestField1 of dpm table GridKey
+validating column SourceField1 of dpm table GridKey
+validating column DestField2 of dpm table GridKey
+validating column SourceField2 of dpm table GridKey
+validating column DestField3 of dpm table GridKey
+validating column SourceField3 of dpm table GridKey
+validating column NotReOrderKey of dpm table GridKey
+validating column BatchId of dpm table GridKey
+validating column Chapter of dpm table GridKey
+validating column DateType of dpm table GridKey
+validating column ProcDate of dpm table GridKey
+validating column BatchSelected of dpm table GridKey
+validating column TAVA_KEYFIELD of dpm table GridKey
+validating column RowLimit of dpm table GridKey
+validating column ThresholdExpression of dpm table GridKey
+validating table GridRef exists in Microsoft Access's database 
+validating table CFG_RPT_GridRef exists in  the destination database
+validating column ReturnId of dpm table GridRef
+validating column GridName of dpm table GridRef
+validating column Item of dpm table GridRef
+validating column TabName of dpm table GridRef
+validating column AltFldName of dpm table GridRef
+validating column FieldPos of dpm table GridRef
+validating column Reference of dpm table GridRef
+validating column Type of dpm table GridRef
+validating column SortPos of dpm table GridRef
+validating column FieldSize of dpm table GridRef
+validating column CalcField of dpm table GridRef
+validating column CellDesc of dpm table GridRef
+validating column DoNotExport of dpm table GridRef
+validating column SortStrategy of dpm table GridRef
+validating column Threshold of dpm table GridRef
+validating column IsInnerGridCell of dpm table GridRef
+validating table Instances exists in Microsoft Access's database 
+validating table CFG_RPT_Instances exists in  the destination database
+validating column InstSetId of dpm table Instances
+validating column InstPageInst of dpm table Instances
+validating column InstCode of dpm table Instances
+validating column AltInstCode of dpm table Instances
+validating column InstDescription of dpm table Instances
+validating column IgnorePgInstIDOnDrill of dpm table Instances
+validating table InstanceSets exists in Microsoft Access's database 
+validating table CFG_RPT_InstanceSets exists in  the destination database
+validating column InstSetId of dpm table InstanceSets
+validating column InstSetName of dpm table InstanceSets
+validating table List exists in Microsoft Access's database 
+validating table CFG_RPT_List exists in  the destination database
+validating column ReturnId of dpm table List
+validating column TabName of dpm table List
+validating column GridName of dpm table List
+validating column TableOrder of dpm table List
+validating column Page of dpm table List
+validating column PageName of dpm table List
+validating column Is3D of dpm table List
+validating column LinkedPageGrp of dpm table List
+validating column AllowInstancing of dpm table List
+validating column InstSetId of dpm table List
+validating column InstUpdateCell of dpm table List
+validating column STBDATAGROUP of dpm table List
+validating column SOURCETYPE of dpm table List
+validating table Ref exists in Microsoft Access's database 
+validating table CFG_RPT_Ref exists in  the destination database
+validating column ReturnId of dpm table Ref
+validating column Item of dpm table Ref
+validating column TabName of dpm table Ref
+validating column AltFldName of dpm table Ref
+validating column FieldPos of dpm table Ref
+validating column Reference of dpm table Ref
+validating column Type of dpm table Ref
+validating column SortPos of dpm table Ref
+validating column BOEItem of dpm table Ref
+validating column FieldSize of dpm table Ref
+validating column CalcField of dpm table Ref
+validating column CellDesc of dpm table Ref
+validating column DoNotExport of dpm table Ref
+validating table Rets exists in Microsoft Access's database 
+validating table CFG_RPT_Rets exists in  the destination database
+validating column ReturnId of dpm table Rets
+validating column Return of dpm table Rets
+validating column Version of dpm table Rets
+validating column RegId of dpm table Rets
+validating column FormOrder of dpm table Rets
+validating column CompBatchRun of dpm table Rets
+validating column CompOutputTable of dpm table Rets
+validating column TransmitBatchRun of dpm table Rets
+validating column OutputRecord of dpm table Rets
+validating column Period of dpm table Rets
+validating column ActivateDate of dpm table Rets
+validating column DeActivateDate of dpm table Rets
+validating column IntervalType of dpm table Rets
+validating column IntervalFrequency of dpm table Rets
+validating column ExclHolidays of dpm table Rets
+validating column ExclWeekends of dpm table Rets
+validating column Required of dpm table Rets
+validating column AdjTab of dpm table Rets
+validating column ValTab of dpm table Rets
+validating column XValTab of dpm table Rets
+validating column Name of dpm table Rets
+validating column STBDATAGROUP of dpm table Rets
+validating column NewFormBatchRun of dpm table Rets
+validating column NewFormOutputTable of dpm table Rets
+validating column KeepNullNumeric of dpm table Rets
+validating column DecisionDLL of dpm table Rets
+validating column REGTRANSMODELID of dpm table Rets
+validating column ONLYDATAPROCESS of dpm table Rets
+validating column REG_REP_INTERVAL of dpm table Rets
+validating column TemplateName of dpm table Rets
+validating column TemplateAlias of dpm table Rets
+validating table Sums exists in Microsoft Access's database 
+validating table CFG_RPT_Sums exists in  the destination database
+validating column ReturnId of dpm table Sums
+validating column ExpId of dpm table Sums
+validating column ExpOrder of dpm table Sums
+validating column DestFld of dpm table Sums
+validating column Expression of dpm table Sums
+validating column Comment of dpm table Sums
+validating column Instance of dpm table Sums
+validating column Level of dpm table Sums
+validating column RuleEngine of dpm table Sums
+validating column UseIDInDest of dpm table Sums
+validating column UseIDInExp of dpm table Sums
+validating column StartDate of dpm table Sums
+validating column EndDate of dpm table Sums
+validating column IgnoredIfInstMissing of dpm table Sums
+validating column DealWithoutXReturn of dpm table Sums
+validating table Vals exists in Microsoft Access's database 
+validating table CFG_RPT_Vals exists in  the destination database
+validating column ReturnId of dpm table Vals
+validating column ExpId of dpm table Vals
+validating column ExpOrder of dpm table Vals
+validating column DestFld of dpm table Vals
+validating column Expression of dpm table Vals
+validating column Comment of dpm table Vals
+validating column Instance of dpm table Vals
+validating column Level of dpm table Vals
+validating column RuleEngine of dpm table Vals
+validating column UseIDInDest of dpm table Vals
+validating column UseIDInExp of dpm table Vals
+validating column StartDate of dpm table Vals
+validating column EndDate of dpm table Vals
+validating column DealWithoutXReturn of dpm table Vals
+validating table XVals exists in Microsoft Access's database 
+validating table CFG_RPT_XVals exists in  the destination database
+validating column ReturnId of dpm table XVals
+validating column ExpId of dpm table XVals
+validating column ExpOrder of dpm table XVals
+validating column DestFld of dpm table XVals
+validating column Expression of dpm table XVals
+validating column Comment of dpm table XVals
+validating column Instance of dpm table XVals
+validating column Level of dpm table XVals
+validating column RuleEngine of dpm table XVals
+validating column UseIDInDest of dpm table XVals
+validating column UseIDInExp of dpm table XVals
+validating column StartDate of dpm table XVals
+validating column EndDate of dpm table XVals
+validating column IgnoredIfInstMissing of dpm table XVals
+validating column DealWithoutXReturn of dpm table XVals
+validating table RefReturns exists in Microsoft Access's database 
+validating table CFG_RPT_RefReturns exists in  the destination database
+validating column ReturnId of dpm table RefReturns
+validating column ExpId of dpm table RefReturns
+validating column RefReturnName of dpm table RefReturns
+validating table ExcelExportDescriptor exists in Microsoft Access's database 
+validating table CFG_EXCEL_EXPORT_DESCRIPTOR exists in  the destination database
+unsupported collating sort order SortOrder[1028(0)] for text index (Db=19207faa-bce7-4a15-a298-b5720fa88292;Table=ExcelExportDescriptor;Index=1), making read-only
+validating column ID of dpm table ExcelExportDescriptor
+validating column DescriptorFileName of dpm table ExcelExportDescriptor
+validating column ExcelSourceFileName of dpm table ExcelExportDescriptor
+validating column FormCode of dpm table ExcelExportDescriptor
+validating column FormVersion of dpm table ExcelExportDescriptor
+validating column ExportFormatId of dpm table ExcelExportDescriptor
+validating table DataQuality exists in Microsoft Access's database 
+table DataQuality is skipped ,reason: table DataQuality can't be found in Microsoft Access's database
+validating table TextTemplate exists in Microsoft Access's database 
+table TextTemplate is skipped ,reason: table TextTemplate can't be found in Microsoft Access's database
+validating table DataScheduleExport exists in Microsoft Access's database 
+table DataScheduleExport is skipped ,reason: table DataScheduleExport can't be found in Microsoft Access's database
+validating table DataScheduleView exists in Microsoft Access's database 
+table DataScheduleView is skipped ,reason: table DataScheduleView can't be found in Microsoft Access's database
+validating table ExportFileName exists in Microsoft Access's database 
+validating table CFG_EXPORT_FILE_NAME exists in  the destination database
+unsupported collating sort order SortOrder[1028(0)] for text index (Db=19207faa-bce7-4a15-a298-b5720fa88292;Table=ExportFileName;Index=0), making read-only
+unsupported collating sort order SortOrder[1028(0)] for text index (Db=19207faa-bce7-4a15-a298-b5720fa88292;Table=ExportFileName;Index=2), making read-only
+validating column ID of dpm table ExportFileName
+validating column RefType of dpm table ExportFileName
+validating column ExportFormatLink of dpm table ExportFileName
+validating column DataScheduleLink of dpm table ExportFileName
+validating column FileNamePattern of dpm table ExportFileName
+can not find the DPM mapping file with version: 1.0
+validating table Axis exists in Microsoft Access's database 
+table Axis is skipped ,reason: table Axis can't be found in Microsoft Access's database
+validating table AxisOrdinate exists in Microsoft Access's database 
+table AxisOrdinate is skipped ,reason: table AxisOrdinate can't be found in Microsoft Access's database
+validating table BalanceType exists in Microsoft Access's database 
+table BalanceType is skipped ,reason: table BalanceType can't be found in Microsoft Access's database
+validating table CellPosition exists in Microsoft Access's database 
+table CellPosition is skipped ,reason: table CellPosition can't be found in Microsoft Access's database
+validating table CellReference exists in Microsoft Access's database 
+table CellReference is skipped ,reason: table CellReference can't be found in Microsoft Access's database
+validating table Concept exists in Microsoft Access's database 
+table Concept is skipped ,reason: table Concept can't be found in Microsoft Access's database
+validating table ConceptReference exists in Microsoft Access's database 
+table ConceptReference is skipped ,reason: table ConceptReference can't be found in Microsoft Access's database
+validating table ConceptTranslation exists in Microsoft Access's database 
+table ConceptTranslation is skipped ,reason: table ConceptTranslation can't be found in Microsoft Access's database
+validating table ConceptualModule exists in Microsoft Access's database 
+table ConceptualModule is skipped ,reason: table ConceptualModule can't be found in Microsoft Access's database
+validating table ContextDefinition exists in Microsoft Access's database 
+table ContextDefinition is skipped ,reason: table ContextDefinition can't be found in Microsoft Access's database
+validating table ContextOfDataPoints exists in Microsoft Access's database 
+table ContextOfDataPoints is skipped ,reason: table ContextOfDataPoints can't be found in Microsoft Access's database
+validating table DataPoint exists in Microsoft Access's database 
+table DataPoint is skipped ,reason: table DataPoint can't be found in Microsoft Access's database
+validating table DataPointVersionVariable exists in Microsoft Access's database 
+table DataPointVersionVariable is skipped ,reason: table DataPointVersionVariable can't be found in Microsoft Access's database
+validating table DataPointVersion exists in Microsoft Access's database 
+table DataPointVersion is skipped ,reason: table DataPointVersion can't be found in Microsoft Access's database
+validating table DataType exists in Microsoft Access's database 
+table DataType is skipped ,reason: table DataType can't be found in Microsoft Access's database
+validating table Dimension exists in Microsoft Access's database 
+table Dimension is skipped ,reason: table Dimension can't be found in Microsoft Access's database
+validating table DimensionalCoordinate exists in Microsoft Access's database 
+table DimensionalCoordinate is skipped ,reason: table DimensionalCoordinate can't be found in Microsoft Access's database
+validating table Domain exists in Microsoft Access's database 
+table Domain is skipped ,reason: table Domain can't be found in Microsoft Access's database
+validating table Expression exists in Microsoft Access's database 
+table Expression is skipped ,reason: table Expression can't be found in Microsoft Access's database
+validating table ExpressionScope exists in Microsoft Access's database 
+table ExpressionScope is skipped ,reason: table ExpressionScope can't be found in Microsoft Access's database
+validating table FlowType exists in Microsoft Access's database 
+table FlowType is skipped ,reason: table FlowType can't be found in Microsoft Access's database
+validating table Hierarchy exists in Microsoft Access's database 
+table Hierarchy is skipped ,reason: table Hierarchy can't be found in Microsoft Access's database
+validating table HierarchyNode exists in Microsoft Access's database 
+table HierarchyNode is skipped ,reason: table HierarchyNode can't be found in Microsoft Access's database
+validating table HierarchyScope exists in Microsoft Access's database 
+table HierarchyScope is skipped ,reason: table HierarchyScope can't be found in Microsoft Access's database
+validating table HierarchyValidationRule exists in Microsoft Access's database 
+table HierarchyValidationRule is skipped ,reason: table HierarchyValidationRule can't be found in Microsoft Access's database
+validating table InstanceLevelConcept exists in Microsoft Access's database 
+table InstanceLevelConcept is skipped ,reason: table InstanceLevelConcept can't be found in Microsoft Access's database
+validating table InstanceLevelDataPoint exists in Microsoft Access's database 
+table InstanceLevelDataPoint is skipped ,reason: table InstanceLevelDataPoint can't be found in Microsoft Access's database
+validating table InstanceLevelDimension exists in Microsoft Access's database 
+table InstanceLevelDimension is skipped ,reason: table InstanceLevelDimension can't be found in Microsoft Access's database
+validating table Language exists in Microsoft Access's database 
+table Language is skipped ,reason: table Language can't be found in Microsoft Access's database
+validating table Member exists in Microsoft Access's database 
+table Member is skipped ,reason: table Member can't be found in Microsoft Access's database
+validating table Metric exists in Microsoft Access's database 
+table Metric is skipped ,reason: table Metric can't be found in Microsoft Access's database
+validating table MetricVariable exists in Microsoft Access's database 
+table MetricVariable is skipped ,reason: table MetricVariable can't be found in Microsoft Access's database
+validating table Module exists in Microsoft Access's database 
+validating table DPM_MODULE exists in  the destination database
+unsupported collating sort order SortOrder[1028(0)] for text index (Db=19207faa-bce7-4a15-a298-b5720fa88292;Table=Module;Index=3), making read-only
+validating column ModuleID of dpm table Module
+validating column TaxonomyID of dpm table Module
+validating column ModuleCode of dpm table Module
+validating column ModuleLabel of dpm table Module
+validating column XbrlSchemaRef of dpm table Module
+validating column ConceptualModuleID of dpm table Module
+validating column ConceptID of dpm table Module
+validating table ModuleDataPointRestriction exists in Microsoft Access's database 
+table ModuleDataPointRestriction is skipped ,reason: table ModuleDataPointRestriction can't be found in Microsoft Access's database
+validating table ModuleDimensionImpliedValue exists in Microsoft Access's database 
+table ModuleDimensionImpliedValue is skipped ,reason: table ModuleDimensionImpliedValue can't be found in Microsoft Access's database
+validating table ModuleTableOrGroup exists in Microsoft Access's database 
+table ModuleTableOrGroup is skipped ,reason: table ModuleTableOrGroup can't be found in Microsoft Access's database
+validating table ModuleTableVersion exists in Microsoft Access's database 
+table ModuleTableVersion is skipped ,reason: table ModuleTableVersion can't be found in Microsoft Access's database
+validating table OpenAxisValueRestriction exists in Microsoft Access's database 
+table OpenAxisValueRestriction is skipped ,reason: table OpenAxisValueRestriction can't be found in Microsoft Access's database
+validating table OpenMemberRestriction exists in Microsoft Access's database 
+table OpenMemberRestriction is skipped ,reason: table OpenMemberRestriction can't be found in Microsoft Access's database
+validating table OrdinateCategorisation exists in Microsoft Access's database 
+table OrdinateCategorisation is skipped ,reason: table OrdinateCategorisation can't be found in Microsoft Access's database
+validating table OrdinateVariable exists in Microsoft Access's database 
+table OrdinateVariable is skipped ,reason: table OrdinateVariable can't be found in Microsoft Access's database
+validating table Owner exists in Microsoft Access's database 
+table Owner is skipped ,reason: table Owner can't be found in Microsoft Access's database
+validating table PreCondition exists in Microsoft Access's database 
+table PreCondition is skipped ,reason: table PreCondition can't be found in Microsoft Access's database
+validating table ReferenceCategorisation exists in Microsoft Access's database 
+table ReferenceCategorisation is skipped ,reason: table ReferenceCategorisation can't be found in Microsoft Access's database
+validating table ReferencePeriodOffset exists in Microsoft Access's database 
+table ReferencePeriodOffset is skipped ,reason: table ReferencePeriodOffset can't be found in Microsoft Access's database
+validating table References exists in Microsoft Access's database 
+table References is skipped ,reason: table References can't be found in Microsoft Access's database
+validating table ReportingFramework exists in Microsoft Access's database 
+validating table DPM_REPORTING_FRAMEWORK exists in  the destination database
+unsupported collating sort order SortOrder[1028(0)] for text index (Db=19207faa-bce7-4a15-a298-b5720fa88292;Table=ReportingFramework;Index=2), making read-only
+validating column FrameworkID of dpm table ReportingFramework
+validating column FrameworkCode of dpm table ReportingFramework
+validating column FrameworkLabel of dpm table ReportingFramework
+validating column ConceptID of dpm table ReportingFramework
+validating table SpecificCellVariable exists in Microsoft Access's database 
+table SpecificCellVariable is skipped ,reason: table SpecificCellVariable can't be found in Microsoft Access's database
+validating table StringList exists in Microsoft Access's database 
+table StringList is skipped ,reason: table StringList can't be found in Microsoft Access's database
+validating table StringListValues exists in Microsoft Access's database 
+table StringListValues is skipped ,reason: table StringListValues can't be found in Microsoft Access's database
+validating table SumOfManyOrdinates exists in Microsoft Access's database 
+table SumOfManyOrdinates is skipped ,reason: table SumOfManyOrdinates can't be found in Microsoft Access's database
+validating table SumOverOpenAxis exists in Microsoft Access's database 
+table SumOverOpenAxis is skipped ,reason: table SumOverOpenAxis can't be found in Microsoft Access's database
+validating table Table exists in Microsoft Access's database 
+table Table is skipped ,reason: table Table can't be found in Microsoft Access's database
+validating table TableCell exists in Microsoft Access's database 
+table TableCell is skipped ,reason: table TableCell can't be found in Microsoft Access's database
+validating table TableGroup exists in Microsoft Access's database 
+table TableGroup is skipped ,reason: table TableGroup can't be found in Microsoft Access's database
+validating table TableGroupTemplates exists in Microsoft Access's database 
+table TableGroupTemplates is skipped ,reason: table TableGroupTemplates can't be found in Microsoft Access's database
+validating table TableVersion exists in Microsoft Access's database 
+table TableVersion is skipped ,reason: table TableVersion can't be found in Microsoft Access's database
+validating table Taxonomy exists in Microsoft Access's database 
+validating table DPM_TAXONOMY exists in  the destination database
+unsupported collating sort order SortOrder[1028(0)] for text index (Db=19207faa-bce7-4a15-a298-b5720fa88292;Table=Taxonomy;Index=3), making read-only
+validating column TaxonomyID of dpm table Taxonomy
+validating column FrameworkID of dpm table Taxonomy
+validating column TaxonomyCode of dpm table Taxonomy
+validating column TaxonomyLabel of dpm table Taxonomy
+validating column TechnicalStandard of dpm table Taxonomy
+validating column PublicationDate of dpm table Taxonomy
+validating column Version of dpm table Taxonomy
+validating column ConceptID of dpm table Taxonomy
+validating column FromDate of dpm table Taxonomy
+validating column ToDate of dpm table Taxonomy
+validating table TaxonomyHistory exists in Microsoft Access's database 
+table TaxonomyHistory is skipped ,reason: table TaxonomyHistory can't be found in Microsoft Access's database
+validating table TaxonomyTableVersion exists in Microsoft Access's database 
+table TaxonomyTableVersion is skipped ,reason: table TaxonomyTableVersion can't be found in Microsoft Access's database
+validating table Template exists in Microsoft Access's database 
+table Template is skipped ,reason: table Template can't be found in Microsoft Access's database
+validating table ValidationRule exists in Microsoft Access's database 
+table ValidationRule is skipped ,reason: table ValidationRule can't be found in Microsoft Access's database
+validating table ValidationRuleSet exists in Microsoft Access's database 
+table ValidationRuleSet is skipped ,reason: table ValidationRuleSet can't be found in Microsoft Access's database
+validating table ValidationScope exists in Microsoft Access's database 
+table ValidationScope is skipped ,reason: table ValidationScope can't be found in Microsoft Access's database
+validating table VariableOfExpression exists in Microsoft Access's database 
+table VariableOfExpression is skipped ,reason: table VariableOfExpression can't be found in Microsoft Access's database
+validating table TaxonomyFilingIndicator exists in Microsoft Access's database 
+table TaxonomyFilingIndicator is skipped ,reason: table TaxonomyFilingIndicator can't be found in Microsoft Access's database
+validating table Item exists in Microsoft Access's database 
+table Item is skipped ,reason: table Item can't be found in Microsoft Access's database
+validating table ItemVersion exists in Microsoft Access's database 
+table ItemVersion is skipped ,reason: table ItemVersion can't be found in Microsoft Access's database
+validating table ItemCell exists in Microsoft Access's database 
+table ItemCell is skipped ,reason: table ItemCell can't be found in Microsoft Access's database
+validating table ModuleItemVersion exists in Microsoft Access's database 
+table ModuleItemVersion is skipped ,reason: table ModuleItemVersion can't be found in Microsoft Access's database
+SecurityConfiguration for ESAPI.Encoder not found in ESAPI.properties. Using default: org.owasp.esapi.reference.DefaultEncoder
+Access db has been closed:/home/testp/trump_11/19207faa-bce7-4a15-a298-b5720fa88292
+Alias 'LRM FED DATA SOURCE' accepted without check
+Alias 'STB Data MAS' accepted without check
+Alias 'STB Work' accepted without check
+Alias 'STB System' accepted without check
+Alias 'STB System MAS' accepted without check
+Alias 'STB CORE Data' accepted without check
+uploading file manifest.xml
+uploading file forms/arbitraryExcelExport/arbitrary-excel/HKMAAQ_Template_v0.xlsx
+uploading file forms/arbitraryExcelExport/arbitrary-excel/HKMACAS_Template_v0.xlsx
+uploading file forms/arbitraryExcelExport/arbitrary-excel/HKMACGS_Template_v100.xlsx
+uploading file forms/arbitraryExcelExport/arbitrary-excel/HKMADS_Template_v100.xls
+uploading file forms/arbitraryExcelExport/arbitrary-excel/HKMAFCPS_Template_v100.xlsx
+uploading file forms/arbitraryExcelExport/arbitrary-excel/HKMALR_v0.xlsx
+uploading file forms/arbitraryExcelExport/arbitrary-excel/HKMAOB_Template_v1.xlsx
+uploading file forms/arbitraryExcelExport/arbitrary-excel/HKMASBSS_Template_v100.xlsx
+uploading file forms/arbitraryExcelExport/arbitrary-excel/HKMASFR_Template_v100.xlsx
+uploading file forms/arbitraryExcelExport/arbitrary-excel-descriptor/HKMAAQ.xml
+uploading file forms/arbitraryExcelExport/arbitrary-excel-descriptor/HKMACAS.xml
+uploading file forms/arbitraryExcelExport/arbitrary-excel-descriptor/HKMACGS_v100.xml
+uploading file forms/arbitraryExcelExport/arbitrary-excel-descriptor/HKMADS_v100.xml
+uploading file forms/arbitraryExcelExport/arbitrary-excel-descriptor/HKMAFCPS_v100.xml
+uploading file forms/arbitraryExcelExport/arbitrary-excel-descriptor/HKMALR.xml
+uploading file forms/arbitraryExcelExport/arbitrary-excel-descriptor/HKMAOB.xml
+uploading file forms/arbitraryExcelExport/arbitrary-excel-descriptor/HKMASBSS_v100.xml
+uploading file forms/arbitraryExcelExport/arbitrary-excel-descriptor/HKMASFR_v100.xml
+uploading file forms/exports/excel/AA_V0.xlsx
+uploading file forms/exports/excel/AQ_V0.xlsx
+uploading file forms/exports/excel/CAS_V0.xlsx
+uploading file forms/exports/excel/CGS_V0.xlsx
+uploading file forms/exports/excel/DS_V0.xlsx
+uploading file forms/exports/excel/E_V0.xlsx
+uploading file forms/exports/excel/FCPS_V0.xlsx
+uploading file forms/exports/excel/F_V0.xlsx
+uploading file forms/exports/excel/G_V0.xlsx
+uploading file forms/exports/excel/IB_V1_V1.xlsx
+uploading file forms/exports/excel/IB_V2_V2.xlsx
+uploading file forms/exports/excel/I_V0.xlsx
+uploading file forms/exports/excel/J_V0.xlsx
+uploading file forms/exports/excel/K1_V0.xlsx
+uploading file forms/exports/excel/KM_V0.xlsx
+uploading file forms/exports/excel/LR_V0.xlsx
+uploading file forms/exports/excel/L_V0.xlsx
+uploading file forms/exports/excel/MA_V0.xlsx
+uploading file forms/exports/excel/M_V0.xlsx
+uploading file forms/exports/excel/OB_V1.xlsx
+uploading file forms/exports/excel/P_V0.xlsx
+uploading file forms/exports/excel/SBSS_V0.xlsx
+uploading file forms/exports/excel/SFR_V0.xlsx
+uploading file forms/exports/excel/S_V0.xlsx
+uploading file forms/exports/excel/TA_V0.xlsx
+uploading file forms/exports/excel/TB_V0.xlsx
+uploading file forms/exports/excel/U_V0.xlsx
+uploading file forms/exports/excel/Y_V0.xlsx
+uploading file forms/presentations/AA_v0.xltx
+uploading file forms/presentations/AQ_v0.xltx
+uploading file forms/presentations/CAS_v0.xltx
+uploading file forms/presentations/CGS_v0.xltx
+uploading file forms/presentations/DS_v0.xltx
+uploading file forms/presentations/E_v0.xltx
+uploading file forms/presentations/FCPS_v0.xltx
+uploading file forms/presentations/F_v0.xltx
+uploading file forms/presentations/G_v0.xltx
+uploading file forms/presentations/IB_V1_v1.xltx
+uploading file forms/presentations/IB_V2_v2.xltx
+uploading file forms/presentations/I_v0.xltx
+uploading file forms/presentations/J_v0.xltx
+uploading file forms/presentations/K1_v0.xltx
+uploading file forms/presentations/KM_v0.xltx
+uploading file forms/presentations/LR_v0.xltx
+uploading file forms/presentations/L_v0.xltx
+uploading file forms/presentations/MA_v0.xltx
+uploading file forms/presentations/M_v0.xltx
+uploading file forms/presentations/OB_v1.xltx
+uploading file forms/presentations/P_v0.xltx
+uploading file forms/presentations/SBSS_v0.xltx
+uploading file forms/presentations/SFR_v0.xltx
+uploading file forms/presentations/S_v0.xltx
+uploading file forms/presentations/TA_v0.xltx
+uploading file forms/presentations/TB_v0.xltx
+uploading file forms/presentations/U_v0.xltx
+uploading file forms/presentations/Y_v0.xltx
+uploading file transforms/AA.xslt
+uploading file transforms/E.xslt
+uploading file transforms/F.xslt
+uploading file transforms/G.xslt
+uploading file transforms/I.xslt
+uploading file transforms/IB_V1.xslt
+uploading file transforms/IB_V2.xslt
+uploading file transforms/J.xslt
+uploading file transforms/K1.xslt
+uploading file transforms/L.xslt
+uploading file transforms/M.xslt
+uploading file transforms/MA.xslt
+uploading file transforms/P.xslt
+uploading file transforms/S.xslt
+uploading file transforms/S1.xslt
+uploading file transforms/S2.xslt
+uploading file transforms/S3.xslt
+uploading file transforms/TA.xslt
+uploading file transforms/TB.xslt
+uploading file transforms/U.xslt
+uploading file transforms/Y.xslt
+SecurityConfiguration for ESAPI.Encoder not found in ESAPI.properties. Using default: org.owasp.esapi.reference.DefaultEncoder
+Access db has been linked:/home/testp/trump_11/19207faa-bce7-4a15-a298-b5720fa88292
+Transferring record from access table CFG_CONFIG_DEFINED_VARIABLES to destination table CFG_CONFIG_DEFINED_VARIABLES (count: 10 )
+Unable to locate table meta data for '"CFG_CONFIG_DEFINED_VARIABLES"' -- column names must be provided
+10 records have been transferred
+Transferred records from access table CFG_CONFIG_DEFINED_VARIABLES to destination table CFG_CONFIG_DEFINED_VARIABLES in 0 seconds 
+unsupported collating sort order SortOrder[1028(0)] for text index (Db=19207faa-bce7-4a15-a298-b5720fa88292;Table=FormLink;Index=0), making read-only
+Transferring record from access table FormLink to destination table CFG_FORM_LINK (count: 28 )
+Unable to locate table meta data for '"CFG_FORM_LINK"' -- column names must be provided
+28 records have been transferred
+Transferred records from access table FormLink to destination table CFG_FORM_LINK in 0 seconds 
+Transferring record from access table FormLinkModule to destination table CFG_FORM_LINK_MODULE (count: 31 )
+Unable to locate table meta data for '"CFG_FORM_LINK_MODULE"' -- column names must be provided
+31 records have been transferred
+Transferred records from access table FormLinkModule to destination table CFG_FORM_LINK_MODULE in 0 seconds 
+Transferring record from access table ExportFormat to destination table CFG_EXPORT_FORMAT (count: 31 )
+Unable to locate table meta data for '"CFG_EXPORT_FORMAT"' -- column names must be provided
+31 records have been transferred
+Transferred records from access table ExportFormat to destination table CFG_EXPORT_FORMAT in 0 seconds 
+Transferring record from access table ExportFormatModule to destination table CFG_EXPORT_FORMAT_MODULE (count: 31 )
+Unable to locate table meta data for '"CFG_EXPORT_FORMAT_MODULE"' -- column names must be provided
+31 records have been transferred
+Transferred records from access table ExportFormatModule to destination table CFG_EXPORT_FORMAT_MODULE in 0 seconds 
+Transferring record from access table XMLXSLTExport to destination table CFG_XMLXSLT_EXPORT (count: 22 )
+Unable to locate table meta data for '"CFG_XMLXSLT_EXPORT"' -- column names must be provided
+22 records have been transferred
+Transferred records from access table XmlXSLTExport to destination table CFG_XMLXSLT_EXPORT in 0 seconds 
+Transferring record from access table FormVars to destination table CFG_RPT_FormVars (count: 0 )
+Transferring record from access table GridKey to destination table CFG_RPT_GridKey (count: 12 )
+Unable to locate table meta data for '"CFG_RPT_GridKey"' -- column names must be provided
+12 records have been transferred
+Transferred records from access table GridKey to destination table CFG_RPT_GridKey in 0 seconds 
+Transferring record from access table GridRef to destination table CFG_RPT_GridRef (count: 79 )
+Unable to locate table meta data for '"CFG_RPT_GridRef"' -- column names must be provided
+79 records have been transferred
+Transferred records from access table GridRef to destination table CFG_RPT_GridRef in 0 seconds 
+Transferring record from access table Instances to destination table CFG_RPT_Instances (count: 10 )
+Unable to locate table meta data for '"CFG_RPT_Instances"' -- column names must be provided
+10 records have been transferred
+Transferred records from access table Instances to destination table CFG_RPT_Instances in 0 seconds 
+Transferring record from access table InstanceSets to destination table CFG_RPT_InstanceSets (count: 1 )
+Unable to locate table meta data for '"CFG_RPT_InstanceSets"' -- column names must be provided
+1 records have been transferred
+Transferred records from access table InstanceSets to destination table CFG_RPT_InstanceSets in 0 seconds 
+Transferring record from access table List to destination table CFG_RPT_List (count: 624 )
+Unable to locate table meta data for '"CFG_RPT_List"' -- column names must be provided
+624 records have been transferred
+Transferred records from access table List to destination table CFG_RPT_List in 0 seconds 
+Transferring record from access table Ref to destination table CFG_RPT_Ref (count: 47063 )
+Unable to locate table meta data for '"CFG_RPT_Ref"' -- column names must be provided
+2000 records have been transferred
+4000 records have been transferred
+6000 records have been transferred
+8000 records have been transferred
+10000 records have been transferred
+12000 records have been transferred
+14000 records have been transferred
+16000 records have been transferred
+18000 records have been transferred
+20000 records have been transferred
+22000 records have been transferred
+24000 records have been transferred
+26000 records have been transferred
+28000 records have been transferred
+30000 records have been transferred
+32000 records have been transferred
+34000 records have been transferred
+36000 records have been transferred
+38000 records have been transferred
+40000 records have been transferred
+42000 records have been transferred
+44000 records have been transferred
+46000 records have been transferred
+47063 records have been transferred
+Transferred records from access table Ref to destination table CFG_RPT_Ref in 2 seconds 
+Transferring record from access table Rets to destination table CFG_RPT_Rets (count: 41 )
+Unable to locate table meta data for '"CFG_RPT_Rets"' -- column names must be provided
+41 records have been transferred
+Transferred records from access table Rets to destination table CFG_RPT_Rets in 0 seconds 
+Transferring record from access table Sums to destination table CFG_RPT_Sums (count: 6887 )
+Unable to locate table meta data for '"CFG_RPT_Sums"' -- column names must be provided
+2000 records have been transferred
+4000 records have been transferred
+6000 records have been transferred
+6887 records have been transferred
+Transferred records from access table Sums to destination table CFG_RPT_Sums in 0 seconds 
+Transferring record from access table Vals to destination table CFG_RPT_Vals (count: 5316 )
+Unable to locate table meta data for '"CFG_RPT_Vals"' -- column names must be provided
+2000 records have been transferred
+4000 records have been transferred
+5316 records have been transferred
+Transferred records from access table Vals to destination table CFG_RPT_Vals in 0 seconds 
+Transferring record from access table XVals to destination table CFG_RPT_XVals (count: 138 )
+Unable to locate table meta data for '"CFG_RPT_XVals"' -- column names must be provided
+138 records have been transferred
+Transferred records from access table XVals to destination table CFG_RPT_XVals in 0 seconds 
+Transferring record from access table RefReturns to destination table CFG_RPT_RefReturns (count: 1 )
+Unable to locate table meta data for '"CFG_RPT_RefReturns"' -- column names must be provided
+1 records have been transferred
+Transferred records from access table RefReturns to destination table CFG_RPT_RefReturns in 0 seconds 
+unsupported collating sort order SortOrder[1028(0)] for text index (Db=19207faa-bce7-4a15-a298-b5720fa88292;Table=ExcelExportDescriptor;Index=1), making read-only
+Transferring record from access table ExcelExportDescriptor to destination table CFG_EXCEL_EXPORT_DESCRIPTOR (count: 9 )
+Unable to locate table meta data for '"CFG_EXCEL_EXPORT_DESCRIPTOR"' -- column names must be provided
+9 records have been transferred
+Transferred records from access table ExcelExportDescriptor to destination table CFG_EXCEL_EXPORT_DESCRIPTOR in 0 seconds 
+unsupported collating sort order SortOrder[1028(0)] for text index (Db=19207faa-bce7-4a15-a298-b5720fa88292;Table=ExportFileName;Index=0), making read-only
+unsupported collating sort order SortOrder[1028(0)] for text index (Db=19207faa-bce7-4a15-a298-b5720fa88292;Table=ExportFileName;Index=2), making read-only
+Transferring record from access table ExportFileName to destination table CFG_EXPORT_FILE_NAME (count: 21 )
+Unable to locate table meta data for '"CFG_EXPORT_FILE_NAME"' -- column names must be provided
+21 records have been transferred
+Transferred records from access table ExportFileName to destination table CFG_EXPORT_FILE_NAME in 0 seconds 
+SecurityConfiguration for ESAPI.Encoder not found in ESAPI.properties. Using default: org.owasp.esapi.reference.DefaultEncoder
+Access db has been closed:/home/testp/trump_11/19207faa-bce7-4a15-a298-b5720fa88292
+can not find the DPM mapping file with version: 1.0
+SecurityConfiguration for ESAPI.Encoder not found in ESAPI.properties. Using default: org.owasp.esapi.reference.DefaultEncoder
+Access db has been linked:/home/testp/trump_11/19207faa-bce7-4a15-a298-b5720fa88292
+unsupported collating sort order SortOrder[1028(0)] for text index (Db=19207faa-bce7-4a15-a298-b5720fa88292;Table=Module;Index=3), making read-only
+Transferring record from access table Module to destination table DPM_MODULE (count: 31 )
+Unable to locate table meta data for '"DPM_MODULE"' -- column names must be provided
+31 records have been transferred
+Transferred records from access table Module to destination table DPM_MODULE in 0 seconds 
+unsupported collating sort order SortOrder[1028(0)] for text index (Db=19207faa-bce7-4a15-a298-b5720fa88292;Table=ReportingFramework;Index=2), making read-only
+Transferring record from access table ReportingFramework to destination table DPM_REPORTING_FRAMEWORK (count: 1 )
+Unable to locate table meta data for '"DPM_REPORTING_FRAMEWORK"' -- column names must be provided
+1 records have been transferred
+Transferred records from access table ReportingFramework to destination table DPM_REPORTING_FRAMEWORK in 0 seconds 
+unsupported collating sort order SortOrder[1028(0)] for text index (Db=19207faa-bce7-4a15-a298-b5720fa88292;Table=Taxonomy;Index=3), making read-only
+Transferring record from access table Taxonomy to destination table DPM_TAXONOMY (count: 1 )
+Unable to locate table meta data for '"DPM_TAXONOMY"' -- column names must be provided
+1 records have been transferred
+Transferred records from access table Taxonomy to destination table DPM_TAXONOMY in 0 seconds 
+SecurityConfiguration for ESAPI.Encoder not found in ESAPI.properties. Using default: org.owasp.esapi.reference.DefaultEncoder
+Access db has been closed:/home/testp/trump_11/19207faa-bce7-4a15-a298-b5720fa88292
+dpm access has been loaded
+compile excel template /productConfig/HKMA/5.22.2.4/forms/presentations/AA_v0.xltx
+excel template /productConfig/HKMA/5.22.2.4/forms/presentations/AA_v0.xltx has been compiled
+uploading jsf file /productConfig/HKMA/5.22.2.4/target/jsf/resources/pages/form/AA_v0/AA.xhtml
+uploading jsf file /productConfig/HKMA/5.22.2.4/target/jsf/resources/pages/form/AA_v0/Cover.xhtml
+uploading css file /productConfig/HKMA/5.22.2.4/target/jsf/resources/css/form/AA_v0.css
+uploading js file /productConfig/HKMA/5.22.2.4/target/jsf/resources/js/form/AA_v0.js
+uploading js file /productConfig/HKMA/5.22.2.4/target/jsf/resources/json/form/AA_v0.json
+compile excel template /productConfig/HKMA/5.22.2.4/forms/presentations/AQ_v0.xltx
+excel template /productConfig/HKMA/5.22.2.4/forms/presentations/AQ_v0.xltx has been compiled
+uploading jsf file /productConfig/HKMA/5.22.2.4/target/jsf/resources/pages/form/AQ_v0/Page 9.xhtml
+uploading jsf file /productConfig/HKMA/5.22.2.4/target/jsf/resources/pages/form/AQ_v0/Page 10.xhtml
+uploading jsf file /productConfig/HKMA/5.22.2.4/target/jsf/resources/pages/form/AQ_v0/Page 5.xhtml
+uploading jsf file /productConfig/HKMA/5.22.2.4/target/jsf/resources/pages/form/AQ_v0/Page 6.xhtml
+uploading jsf file /productConfig/HKMA/5.22.2.4/target/jsf/resources/pages/form/AQ_v0/Page 7.xhtml
+uploading jsf file /productConfig/HKMA/5.22.2.4/target/jsf/resources/pages/form/AQ_v0/Page 8.xhtml
+uploading jsf file /productConfig/HKMA/5.22.2.4/target/jsf/resources/pages/form/AQ_v0/Page 1.xhtml
+uploading jsf file /productConfig/HKMA/5.22.2.4/target/jsf/resources/pages/form/AQ_v0/Page 2.xhtml
+uploading jsf file /productConfig/HKMA/5.22.2.4/target/jsf/resources/pages/form/AQ_v0/Page 3.xhtml
+uploading jsf file /productConfig/HKMA/5.22.2.4/target/jsf/resources/pages/form/AQ_v0/Page 4.xhtml
+uploading css file /productConfig/HKMA/5.22.2.4/target/jsf/resources/css/form/AQ_v0.css
+uploading js file /productConfig/HKMA/5.22.2.4/target/jsf/resources/js/form/AQ_v0.js
+uploading js file /productConfig/HKMA/5.22.2.4/target/jsf/resources/json/form/AQ_v0.json
+compile excel template /productConfig/HKMA/5.22.2.4/forms/presentations/CAS_v0.xltx
+excel template /productConfig/HKMA/5.22.2.4/forms/presentations/CAS_v0.xltx has been compiled
+uploading jsf file /productConfig/HKMA/5.22.2.4/target/jsf/resources/pages/form/CAS_v0/Loss.xhtml
+uploading jsf file /productConfig/HKMA/5.22.2.4/target/jsf/resources/pages/form/CAS_v0/Special Mention.xhtml
+uploading jsf file /productConfig/HKMA/5.22.2.4/target/jsf/resources/pages/form/CAS_v0/Doubtful.xhtml
+uploading jsf file /productConfig/HKMA/5.22.2.4/target/jsf/resources/pages/form/CAS_v0/Substandard.xhtml
+uploading css file /productConfig/HKMA/5.22.2.4/target/jsf/resources/css/form/CAS_v0.css
+uploading js file /productConfig/HKMA/5.22.2.4/target/jsf/resources/js/form/CAS_v0.js
+uploading js file /productConfig/HKMA/5.22.2.4/target/jsf/resources/json/form/CAS_v0.json
+compile excel template /productConfig/HKMA/5.22.2.4/forms/presentations/CGS_v0.xltx
+excel template /productConfig/HKMA/5.22.2.4/forms/presentations/CGS_v0.xltx has been compiled
+uploading jsf file /productConfig/HKMA/5.22.2.4/target/jsf/resources/pages/form/CGS_v0/Montlhly loan growth.xhtml
+uploading jsf file /productConfig/HKMA/5.22.2.4/target/jsf/resources/pages/form/CGS_v0/YTD loan growth.xhtml
+uploading css file /productConfig/HKMA/5.22.2.4/target/jsf/resources/css/form/CGS_v0.css
+uploading js file /productConfig/HKMA/5.22.2.4/target/jsf/resources/js/form/CGS_v0.js
+uploading js file /productConfig/HKMA/5.22.2.4/target/jsf/resources/json/form/CGS_v0.json
+compile excel template /productConfig/HKMA/5.22.2.4/forms/presentations/DS_v0.xltx
+excel template /productConfig/HKMA/5.22.2.4/forms/presentations/DS_v0.xltx has been compiled
+uploading jsf file /productConfig/HKMA/5.22.2.4/target/jsf/resources/pages/form/DS_v0/Part 2 A.xhtml
+uploading jsf file /productConfig/HKMA/5.22.2.4/target/jsf/resources/pages/form/DS_v0/Part 2 B.xhtml
+uploading jsf file /productConfig/HKMA/5.22.2.4/target/jsf/resources/pages/form/DS_v0/Part 4_4.xhtml
+uploading jsf file /productConfig/HKMA/5.22.2.4/target/jsf/resources/pages/form/DS_v0/Part 4_5.xhtml
+uploading jsf file /productConfig/HKMA/5.22.2.4/target/jsf/resources/pages/form/DS_v0/Part 4_6.xhtml
+uploading jsf file /productConfig/HKMA/5.22.2.4/target/jsf/resources/pages/form/DS_v0/Cover.xhtml
+uploading jsf file /productConfig/HKMA/5.22.2.4/target/jsf/resources/pages/form/DS_v0/Part 2 C.xhtml
+uploading jsf file /productConfig/HKMA/5.22.2.4/target/jsf/resources/pages/form/DS_v0/Part 2 D.xhtml
+uploading jsf file /productConfig/HKMA/5.22.2.4/target/jsf/resources/pages/form/DS_v0/Part 4_1.xhtml
+uploading jsf file /productConfig/HKMA/5.22.2.4/target/jsf/resources/pages/form/DS_v0/Part 4_2.xhtml
+uploading jsf file /productConfig/HKMA/5.22.2.4/target/jsf/resources/pages/form/DS_v0/Part 4_3.xhtml
+uploading jsf file /productConfig/HKMA/5.22.2.4/target/jsf/resources/pages/form/DS_v0/Part 1 A.xhtml
+uploading jsf file /productConfig/HKMA/5.22.2.4/target/jsf/resources/pages/form/DS_v0/Part 1 B.xhtml
+uploading jsf file /productConfig/HKMA/5.22.2.4/target/jsf/resources/pages/form/DS_v0/Part 1 C.xhtml
+uploading jsf file /productConfig/HKMA/5.22.2.4/target/jsf/resources/pages/form/DS_v0/Part 5.xhtml
+uploading jsf file /productConfig/HKMA/5.22.2.4/target/jsf/resources/pages/form/DS_v0/Part 3.xhtml
+uploading jsf file /productConfig/HKMA/5.22.2.4/target/jsf/resources/pages/form/DS_v0/Part 1 D.xhtml
+uploading css file /productConfig/HKMA/5.22.2.4/target/jsf/resources/css/form/DS_v0.css
+uploading js file /productConfig/HKMA/5.22.2.4/target/jsf/resources/js/form/DS_v0.js
+uploading js file /productConfig/HKMA/5.22.2.4/target/jsf/resources/json/form/DS_v0.json
+compile excel template /productConfig/HKMA/5.22.2.4/forms/presentations/E_v0.xltx
+excel template /productConfig/HKMA/5.22.2.4/forms/presentations/E_v0.xltx has been compiled
+uploading jsf file /productConfig/HKMA/5.22.2.4/target/jsf/resources/pages/form/E_v0/3. Non-Bank.xhtml
+uploading jsf file /productConfig/HKMA/5.22.2.4/target/jsf/resources/pages/form/E_v0/2. Connected.xhtml
+uploading jsf file /productConfig/HKMA/5.22.2.4/target/jsf/resources/pages/form/E_v0/4. Bank.xhtml
+uploading jsf file /productConfig/HKMA/5.22.2.4/target/jsf/resources/pages/form/E_v0/1. Cover.xhtml
+uploading css file /productConfig/HKMA/5.22.2.4/target/jsf/resources/css/form/E_v0.css
+uploading js file /productConfig/HKMA/5.22.2.4/target/jsf/resources/js/form/E_v0.js
+uploading js file /productConfig/HKMA/5.22.2.4/target/jsf/resources/json/form/E_v0.json
+compile excel template /productConfig/HKMA/5.22.2.4/forms/presentations/FCPS_v0.xltx
+excel template /productConfig/HKMA/5.22.2.4/forms/presentations/FCPS_v0.xltx has been compiled
+uploading jsf file /productConfig/HKMA/5.22.2.4/target/jsf/resources/pages/form/FCPS_v0/IN HK.xhtml
+uploading jsf file /productConfig/HKMA/5.22.2.4/target/jsf/resources/pages/form/FCPS_v0/OUTSIDE HK.xhtml
+uploading css file /productConfig/HKMA/5.22.2.4/target/jsf/resources/css/form/FCPS_v0.css
+uploading js file /productConfig/HKMA/5.22.2.4/target/jsf/resources/js/form/FCPS_v0.js
+uploading js file /productConfig/HKMA/5.22.2.4/target/jsf/resources/json/form/FCPS_v0.json
+compile excel template /productConfig/HKMA/5.22.2.4/forms/presentations/F_v0.xltx
+excel template /productConfig/HKMA/5.22.2.4/forms/presentations/F_v0.xltx has been compiled
+uploading jsf file /productConfig/HKMA/5.22.2.4/target/jsf/resources/pages/form/F_v0/3. Page 3.xhtml
+uploading jsf file /productConfig/HKMA/5.22.2.4/target/jsf/resources/pages/form/F_v0/4. Page 4.xhtml
+uploading jsf file /productConfig/HKMA/5.22.2.4/target/jsf/resources/pages/form/F_v0/2. Page 2.xhtml
+uploading jsf file /productConfig/HKMA/5.22.2.4/target/jsf/resources/pages/form/F_v0/1. Cover.xhtml
+uploading css file /productConfig/HKMA/5.22.2.4/target/jsf/resources/css/form/F_v0.css
+uploading js file /productConfig/HKMA/5.22.2.4/target/jsf/resources/js/form/F_v0.js
+uploading js file /productConfig/HKMA/5.22.2.4/target/jsf/resources/json/form/F_v0.json
+compile excel template /productConfig/HKMA/5.22.2.4/forms/presentations/G_v0.xltx
+excel template /productConfig/HKMA/5.22.2.4/forms/presentations/G_v0.xltx has been compiled
+uploading jsf file /productConfig/HKMA/5.22.2.4/target/jsf/resources/pages/form/G_v0/Page 5.xhtml
+uploading jsf file /productConfig/HKMA/5.22.2.4/target/jsf/resources/pages/form/G_v0/Cover.xhtml
+uploading jsf file /productConfig/HKMA/5.22.2.4/target/jsf/resources/pages/form/G_v0/Page 1.xhtml
+uploading jsf file /productConfig/HKMA/5.22.2.4/target/jsf/resources/pages/form/G_v0/Page 2.xhtml
+uploading jsf file /productConfig/HKMA/5.22.2.4/target/jsf/resources/pages/form/G_v0/Page 3.xhtml
+uploading jsf file /productConfig/HKMA/5.22.2.4/target/jsf/resources/pages/form/G_v0/Page 4.xhtml
+uploading css file /productConfig/HKMA/5.22.2.4/target/jsf/resources/css/form/G_v0.css
+uploading js file /productConfig/HKMA/5.22.2.4/target/jsf/resources/js/form/G_v0.js
+uploading js file /productConfig/HKMA/5.22.2.4/target/jsf/resources/json/form/G_v0.json
+compile excel template /productConfig/HKMA/5.22.2.4/forms/presentations/IB_V1_v1.xltx
+excel template /productConfig/HKMA/5.22.2.4/forms/presentations/IB_V1_v1.xltx has been compiled
+uploading jsf file /productConfig/HKMA/5.22.2.4/target/jsf/resources/pages/form/IB_V1_v1/PartD_P18.xhtml
+uploading jsf file /productConfig/HKMA/5.22.2.4/target/jsf/resources/pages/form/IB_V1_v1/PartD_P17.xhtml
+uploading jsf file /productConfig/HKMA/5.22.2.4/target/jsf/resources/pages/form/IB_V1_v1/PartB_P8.xhtml
+uploading jsf file /productConfig/HKMA/5.22.2.4/target/jsf/resources/pages/form/IB_V1_v1/PartD_P19.xhtml
+uploading jsf file /productConfig/HKMA/5.22.2.4/target/jsf/resources/pages/form/IB_V1_v1/PartB_P9.xhtml
+uploading jsf file /productConfig/HKMA/5.22.2.4/target/jsf/resources/pages/form/IB_V1_v1/PartB_P10.xhtml
+uploading jsf file /productConfig/HKMA/5.22.2.4/target/jsf/resources/pages/form/IB_V1_v1/PartB_P6.xhtml
+uploading jsf file /productConfig/HKMA/5.22.2.4/target/jsf/resources/pages/form/IB_V1_v1/PartB_P7.xhtml
+uploading jsf file /productConfig/HKMA/5.22.2.4/target/jsf/resources/pages/form/IB_V1_v1/PartD_P16.xhtml
+uploading jsf file /productConfig/HKMA/5.22.2.4/target/jsf/resources/pages/form/IB_V1_v1/PartC_P13.xhtml
+uploading jsf file /productConfig/HKMA/5.22.2.4/target/jsf/resources/pages/form/IB_V1_v1/PartA_Page3.xhtml
+uploading jsf file /productConfig/HKMA/5.22.2.4/target/jsf/resources/pages/form/IB_V1_v1/PartC_P12.xhtml
+uploading jsf file /productConfig/HKMA/5.22.2.4/target/jsf/resources/pages/form/IB_V1_v1/PartA_Page2.xhtml
+uploading jsf file /productConfig/HKMA/5.22.2.4/target/jsf/resources/pages/form/IB_V1_v1/PartA_Page1.xhtml
+uploading jsf file /productConfig/HKMA/5.22.2.4/target/jsf/resources/pages/form/IB_V1_v1/PartC_P11.xhtml
+uploading jsf file /productConfig/HKMA/5.22.2.4/target/jsf/resources/pages/form/IB_V1_v1/PartC_P15.xhtml
+uploading jsf file /productConfig/HKMA/5.22.2.4/target/jsf/resources/pages/form/IB_V1_v1/PartA_Page5.xhtml
+uploading jsf file /productConfig/HKMA/5.22.2.4/target/jsf/resources/pages/form/IB_V1_v1/PartC_P14.xhtml
+uploading jsf file /productConfig/HKMA/5.22.2.4/target/jsf/resources/pages/form/IB_V1_v1/PartA_Page4.xhtml
+uploading jsf file /productConfig/HKMA/5.22.2.4/target/jsf/resources/pages/form/IB_V1_v1/PartI Cover.xhtml
+uploading css file /productConfig/HKMA/5.22.2.4/target/jsf/resources/css/form/IB_V1_v1.css
+uploading js file /productConfig/HKMA/5.22.2.4/target/jsf/resources/js/form/IB_V1_v1.js
+uploading js file /productConfig/HKMA/5.22.2.4/target/jsf/resources/json/form/IB_V1_v1.json
+compile excel template /productConfig/HKMA/5.22.2.4/forms/presentations/IB_V2_v2.xltx
+excel template /productConfig/HKMA/5.22.2.4/forms/presentations/IB_V2_v2.xltx has been compiled
+uploading jsf file /productConfig/HKMA/5.22.2.4/target/jsf/resources/pages/form/IB_V2_v2/PartD_P18.xhtml
+uploading jsf file /productConfig/HKMA/5.22.2.4/target/jsf/resources/pages/form/IB_V2_v2/PartD_P17.xhtml
+uploading jsf file /productConfig/HKMA/5.22.2.4/target/jsf/resources/pages/form/IB_V2_v2/PartF_P21.xhtml
+uploading jsf file /productConfig/HKMA/5.22.2.4/target/jsf/resources/pages/form/IB_V2_v2/PartD_P19.xhtml
+uploading jsf file /productConfig/HKMA/5.22.2.4/target/jsf/resources/pages/form/IB_V2_v2/PartF_P23.xhtml
+uploading jsf file /productConfig/HKMA/5.22.2.4/target/jsf/resources/pages/form/IB_V2_v2/PartF_P22.xhtml
+uploading jsf file /productConfig/HKMA/5.22.2.4/target/jsf/resources/pages/form/IB_V2_v2/PartF_P25.xhtml
+uploading jsf file /productConfig/HKMA/5.22.2.4/target/jsf/resources/pages/form/IB_V2_v2/PartE_P20.xhtml
+uploading jsf file /productConfig/HKMA/5.22.2.4/target/jsf/resources/pages/form/IB_V2_v2/PartF_P24.xhtml
+uploading jsf file /productConfig/HKMA/5.22.2.4/target/jsf/resources/pages/form/IB_V2_v2/PartII Cover.xhtml
+uploading jsf file /productConfig/HKMA/5.22.2.4/target/jsf/resources/pages/form/IB_V2_v2/PartD_P16.xhtml
+uploading css file /productConfig/HKMA/5.22.2.4/target/jsf/resources/css/form/IB_V2_v2.css
+uploading js file /productConfig/HKMA/5.22.2.4/target/jsf/resources/js/form/IB_V2_v2.js
+uploading js file /productConfig/HKMA/5.22.2.4/target/jsf/resources/json/form/IB_V2_v2.json
+compile excel template /productConfig/HKMA/5.22.2.4/forms/presentations/I_v0.xltx
+excel template /productConfig/HKMA/5.22.2.4/forms/presentations/I_v0.xltx has been compiled
+uploading jsf file /productConfig/HKMA/5.22.2.4/target/jsf/resources/pages/form/I_v0/2. Page 2.xhtml
+uploading jsf file /productConfig/HKMA/5.22.2.4/target/jsf/resources/pages/form/I_v0/1. Cover Page.xhtml
+uploading css file /productConfig/HKMA/5.22.2.4/target/jsf/resources/css/form/I_v0.css
+uploading js file /productConfig/HKMA/5.22.2.4/target/jsf/resources/js/form/I_v0.js
+uploading js file /productConfig/HKMA/5.22.2.4/target/jsf/resources/json/form/I_v0.json
+compile excel template /productConfig/HKMA/5.22.2.4/forms/presentations/J_v0.xltx
+excel template /productConfig/HKMA/5.22.2.4/forms/presentations/J_v0.xltx has been compiled
+uploading jsf file /productConfig/HKMA/5.22.2.4/target/jsf/resources/pages/form/J_v0/2. Assets.xhtml
+uploading jsf file /productConfig/HKMA/5.22.2.4/target/jsf/resources/pages/form/J_v0/4. Off balance sheet.xhtml
+uploading jsf file /productConfig/HKMA/5.22.2.4/target/jsf/resources/pages/form/J_v0/3. Liabilities.xhtml
+uploading jsf file /productConfig/HKMA/5.22.2.4/target/jsf/resources/pages/form/J_v0/5. Impact analysis.xhtml
+uploading jsf file /productConfig/HKMA/5.22.2.4/target/jsf/resources/pages/form/J_v0/1. Cover.xhtml
+uploading css file /productConfig/HKMA/5.22.2.4/target/jsf/resources/css/form/J_v0.css
+uploading js file /productConfig/HKMA/5.22.2.4/target/jsf/resources/js/form/J_v0.js
+uploading js file /productConfig/HKMA/5.22.2.4/target/jsf/resources/json/form/J_v0.json
+compile excel template /productConfig/HKMA/5.22.2.4/forms/presentations/K1_v0.xltx
+excel template /productConfig/HKMA/5.22.2.4/forms/presentations/K1_v0.xltx has been compiled
+uploading jsf file /productConfig/HKMA/5.22.2.4/target/jsf/resources/pages/form/K1_v0/K1 P3_Page 4.xhtml
+uploading jsf file /productConfig/HKMA/5.22.2.4/target/jsf/resources/pages/form/K1_v0/K1 P3_Page 3.xhtml
+uploading jsf file /productConfig/HKMA/5.22.2.4/target/jsf/resources/pages/form/K1_v0/K1 P3_Page 2.xhtml
+uploading jsf file /productConfig/HKMA/5.22.2.4/target/jsf/resources/pages/form/K1_v0/K1 P3_Page 1.xhtml
+uploading jsf file /productConfig/HKMA/5.22.2.4/target/jsf/resources/pages/form/K1_v0/K1 Cover.xhtml
+uploading jsf file /productConfig/HKMA/5.22.2.4/target/jsf/resources/pages/form/K1_v0/K1 P1.xhtml
+uploading css file /productConfig/HKMA/5.22.2.4/target/jsf/resources/css/form/K1_v0.css
+uploading js file /productConfig/HKMA/5.22.2.4/target/jsf/resources/js/form/K1_v0.js
+uploading js file /productConfig/HKMA/5.22.2.4/target/jsf/resources/json/form/K1_v0.json
+compile excel template /productConfig/HKMA/5.22.2.4/forms/presentations/KM_v0.xltx
+excel template /productConfig/HKMA/5.22.2.4/forms/presentations/KM_v0.xltx has been compiled
+uploading jsf file /productConfig/HKMA/5.22.2.4/target/jsf/resources/pages/form/KM_v0/KM Part 1A ANNEX1.xhtml
+uploading jsf file /productConfig/HKMA/5.22.2.4/target/jsf/resources/pages/form/KM_v0/KM Part 1A ANNEX2.xhtml
+uploading jsf file /productConfig/HKMA/5.22.2.4/target/jsf/resources/pages/form/KM_v0/KM Part 1B.xhtml
+uploading jsf file /productConfig/HKMA/5.22.2.4/target/jsf/resources/pages/form/KM_v0/KM Part 5.xhtml
+uploading jsf file /productConfig/HKMA/5.22.2.4/target/jsf/resources/pages/form/KM_v0/Cover.xhtml
+uploading jsf file /productConfig/HKMA/5.22.2.4/target/jsf/resources/pages/form/KM_v0/KM Part 3.xhtml
+uploading jsf file /productConfig/HKMA/5.22.2.4/target/jsf/resources/pages/form/KM_v0/KM Part 2.xhtml
+uploading jsf file /productConfig/HKMA/5.22.2.4/target/jsf/resources/pages/form/KM_v0/KM Part 4A 2.xhtml
+uploading jsf file /productConfig/HKMA/5.22.2.4/target/jsf/resources/pages/form/KM_v0/KM Part 4B 1.xhtml
+uploading jsf file /productConfig/HKMA/5.22.2.4/target/jsf/resources/pages/form/KM_v0/KM Part 4A 1.xhtml
+uploading jsf file /productConfig/HKMA/5.22.2.4/target/jsf/resources/pages/form/KM_v0/KM Part 1A.xhtml
+uploading jsf file /productConfig/HKMA/5.22.2.4/target/jsf/resources/pages/form/KM_v0/KM Part 4B 2.xhtml
+uploading css file /productConfig/HKMA/5.22.2.4/target/jsf/resources/css/form/KM_v0.css
+uploading js file /productConfig/HKMA/5.22.2.4/target/jsf/resources/js/form/KM_v0.js
+uploading js file /productConfig/HKMA/5.22.2.4/target/jsf/resources/json/form/KM_v0.json
+compile excel template /productConfig/HKMA/5.22.2.4/forms/presentations/LR_v0.xltx
+excel template /productConfig/HKMA/5.22.2.4/forms/presentations/LR_v0.xltx has been compiled
+uploading jsf file /productConfig/HKMA/5.22.2.4/target/jsf/resources/pages/form/LR_v0/Template.xhtml
+uploading jsf file /productConfig/HKMA/5.22.2.4/target/jsf/resources/pages/form/LR_v0/COVER.xhtml
+uploading css file /productConfig/HKMA/5.22.2.4/target/jsf/resources/css/form/LR_v0.css
+uploading js file /productConfig/HKMA/5.22.2.4/target/jsf/resources/js/form/LR_v0.js
+uploading js file /productConfig/HKMA/5.22.2.4/target/jsf/resources/json/form/LR_v0.json
+compile excel template /productConfig/HKMA/5.22.2.4/forms/presentations/L_v0.xltx
+excel template /productConfig/HKMA/5.22.2.4/forms/presentations/L_v0.xltx has been compiled
+uploading jsf file /productConfig/HKMA/5.22.2.4/target/jsf/resources/pages/form/L_v0/Cover Page.xhtml
+uploading jsf file /productConfig/HKMA/5.22.2.4/target/jsf/resources/pages/form/L_v0/Page 12.xhtml
+uploading jsf file /productConfig/HKMA/5.22.2.4/target/jsf/resources/pages/form/L_v0/Page 9.xhtml
+uploading jsf file /productConfig/HKMA/5.22.2.4/target/jsf/resources/pages/form/L_v0/Page 13.xhtml
+uploading jsf file /productConfig/HKMA/5.22.2.4/target/jsf/resources/pages/form/L_v0/Page 10.xhtml
+uploading jsf file /productConfig/HKMA/5.22.2.4/target/jsf/resources/pages/form/L_v0/Page 11.xhtml
+uploading jsf file /productConfig/HKMA/5.22.2.4/target/jsf/resources/pages/form/L_v0/Page 5.xhtml
+uploading jsf file /productConfig/HKMA/5.22.2.4/target/jsf/resources/pages/form/L_v0/Page 6.xhtml
+uploading jsf file /productConfig/HKMA/5.22.2.4/target/jsf/resources/pages/form/L_v0/Page 7.xhtml
+uploading jsf file /productConfig/HKMA/5.22.2.4/target/jsf/resources/pages/form/L_v0/Page 8.xhtml
+uploading jsf file /productConfig/HKMA/5.22.2.4/target/jsf/resources/pages/form/L_v0/Page 1.xhtml
+uploading jsf file /productConfig/HKMA/5.22.2.4/target/jsf/resources/pages/form/L_v0/Page 2.xhtml
+uploading jsf file /productConfig/HKMA/5.22.2.4/target/jsf/resources/pages/form/L_v0/Page 3.xhtml
+uploading jsf file /productConfig/HKMA/5.22.2.4/target/jsf/resources/pages/form/L_v0/Page 4.xhtml
+uploading css file /productConfig/HKMA/5.22.2.4/target/jsf/resources/css/form/L_v0.css
+uploading js file /productConfig/HKMA/5.22.2.4/target/jsf/resources/js/form/L_v0.js
+uploading js file /productConfig/HKMA/5.22.2.4/target/jsf/resources/json/form/L_v0.json
+compile excel template /productConfig/HKMA/5.22.2.4/forms/presentations/MA_v0.xltx
+excel template /productConfig/HKMA/5.22.2.4/forms/presentations/MA_v0.xltx has been compiled
+uploading jsf file /productConfig/HKMA/5.22.2.4/target/jsf/resources/pages/form/MA_v0/Page 12.xhtml
+uploading jsf file /productConfig/HKMA/5.22.2.4/target/jsf/resources/pages/form/MA_v0/Page 9.xhtml
+uploading jsf file /productConfig/HKMA/5.22.2.4/target/jsf/resources/pages/form/MA_v0/Page 13.xhtml
+uploading jsf file /productConfig/HKMA/5.22.2.4/target/jsf/resources/pages/form/MA_v0/Page 10.xhtml
+uploading jsf file /productConfig/HKMA/5.22.2.4/target/jsf/resources/pages/form/MA_v0/Page 11.xhtml
+uploading jsf file /productConfig/HKMA/5.22.2.4/target/jsf/resources/pages/form/MA_v0/Page 5.xhtml
+uploading jsf file /productConfig/HKMA/5.22.2.4/target/jsf/resources/pages/form/MA_v0/Page 6.xhtml
+uploading jsf file /productConfig/HKMA/5.22.2.4/target/jsf/resources/pages/form/MA_v0/Page 7.xhtml
+uploading jsf file /productConfig/HKMA/5.22.2.4/target/jsf/resources/pages/form/MA_v0/Page 8.xhtml
+uploading jsf file /productConfig/HKMA/5.22.2.4/target/jsf/resources/pages/form/MA_v0/Page 1.xhtml
+uploading jsf file /productConfig/HKMA/5.22.2.4/target/jsf/resources/pages/form/MA_v0/Page 2.xhtml
+uploading jsf file /productConfig/HKMA/5.22.2.4/target/jsf/resources/pages/form/MA_v0/Page 3.xhtml
+uploading jsf file /productConfig/HKMA/5.22.2.4/target/jsf/resources/pages/form/MA_v0/Page 4.xhtml
+uploading css file /productConfig/HKMA/5.22.2.4/target/jsf/resources/css/form/MA_v0.css
+uploading js file /productConfig/HKMA/5.22.2.4/target/jsf/resources/js/form/MA_v0.js
+uploading js file /productConfig/HKMA/5.22.2.4/target/jsf/resources/json/form/MA_v0.json
+compile excel template /productConfig/HKMA/5.22.2.4/forms/presentations/M_v0.xltx
+excel template /productConfig/HKMA/5.22.2.4/forms/presentations/M_v0.xltx has been compiled
+uploading jsf file /productConfig/HKMA/5.22.2.4/target/jsf/resources/pages/form/M_v0/2. Liabilities.xhtml
+uploading jsf file /productConfig/HKMA/5.22.2.4/target/jsf/resources/pages/form/M_v0/3. Assets.xhtml
+uploading jsf file /productConfig/HKMA/5.22.2.4/target/jsf/resources/pages/form/M_v0/1. Cover.xhtml
+uploading css file /productConfig/HKMA/5.22.2.4/target/jsf/resources/css/form/M_v0.css
+uploading js file /productConfig/HKMA/5.22.2.4/target/jsf/resources/js/form/M_v0.js
+uploading js file /productConfig/HKMA/5.22.2.4/target/jsf/resources/json/form/M_v0.json
+compile excel template /productConfig/HKMA/5.22.2.4/forms/presentations/OB_v1.xltx
+excel template /productConfig/HKMA/5.22.2.4/forms/presentations/OB_v1.xltx has been compiled
+uploading jsf file /productConfig/HKMA/5.22.2.4/target/jsf/resources/pages/form/OB_v1/Page 1.xhtml
+uploading jsf file /productConfig/HKMA/5.22.2.4/target/jsf/resources/pages/form/OB_v1/Page 2.xhtml
+uploading jsf file /productConfig/HKMA/5.22.2.4/target/jsf/resources/pages/form/OB_v1/Page 3.xhtml
+uploading jsf file /productConfig/HKMA/5.22.2.4/target/jsf/resources/pages/form/OB_v1/Page 4.xhtml
+uploading css file /productConfig/HKMA/5.22.2.4/target/jsf/resources/css/form/OB_v1.css
+uploading js file /productConfig/HKMA/5.22.2.4/target/jsf/resources/js/form/OB_v1.js
+uploading js file /productConfig/HKMA/5.22.2.4/target/jsf/resources/json/form/OB_v1.json
+compile excel template /productConfig/HKMA/5.22.2.4/forms/presentations/P_v0.xltx
+excel template /productConfig/HKMA/5.22.2.4/forms/presentations/P_v0.xltx has been compiled
+uploading jsf file /productConfig/HKMA/5.22.2.4/target/jsf/resources/pages/form/P_v0/3. Part II.xhtml
+uploading jsf file /productConfig/HKMA/5.22.2.4/target/jsf/resources/pages/form/P_v0/1. Cover.xhtml
+uploading jsf file /productConfig/HKMA/5.22.2.4/target/jsf/resources/pages/form/P_v0/2. Part I.xhtml
+uploading css file /productConfig/HKMA/5.22.2.4/target/jsf/resources/css/form/P_v0.css
+uploading js file /productConfig/HKMA/5.22.2.4/target/jsf/resources/js/form/P_v0.js
+uploading js file /productConfig/HKMA/5.22.2.4/target/jsf/resources/json/form/P_v0.json
+compile excel template /productConfig/HKMA/5.22.2.4/forms/presentations/SBSS_v0.xltx
+excel template /productConfig/HKMA/5.22.2.4/forms/presentations/SBSS_v0.xltx has been compiled
+uploading jsf file /productConfig/HKMA/5.22.2.4/target/jsf/resources/pages/form/SBSS_v0/SBSS Cover.xhtml
+uploading jsf file /productConfig/HKMA/5.22.2.4/target/jsf/resources/pages/form/SBSS_v0/Page 1.xhtml
+uploading css file /productConfig/HKMA/5.22.2.4/target/jsf/resources/css/form/SBSS_v0.css
+uploading js file /productConfig/HKMA/5.22.2.4/target/jsf/resources/js/form/SBSS_v0.js
+uploading js file /productConfig/HKMA/5.22.2.4/target/jsf/resources/json/form/SBSS_v0.json
+compile excel template /productConfig/HKMA/5.22.2.4/forms/presentations/SFR_v0.xltx
+excel template /productConfig/HKMA/5.22.2.4/forms/presentations/SFR_v0.xltx has been compiled
+uploading jsf file /productConfig/HKMA/5.22.2.4/target/jsf/resources/pages/form/SFR_v0/Monthly report.xhtml
+uploading jsf file /productConfig/HKMA/5.22.2.4/target/jsf/resources/pages/form/SFR_v0/CONTROL.xhtml
+uploading jsf file /productConfig/HKMA/5.22.2.4/target/jsf/resources/pages/form/SFR_v0/AI list.xhtml
+uploading jsf file /productConfig/HKMA/5.22.2.4/target/jsf/resources/pages/form/SFR_v0/Cover.xhtml
+uploading css file /productConfig/HKMA/5.22.2.4/target/jsf/resources/css/form/SFR_v0.css
+uploading js file /productConfig/HKMA/5.22.2.4/target/jsf/resources/js/form/SFR_v0.js
+uploading js file /productConfig/HKMA/5.22.2.4/target/jsf/resources/json/form/SFR_v0.json
+compile excel template /productConfig/HKMA/5.22.2.4/forms/presentations/S_v0.xltx
+excel template /productConfig/HKMA/5.22.2.4/forms/presentations/S_v0.xltx has been compiled
+uploading jsf file /productConfig/HKMA/5.22.2.4/target/jsf/resources/pages/form/S_v0/11. Part X.xhtml
+uploading jsf file /productConfig/HKMA/5.22.2.4/target/jsf/resources/pages/form/S_v0/8. Part V.xhtml
+uploading jsf file /productConfig/HKMA/5.22.2.4/target/jsf/resources/pages/form/S_v0/9. Part VII.xhtml
+uploading jsf file /productConfig/HKMA/5.22.2.4/target/jsf/resources/pages/form/S_v0/10. Part IX.xhtml
+uploading jsf file /productConfig/HKMA/5.22.2.4/target/jsf/resources/pages/form/S_v0/7. Part III.xhtml
+uploading jsf file /productConfig/HKMA/5.22.2.4/target/jsf/resources/pages/form/S_v0/4. Part II.xhtml
+uploading jsf file /productConfig/HKMA/5.22.2.4/target/jsf/resources/pages/form/S_v0/6. Part II.xhtml
+uploading jsf file /productConfig/HKMA/5.22.2.4/target/jsf/resources/pages/form/S_v0/3. Part I.xhtml
+uploading jsf file /productConfig/HKMA/5.22.2.4/target/jsf/resources/pages/form/S_v0/1. Cover.xhtml
+uploading jsf file /productConfig/HKMA/5.22.2.4/target/jsf/resources/pages/form/S_v0/5. Part II.xhtml
+uploading jsf file /productConfig/HKMA/5.22.2.4/target/jsf/resources/pages/form/S_v0/2. Part I.xhtml
+uploading css file /productConfig/HKMA/5.22.2.4/target/jsf/resources/css/form/S_v0.css
+uploading js file /productConfig/HKMA/5.22.2.4/target/jsf/resources/js/form/S_v0.js
+uploading js file /productConfig/HKMA/5.22.2.4/target/jsf/resources/json/form/S_v0.json
+compile excel template /productConfig/HKMA/5.22.2.4/forms/presentations/TA_v0.xltx
+excel template /productConfig/HKMA/5.22.2.4/forms/presentations/TA_v0.xltx has been compiled
+uploading jsf file /productConfig/HKMA/5.22.2.4/target/jsf/resources/pages/form/TA_v0/Cover.xhtml
+uploading jsf file /productConfig/HKMA/5.22.2.4/target/jsf/resources/pages/form/TA_v0/Page 1.xhtml
+uploading jsf file /productConfig/HKMA/5.22.2.4/target/jsf/resources/pages/form/TA_v0/Page 2.xhtml
+uploading jsf file /productConfig/HKMA/5.22.2.4/target/jsf/resources/pages/form/TA_v0/Page 3.xhtml
+uploading jsf file /productConfig/HKMA/5.22.2.4/target/jsf/resources/pages/form/TA_v0/Page 4.xhtml
+uploading css file /productConfig/HKMA/5.22.2.4/target/jsf/resources/css/form/TA_v0.css
+uploading js file /productConfig/HKMA/5.22.2.4/target/jsf/resources/js/form/TA_v0.js
+uploading js file /productConfig/HKMA/5.22.2.4/target/jsf/resources/json/form/TA_v0.json
+compile excel template /productConfig/HKMA/5.22.2.4/forms/presentations/TB_v0.xltx
+excel template /productConfig/HKMA/5.22.2.4/forms/presentations/TB_v0.xltx has been compiled
+uploading jsf file /productConfig/HKMA/5.22.2.4/target/jsf/resources/pages/form/TB_v0/TB Cover.xhtml
+uploading css file /productConfig/HKMA/5.22.2.4/target/jsf/resources/css/form/TB_v0.css
+uploading js file /productConfig/HKMA/5.22.2.4/target/jsf/resources/js/form/TB_v0.js
+uploading js file /productConfig/HKMA/5.22.2.4/target/jsf/resources/json/form/TB_v0.json
+compile excel template /productConfig/HKMA/5.22.2.4/forms/presentations/U_v0.xltx
+excel template /productConfig/HKMA/5.22.2.4/forms/presentations/U_v0.xltx has been compiled
+uploading jsf file /productConfig/HKMA/5.22.2.4/target/jsf/resources/pages/form/U_v0/2. Part I-1.xhtml
+uploading jsf file /productConfig/HKMA/5.22.2.4/target/jsf/resources/pages/form/U_v0/10. Part II-2 to 3.xhtml
+uploading jsf file /productConfig/HKMA/5.22.2.4/target/jsf/resources/pages/form/U_v0/1.Cover.xhtml
+uploading jsf file /productConfig/HKMA/5.22.2.4/target/jsf/resources/pages/form/U_v0/6. Part I- 7.xhtml
+uploading jsf file /productConfig/HKMA/5.22.2.4/target/jsf/resources/pages/form/U_v0/8. Part I-9.xhtml
+uploading jsf file /productConfig/HKMA/5.22.2.4/target/jsf/resources/pages/form/U_v0/9. Part II-1.xhtml
+uploading jsf file /productConfig/HKMA/5.22.2.4/target/jsf/resources/pages/form/U_v0/5. Part I- 6 to 7.xhtml
+uploading jsf file /productConfig/HKMA/5.22.2.4/target/jsf/resources/pages/form/U_v0/4. Part I-3 to 5.xhtml
+uploading jsf file /productConfig/HKMA/5.22.2.4/target/jsf/resources/pages/form/U_v0/3. Part I-2.xhtml
+uploading jsf file /productConfig/HKMA/5.22.2.4/target/jsf/resources/pages/form/U_v0/7. Part I-8.xhtml
+uploading css file /productConfig/HKMA/5.22.2.4/target/jsf/resources/css/form/U_v0.css
+uploading js file /productConfig/HKMA/5.22.2.4/target/jsf/resources/js/form/U_v0.js
+uploading js file /productConfig/HKMA/5.22.2.4/target/jsf/resources/json/form/U_v0.json
+compile excel template /productConfig/HKMA/5.22.2.4/forms/presentations/Y_v0.xltx
+excel template /productConfig/HKMA/5.22.2.4/forms/presentations/Y_v0.xltx has been compiled
+uploading jsf file /productConfig/HKMA/5.22.2.4/target/jsf/resources/pages/form/Y_v0/2. Parts I-III.xhtml
+uploading jsf file /productConfig/HKMA/5.22.2.4/target/jsf/resources/pages/form/Y_v0/1.Cover.xhtml
+uploading css file /productConfig/HKMA/5.22.2.4/target/jsf/resources/css/form/Y_v0.css
+uploading js file /productConfig/HKMA/5.22.2.4/target/jsf/resources/js/form/Y_v0.js
+uploading js file /productConfig/HKMA/5.22.2.4/target/jsf/resources/json/form/Y_v0.json
+save product configuration to database
+product configuration saved to database
+Alias 'LRM FED DATA SOURCE' accepted without check
+Alias 'STB Data HKMA' skipped, reason: field 'dbhost' is empty
+Alias 'STB Work' skipped, reason: field 'dbhost' is empty
+Alias 'STB System HKMA' skipped, reason: field 'dbhost' is empty
+Alias 'STB System' skipped, reason: field 'dbhost' is empty
+Alias 'STB CORE Data' skipped, reason: field 'dbhost' is empty
+Alias 'STB Data MAS' accepted without check
+Alias 'STB Work' accepted without check
+Alias 'STB System' accepted without check
+Alias 'STB System MAS' accepted without check
+Alias 'STB CORE Data' accepted without check
+[ReApply Aliases] : aliases are {STB System HKMA|HKMA=[dbhost]:null,[dbport]:0,[dbusername]:null,[dbname]:null,[dbinstance]:null,[dbSchemaName]:null, STB Data HKMA|HKMA=[dbhost]:null,[dbport]:0,[dbusername]:null,[dbname]:null,[dbinstance]:null,[dbSchemaName]:null, STB CORE Data|MAS=[dbhost]:172.20.20.49,[dbport]:1521,[dbusername]:MAS_22303_LLORLT58U_DATA,[dbname]:null,[dbinstance]:ora11g,[dbSchemaName]:MAS_22303_LLORLT58U_DATA, STB Data MAS|MAS=[dbhost]:172.20.20.49,[dbport]:1521,[dbusername]:MAS_22303_LLORLT58U_DATA,[dbname]:null,[dbinstance]:ora11g,[dbSchemaName]:MAS_22303_LLORLT58U_DATA, STB System|MAS=[dbhost]:172.20.20.49,[dbport]:1521,[dbusername]:MAS_22303_LLORLT58U_SYSTEM,[dbname]:null,[dbinstance]:ora11g,[dbSchemaName]:MAS_22303_LLORLT58U_SYSTEM, LRM FED DATA SOURCE=[dbhost]:172.20.20.49,[dbport]:1521,[dbusername]:DSDBAUTO,[dbname]:null,[dbinstance]:ora12c,[dbSchemaName]:DSDBAUTO, STB CORE Data|HKMA=[dbhost]:null,[dbport]:0,[dbusername]:null,[dbname]:null,[dbinstance]:null,[dbSchemaName]:null, STB System MAS|MAS=[dbhost]:172.20.20.49,[dbport]:1521,[dbusername]:MAS_22303_LLORLT58U_SYSTEM,[dbname]:null,[dbinstance]:ora11g,[dbSchemaName]:MAS_22303_LLORLT58U_SYSTEM, STB System|HKMA=[dbhost]:null,[dbport]:0,[dbusername]:null,[dbname]:null,[dbinstance]:null,[dbSchemaName]:null, STB Work|MAS=[dbhost]:172.20.20.49,[dbport]:1521,[dbusername]:MAS_22303_LLORLT58U_SYSTEM,[dbname]:null,[dbinstance]:ora11g,[dbSchemaName]:MAS_22303_LLORLT58U_SYSTEM, STB Work|HKMA=[dbhost]:null,[dbport]:0,[dbusername]:null,[dbname]:null,[dbinstance]:null,[dbSchemaName]:null}, reapplying aliases are [com.lombardrisk.ocelot.core.model.config.AliasDto@95b19fa0, com.lombardrisk.ocelot.core.model.config.AliasDto@eacbcf0c, com.lombardrisk.ocelot.core.model.config.AliasDto@87811aa, com.lombardrisk.ocelot.core.model.config.AliasDto@44c0467c, com.lombardrisk.ocelot.core.model.config.AliasDto@fef5ecf2]
+[ReApply Aliases] : Alias 'STB System' is skipped to reapply ,reason:Field 'dbhost' is empty 
+[ReApply Aliases] : Alias 'STB Work' is skipped to reapply ,reason:Field 'dbhost' is empty 
+[ReApply Aliases] : Alias 'STB CORE Data' is skipped to reapply ,reason:Field 'dbhost' is empty 
+[ReApply Aliases] : Alias 'STB System HKMA' is skipped to reapply ,reason:Field 'dbhost' is empty 
+[ReApply Aliases] : Alias 'STB Data HKMA' is skipped to reapply ,reason:Field 'dbhost' is empty 
+[ReApply Aliases] : successfully
+STB System INVALID Field 'dbhost' is empty
+Configuration package has been added to REPORTER Protal, but but one or more Toolset product aliases were found to be invalid. Please check your alias status with the Configuration Manager (or config.bat --listaliases on command line).
+commit config package for product HKMA version of 5.22.2.4,these may take some minutes, please wait for a while...
+Not found the Access DB, it may have been closed
+UPLOAD Configuration package AR for HKMA5.22.2.4.zip successfully

@@ -1,0 +1,121 @@
+./bin/config.sh -ea HKMA -iv 5.22.2.4 -alias "STB Data HKMA" -aif "bin/HKMAoracleDataaliasinfo.properties"
+================================================================================
+enter config.sh
+JAVA_HOME NOT SET IN OCELOT.PROPERTIES
+JAVA_HOME NOT SET IN SYSTEM
+JAVA FIND IN PATH
+JAVA VERSION IS OK
+java version "1.7.0_79"
+OpenJDK Runtime Environment (rhel-2.5.5.4.el6-x86_64 u79-b14)
+OpenJDK 64-Bit Server VM (build 24.79-b02, mixed mode)
+java installed
+version: 1.15.3.1-b1019
+Start to edit alias for connection: [dbhost]:172.20.20.49,[dbport]:1521,[dbusername]:HKMA_52215_DATA,[dbname]:null,[dbinstance]:ora11g,[dbSchemaName]:HKMA_52215_DATA, signature: -556523270
+System property [org.owasp.esapi.opsteam] is not set
+System property [org.owasp.esapi.devteam] is not set
+Attempting to load ESAPI.properties via file I/O.
+Attempting to load ESAPI.properties as resource file via file I/O.
+Not found in 'org.owasp.esapi.resources' directory or file not readable: /home/testp/trump_11/ESAPI.properties
+Not found in SystemResource Directory/resourceDirectory: .esapi/ESAPI.properties
+Not found in 'user.home' (/home/testp) directory: /home/testp/esapi/ESAPI.properties
+Loading ESAPI.properties via file I/O failed. Exception was: java.io.FileNotFoundException
+Attempting to load ESAPI.properties via the classpath.
+SUCCESSFULLY LOADED ESAPI.properties via the CLASSPATH from '/ (root)' using current thread context class loader!
+SecurityConfiguration for Validator.ConfigurationFile.MultiValued not found in ESAPI.properties. Using default: false
+SecurityConfiguration for Validator.ConfigurationFile not found in ESAPI.properties. Using default: validation.properties
+Attempting to load validation.properties via file I/O.
+Attempting to load validation.properties as resource file via file I/O.
+Not found in 'org.owasp.esapi.resources' directory or file not readable: /home/testp/trump_11/validation.properties
+Not found in SystemResource Directory/resourceDirectory: .esapi/validation.properties
+Not found in 'user.home' (/home/testp) directory: /home/testp/esapi/validation.properties
+Loading validation.properties via file I/O failed.
+Attempting to load validation.properties via the classpath.
+validation.properties could not be loaded by any means. fail. Exception was: java.lang.IllegalArgumentException: Failed to load ESAPI.properties as a classloader resource.
+SecurityConfiguration for ESAPI.printProperties not found in ESAPI.properties. Using default: false
+SecurityConfiguration for Encryptor.CipherTransformation not found in ESAPI.properties. Using default: AES/CBC/PKCS5Padding
+SecurityConfiguration for ESAPI.Encoder not found in ESAPI.properties. Using default: org.owasp.esapi.reference.DefaultEncoder
+SecurityConfiguration for ESAPI.Logger not found in ESAPI.properties. Using default: org.owasp.esapi.reference.JavaLogFactory
+SecurityConfiguration for Logger.LogApplicationName not found in ESAPI.properties. Using default: true
+SecurityConfiguration for Logger.LogServerIP not found in ESAPI.properties. Using default: true
+SecurityConfiguration for Logger.ApplicationName not found in ESAPI.properties. Using default: DefaultName
+Connection to Schema <HKMA_52215_DATA> successful.
+editAlias rows updated = 1
+found datasource JNDI name for alias : 
+unable to edit alias because of can't find datasource JNDI name
+Alias 'LRM FED DATA SOURCE' accepted without check
+Alias 'STB Data HKMA' accepted without check
+Alias 'STB Work' skipped, reason: field 'dbhost' is empty
+Alias 'STB System HKMA' skipped, reason: field 'dbhost' is empty
+Alias 'STB System' skipped, reason: field 'dbhost' is empty
+Alias 'STB CORE Data' skipped, reason: field 'dbhost' is empty
+Alias 'STB Data MAS' accepted without check
+Alias 'STB Work' accepted without check
+Alias 'STB System' accepted without check
+Alias 'STB System MAS' accepted without check
+Alias 'STB CORE Data' accepted without check
+[ReApply Aliases] : aliases are {STB System HKMA|HKMA=[dbhost]:null,[dbport]:0,[dbusername]:null,[dbname]:null,[dbinstance]:null,[dbSchemaName]:null, STB Data HKMA|HKMA=[dbhost]:172.20.20.49,[dbport]:1521,[dbusername]:HKMA_52215_DATA,[dbname]:null,[dbinstance]:ora11g,[dbSchemaName]:HKMA_52215_DATA, STB CORE Data|MAS=[dbhost]:172.20.20.49,[dbport]:1521,[dbusername]:MAS_22303_LLORLT58U_DATA,[dbname]:null,[dbinstance]:ora11g,[dbSchemaName]:MAS_22303_LLORLT58U_DATA, STB Data MAS|MAS=[dbhost]:172.20.20.49,[dbport]:1521,[dbusername]:MAS_22303_LLORLT58U_DATA,[dbname]:null,[dbinstance]:ora11g,[dbSchemaName]:MAS_22303_LLORLT58U_DATA, STB System|MAS=[dbhost]:172.20.20.49,[dbport]:1521,[dbusername]:MAS_22303_LLORLT58U_SYSTEM,[dbname]:null,[dbinstance]:ora11g,[dbSchemaName]:MAS_22303_LLORLT58U_SYSTEM, LRM FED DATA SOURCE=[dbhost]:172.20.20.49,[dbport]:1521,[dbusername]:DSDBAUTO,[dbname]:null,[dbinstance]:ora12c,[dbSchemaName]:DSDBAUTO, STB CORE Data|HKMA=[dbhost]:null,[dbport]:0,[dbusername]:null,[dbname]:null,[dbinstance]:null,[dbSchemaName]:null, STB System MAS|MAS=[dbhost]:172.20.20.49,[dbport]:1521,[dbusername]:MAS_22303_LLORLT58U_SYSTEM,[dbname]:null,[dbinstance]:ora11g,[dbSchemaName]:MAS_22303_LLORLT58U_SYSTEM, STB System|HKMA=[dbhost]:null,[dbport]:0,[dbusername]:null,[dbname]:null,[dbinstance]:null,[dbSchemaName]:null, STB Work|MAS=[dbhost]:172.20.20.49,[dbport]:1521,[dbusername]:MAS_22303_LLORLT58U_SYSTEM,[dbname]:null,[dbinstance]:ora11g,[dbSchemaName]:MAS_22303_LLORLT58U_SYSTEM, STB Work|HKMA=[dbhost]:null,[dbport]:0,[dbusername]:null,[dbname]:null,[dbinstance]:null,[dbSchemaName]:null}, reapplying aliases are [com.lombardrisk.ocelot.core.model.config.AliasDto@fef5ecf2]
+[ReApply Aliases] : connection of alias 'STB Data HKMA' is valid
+[ReApply Aliases] : datasource has been created in standalone.xml for alias 'STB Data HKMA'
+[ReApply Aliases] : successfully
+end to edit alias: 
+./bin/config.sh -ea HKMA -iv 5.22.2.4 -alias "STB CORE Data" -aif "bin/HKMAoracleDataaliasinfo.properties"
+================================================================================
+enter config.sh
+JAVA_HOME NOT SET IN OCELOT.PROPERTIES
+JAVA_HOME NOT SET IN SYSTEM
+JAVA FIND IN PATH
+JAVA VERSION IS OK
+java version "1.7.0_79"
+OpenJDK Runtime Environment (rhel-2.5.5.4.el6-x86_64 u79-b14)
+OpenJDK 64-Bit Server VM (build 24.79-b02, mixed mode)
+java installed
+version: 1.15.3.1-b1019
+Start to edit alias for connection: [dbhost]:172.20.20.49,[dbport]:1521,[dbusername]:HKMA_52215_DATA,[dbname]:null,[dbinstance]:ora11g,[dbSchemaName]:HKMA_52215_DATA, signature: -556523270
+System property [org.owasp.esapi.opsteam] is not set
+System property [org.owasp.esapi.devteam] is not set
+Attempting to load ESAPI.properties via file I/O.
+Attempting to load ESAPI.properties as resource file via file I/O.
+Not found in 'org.owasp.esapi.resources' directory or file not readable: /home/testp/trump_11/ESAPI.properties
+Not found in SystemResource Directory/resourceDirectory: .esapi/ESAPI.properties
+Not found in 'user.home' (/home/testp) directory: /home/testp/esapi/ESAPI.properties
+Loading ESAPI.properties via file I/O failed. Exception was: java.io.FileNotFoundException
+Attempting to load ESAPI.properties via the classpath.
+SUCCESSFULLY LOADED ESAPI.properties via the CLASSPATH from '/ (root)' using current thread context class loader!
+SecurityConfiguration for Validator.ConfigurationFile.MultiValued not found in ESAPI.properties. Using default: false
+SecurityConfiguration for Validator.ConfigurationFile not found in ESAPI.properties. Using default: validation.properties
+Attempting to load validation.properties via file I/O.
+Attempting to load validation.properties as resource file via file I/O.
+Not found in 'org.owasp.esapi.resources' directory or file not readable: /home/testp/trump_11/validation.properties
+Not found in SystemResource Directory/resourceDirectory: .esapi/validation.properties
+Not found in 'user.home' (/home/testp) directory: /home/testp/esapi/validation.properties
+Loading validation.properties via file I/O failed.
+Attempting to load validation.properties via the classpath.
+validation.properties could not be loaded by any means. fail. Exception was: java.lang.IllegalArgumentException: Failed to load ESAPI.properties as a classloader resource.
+SecurityConfiguration for ESAPI.printProperties not found in ESAPI.properties. Using default: false
+SecurityConfiguration for Encryptor.CipherTransformation not found in ESAPI.properties. Using default: AES/CBC/PKCS5Padding
+SecurityConfiguration for ESAPI.Encoder not found in ESAPI.properties. Using default: org.owasp.esapi.reference.DefaultEncoder
+SecurityConfiguration for ESAPI.Logger not found in ESAPI.properties. Using default: org.owasp.esapi.reference.JavaLogFactory
+SecurityConfiguration for Logger.LogApplicationName not found in ESAPI.properties. Using default: true
+SecurityConfiguration for Logger.LogServerIP not found in ESAPI.properties. Using default: true
+SecurityConfiguration for Logger.ApplicationName not found in ESAPI.properties. Using default: DefaultName
+Connection to Schema <HKMA_52215_DATA> successful.
+editAlias rows updated = 1
+found datasource JNDI name for alias : 
+unable to edit alias because of can't find datasource JNDI name
+Alias 'LRM FED DATA SOURCE' accepted without check
+Alias 'STB Data HKMA' accepted without check
+Alias 'STB Work' skipped, reason: field 'dbhost' is empty
+Alias 'STB System HKMA' skipped, reason: field 'dbhost' is empty
+Alias 'STB System' skipped, reason: field 'dbhost' is empty
+Alias 'STB CORE Data' accepted without check
+Alias 'STB Data MAS' accepted without check
+Alias 'STB Work' accepted without check
+Alias 'STB System' accepted without check
+Alias 'STB System MAS' accepted without check
+Alias 'STB CORE Data' accepted without check
+[ReApply Aliases] : aliases are {STB System HKMA|HKMA=[dbhost]:null,[dbport]:0,[dbusername]:null,[dbname]:null,[dbinstance]:null,[dbSchemaName]:null, STB Data HKMA|HKMA=[dbhost]:172.20.20.49,[dbport]:1521,[dbusername]:HKMA_52215_DATA,[dbname]:null,[dbinstance]:ora11g,[dbSchemaName]:HKMA_52215_DATA, STB CORE Data|MAS=[dbhost]:172.20.20.49,[dbport]:1521,[dbusername]:MAS_22303_LLORLT58U_DATA,[dbname]:null,[dbinstance]:ora11g,[dbSchemaName]:MAS_22303_LLORLT58U_DATA, STB Data MAS|MAS=[dbhost]:172.20.20.49,[dbport]:1521,[dbusername]:MAS_22303_LLORLT58U_DATA,[dbname]:null,[dbinstance]:ora11g,[dbSchemaName]:MAS_22303_LLORLT58U_DATA, STB System|MAS=[dbhost]:172.20.20.49,[dbport]:1521,[dbusername]:MAS_22303_LLORLT58U_SYSTEM,[dbname]:null,[dbinstance]:ora11g,[dbSchemaName]:MAS_22303_LLORLT58U_SYSTEM, LRM FED DATA SOURCE=[dbhost]:172.20.20.49,[dbport]:1521,[dbusername]:DSDBAUTO,[dbname]:null,[dbinstance]:ora12c,[dbSchemaName]:DSDBAUTO, STB CORE Data|HKMA=[dbhost]:172.20.20.49,[dbport]:1521,[dbusername]:HKMA_52215_DATA,[dbname]:null,[dbinstance]:ora11g,[dbSchemaName]:HKMA_52215_DATA, STB System MAS|MAS=[dbhost]:172.20.20.49,[dbport]:1521,[dbusername]:MAS_22303_LLORLT58U_SYSTEM,[dbname]:null,[dbinstance]:ora11g,[dbSchemaName]:MAS_22303_LLORLT58U_SYSTEM, STB System|HKMA=[dbhost]:null,[dbport]:0,[dbusername]:null,[dbname]:null,[dbinstance]:null,[dbSchemaName]:null, STB Work|MAS=[dbhost]:172.20.20.49,[dbport]:1521,[dbusername]:MAS_22303_LLORLT58U_SYSTEM,[dbname]:null,[dbinstance]:ora11g,[dbSchemaName]:MAS_22303_LLORLT58U_SYSTEM, STB Work|HKMA=[dbhost]:null,[dbport]:0,[dbusername]:null,[dbname]:null,[dbinstance]:null,[dbSchemaName]:null}, reapplying aliases are [com.lombardrisk.ocelot.core.model.config.AliasDto@87811aa]
+[ReApply Aliases] : connection of alias 'STB CORE Data' is valid
+[ReApply Aliases] :the exist datasource 'java:/ToolsetDS--556523270' for alias 'STB CORE Data' in standalone.xml has been removed!
+[ReApply Aliases] : datasource has been created in standalone.xml for alias 'STB CORE Data'
+[ReApply Aliases] : successfully
+end to edit alias: 

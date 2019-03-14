@@ -1,0 +1,234 @@
+;;; 
+Import: Release 11.2.0.4.0 - Production on Mon Jul 31 18:48:09 2017
+
+Copyright (c) 1982, 2011, Oracle and/or its affiliates.  All rights reserved.
+;;; 
+Connected to: Oracle Database 11g Enterprise Edition Release 11.2.0.4.0 - 64bit Production
+With the Partitioning, OLAP, Data Mining and Real Application Testing options
+Master table "SYSTEM"."AUTO_TRUMP_PP$OWNER" successfully loaded/unloaded
+Starting "SYSTEM"."AUTO_TRUMP_PP$OWNER":  dumpfile=auto_trump_11OWNER.dmp schemas=auto_trump_11$OWNER remap_schema=auto_trump_11$OWNER:auto_trump_pp$OWNER transform=oid:n,segment_attributes:n userid=system/******** directory=EXPORT_TEMP logfile=auto_trump_ppOWNER.log job_name=auto_trump_pp$OWNER 
+Processing object type SCHEMA_EXPORT/USER
+ORA-31684: Object type USER:"AUTO_TRUMP_PP$OWNER" already exists
+Processing object type SCHEMA_EXPORT/SYSTEM_GRANT
+Processing object type SCHEMA_EXPORT/DEFAULT_ROLE
+Processing object type SCHEMA_EXPORT/TABLESPACE_QUOTA
+Processing object type SCHEMA_EXPORT/PRE_SCHEMA/PROCACT_SCHEMA
+Processing object type SCHEMA_EXPORT/SEQUENCE/SEQUENCE
+ORA-31684: Object type SEQUENCE:"AUTO_TRUMP_PP$OWNER"."HIBERNATE_SEQUENCE" already exists
+ORA-31684: Object type SEQUENCE:"AUTO_TRUMP_PP$OWNER"."JOB_EXECUTION_SEQ" already exists
+ORA-31684: Object type SEQUENCE:"AUTO_TRUMP_PP$OWNER"."JOB_INSTANCE_SEQ" already exists
+ORA-31684: Object type SEQUENCE:"AUTO_TRUMP_PP$OWNER"."RECORD_LINK_SEQ" already exists
+ORA-31684: Object type SEQUENCE:"AUTO_TRUMP_PP$OWNER"."STEP_EXECUTION_SEQ" already exists
+Processing object type SCHEMA_EXPORT/SEQUENCE/GRANT/OWNER_GRANT/OBJECT_GRANT
+ORA-39111: Dependent object type OBJECT_GRANT:"AUTO_TRUMP_PP$OWNER" skipped, base object type SEQUENCE:"AUTO_TRUMP_PP$OWNER"."HIBERNATE_SEQUENCE" already exists
+ORA-39111: Dependent object type OBJECT_GRANT:"AUTO_TRUMP_PP$OWNER" skipped, base object type SEQUENCE:"AUTO_TRUMP_PP$OWNER"."RECORD_LINK_SEQ" already exists
+Processing object type SCHEMA_EXPORT/TABLE/TABLE
+ORA-39151: Table "AUTO_TRUMP_PP$OWNER"."DPM_BALANCE_TYPE" exists. All dependent metadata and data will be skipped due to table_exists_action of skip
+ORA-39151: Table "AUTO_TRUMP_PP$OWNER"."DPM_CELL_POSITION" exists. All dependent metadata and data will be skipped due to table_exists_action of skip
+ORA-39151: Table "AUTO_TRUMP_PP$OWNER"."DPM_CELL_REFERENCE" exists. All dependent metadata and data will be skipped due to table_exists_action of skip
+ORA-39151: Table "AUTO_TRUMP_PP$OWNER"."DPM_CONCEPT_REFERENCE" exists. All dependent metadata and data will be skipped due to table_exists_action of skip
+ORA-39151: Table "AUTO_TRUMP_PP$OWNER"."DPM_CONCEPTUAL_MODULE" exists. All dependent metadata and data will be skipped due to table_exists_action of skip
+ORA-39151: Table "AUTO_TRUMP_PP$OWNER"."DPM_CONTEXT_DEFINITION" exists. All dependent metadata and data will be skipped due to table_exists_action of skip
+ORA-39151: Table "AUTO_TRUMP_PP$OWNER"."DPM_DATA_TYPE" exists. All dependent metadata and data will be skipped due to table_exists_action of skip
+ORA-39151: Table "AUTO_TRUMP_PP$OWNER"."DPM_DIMENSIONAL_COORDINATE" exists. All dependent metadata and data will be skipped due to table_exists_action of skip
+ORA-39151: Table "AUTO_TRUMP_PP$OWNER"."DPM_DOMAIN" exists. All dependent metadata and data will be skipped due to table_exists_action of skip
+ORA-39151: Table "AUTO_TRUMP_PP$OWNER"."DPM_EXPRESSION_SCOPE" exists. All dependent metadata and data will be skipped due to table_exists_action of skip
+ORA-39151: Table "AUTO_TRUMP_PP$OWNER"."DPM_FLOW_TYPE" exists. All dependent metadata and data will be skipped due to table_exists_action of skip
+ORA-39151: Table "AUTO_TRUMP_PP$OWNER"."DPM_HIERARCHY_SCOPE" exists. All dependent metadata and data will be skipped due to table_exists_action of skip
+ORA-39151: Table "AUTO_TRUMP_PP$OWNER"."DPM_HIERARCHY_VALIDATION_RULE" exists. All dependent metadata and data will be skipped due to table_exists_action of skip
+ORA-39151: Table "AUTO_TRUMP_PP$OWNER"."DPM_INSTANCE_LEVEL_CONCEPT" exists. All dependent metadata and data will be skipped due to table_exists_action of skip
+ORA-39151: Table "AUTO_TRUMP_PP$OWNER"."DPM_LANGUAGE" exists. All dependent metadata and data will be skipped due to table_exists_action of skip
+ORA-39151: Table "AUTO_TRUMP_PP$OWNER"."DPM_METRIC_VARIABLE" exists. All dependent metadata and data will be skipped due to table_exists_action of skip
+ORA-39151: Table "AUTO_TRUMP_PP$OWNER"."DPM_MODULE_TABLE_VERSION" exists. All dependent metadata and data will be skipped due to table_exists_action of skip
+ORA-39151: Table "AUTO_TRUMP_PP$OWNER"."DPM_ORDINATE_CATEGORISATION" exists. All dependent metadata and data will be skipped due to table_exists_action of skip
+ORA-39151: Table "AUTO_TRUMP_PP$OWNER"."DPM_ORDINATE_VARIABLE" exists. All dependent metadata and data will be skipped due to table_exists_action of skip
+ORA-39151: Table "AUTO_TRUMP_PP$OWNER"."DPM_OWNER" exists. All dependent metadata and data will be skipped due to table_exists_action of skip
+ORA-39151: Table "AUTO_TRUMP_PP$OWNER"."DPM_PRE_CONDITION" exists. All dependent metadata and data will be skipped due to table_exists_action of skip
+ORA-39151: Table "AUTO_TRUMP_PP$OWNER"."DPM_REFERENCE_CATEGORISATION" exists. All dependent metadata and data will be skipped due to table_exists_action of skip
+ORA-39151: Table "AUTO_TRUMP_PP$OWNER"."DPM_REFERENCE_PERIOD_OFFSET" exists. All dependent metadata and data will be skipped due to table_exists_action of skip
+ORA-39151: Table "AUTO_TRUMP_PP$OWNER"."DPM_REPORTING_FRAMEWORK" exists. All dependent metadata and data will be skipped due to table_exists_action of skip
+ORA-39151: Table "AUTO_TRUMP_PP$OWNER"."DPM_SPECIFIC_CELL_VARIABLE" exists. All dependent metadata and data will be skipped due to table_exists_action of skip
+ORA-39151: Table "AUTO_TRUMP_PP$OWNER"."DPM_SUM_OF_MANY_ORDINATES" exists. All dependent metadata and data will be skipped due to table_exists_action of skip
+ORA-39151: Table "AUTO_TRUMP_PP$OWNER"."DPM_TAXONOMY" exists. All dependent metadata and data will be skipped due to table_exists_action of skip
+ORA-39151: Table "AUTO_TRUMP_PP$OWNER"."DPM_VALIDATION_RULE_SET" exists. All dependent metadata and data will be skipped due to table_exists_action of skip
+ORA-39151: Table "AUTO_TRUMP_PP$OWNER"."DPM_VALIDATION_SCOPE" exists. All dependent metadata and data will be skipped due to table_exists_action of skip
+ORA-39151: Table "AUTO_TRUMP_PP$OWNER"."CFG_CONFIG_REPOSITORY" exists. All dependent metadata and data will be skipped due to table_exists_action of skip
+ORA-39151: Table "AUTO_TRUMP_PP$OWNER"."DPM_DATA_POINT_VERSION_VAR" exists. All dependent metadata and data will be skipped due to table_exists_action of skip
+ORA-39151: Table "AUTO_TRUMP_PP$OWNER"."DPM_MODULE_ITEM_VERSION" exists. All dependent metadata and data will be skipped due to table_exists_action of skip
+ORA-39151: Table "AUTO_TRUMP_PP$OWNER"."CFG_DT_DECISION_TABLE" exists. All dependent metadata and data will be skipped due to table_exists_action of skip
+ORA-39151: Table "AUTO_TRUMP_PP$OWNER"."CFG_DT_FORM_IMPORT_SET" exists. All dependent metadata and data will be skipped due to table_exists_action of skip
+ORA-39151: Table "AUTO_TRUMP_PP$OWNER"."CFG_DT_FORM_IMPORT" exists. All dependent metadata and data will be skipped due to table_exists_action of skip
+ORA-39151: Table "AUTO_TRUMP_PP$OWNER"."CFG_DT_ENTRY" exists. All dependent metadata and data will be skipped due to table_exists_action of skip
+ORA-39151: Table "AUTO_TRUMP_PP$OWNER"."CFG_DT_KEY_FIELD" exists. All dependent metadata and data will be skipped due to table_exists_action of skip
+ORA-39151: Table "AUTO_TRUMP_PP$OWNER"."CFG_DT_VALUE_FIELD" exists. All dependent metadata and data will be skipped due to table_exists_action of skip
+ORA-39151: Table "AUTO_TRUMP_PP$OWNER"."SEC_USERS" exists. All dependent metadata and data will be skipped due to table_exists_action of skip
+ORA-39151: Table "AUTO_TRUMP_PP$OWNER"."SEC_PRIVILEGE_GROUPS" exists. All dependent metadata and data will be skipped due to table_exists_action of skip
+ORA-39151: Table "AUTO_TRUMP_PP$OWNER"."SEC_PRIVILEGE" exists. All dependent metadata and data will be skipped due to table_exists_action of skip
+ORA-39151: Table "AUTO_TRUMP_PP$OWNER"."CFG_RPT_DpmMapping" exists. All dependent metadata and data will be skipped due to table_exists_action of skip
+ORA-39151: Table "AUTO_TRUMP_PP$OWNER"."CFG_RPT_FormVarDataPoints" exists. All dependent metadata and data will be skipped due to table_exists_action of skip
+ORA-39151: Table "AUTO_TRUMP_PP$OWNER"."CFG_RPT_FormVars" exists. All dependent metadata and data will be skipped due to table_exists_action of skip
+ORA-39151: Table "AUTO_TRUMP_PP$OWNER"."CFG_RPT_GridKey" exists. All dependent metadata and data will be skipped due to table_exists_action of skip
+ORA-39151: Table "AUTO_TRUMP_PP$OWNER"."CFG_RPT_GridRef" exists. All dependent metadata and data will be skipped due to table_exists_action of skip
+ORA-39151: Table "AUTO_TRUMP_PP$OWNER"."CFG_RPT_Instances" exists. All dependent metadata and data will be skipped due to table_exists_action of skip
+ORA-39151: Table "AUTO_TRUMP_PP$OWNER"."CFG_RPT_InstanceSets" exists. All dependent metadata and data will be skipped due to table_exists_action of skip
+ORA-39151: Table "AUTO_TRUMP_PP$OWNER"."CFG_RPT_List" exists. All dependent metadata and data will be skipped due to table_exists_action of skip
+ORA-39151: Table "AUTO_TRUMP_PP$OWNER"."CFG_RPT_Ref" exists. All dependent metadata and data will be skipped due to table_exists_action of skip
+ORA-39151: Table "AUTO_TRUMP_PP$OWNER"."CFG_RPT_Rets" exists. All dependent metadata and data will be skipped due to table_exists_action of skip
+ORA-39151: Table "AUTO_TRUMP_PP$OWNER"."CFG_RPT_Sums" exists. All dependent metadata and data will be skipped due to table_exists_action of skip
+ORA-39151: Table "AUTO_TRUMP_PP$OWNER"."CFG_RPT_Vals" exists. All dependent metadata and data will be skipped due to table_exists_action of skip
+ORA-39151: Table "AUTO_TRUMP_PP$OWNER"."CFG_RPT_XVals" exists. All dependent metadata and data will be skipped due to table_exists_action of skip
+ORA-39151: Table "AUTO_TRUMP_PP$OWNER"."CFG_RPT_RefReturns" exists. All dependent metadata and data will be skipped due to table_exists_action of skip
+ORA-39151: Table "AUTO_TRUMP_PP$OWNER"."USR_CALC_ENGINE" exists. All dependent metadata and data will be skipped due to table_exists_action of skip
+ORA-39151: Table "AUTO_TRUMP_PP$OWNER"."USR_CONTEXTUAL_BUTTON" exists. All dependent metadata and data will be skipped due to table_exists_action of skip
+ORA-39151: Table "AUTO_TRUMP_PP$OWNER"."CFG_LOOKUP_RECORD" exists. All dependent metadata and data will be skipped due to table_exists_action of skip
+ORA-39151: Table "AUTO_TRUMP_PP$OWNER"."CFG_LOOKUP_FIELD" exists. All dependent metadata and data will be skipped due to table_exists_action of skip
+ORA-39151: Table "AUTO_TRUMP_PP$OWNER"."CFG_LOOKUP_TABLE" exists. All dependent metadata and data will be skipped due to table_exists_action of skip
+ORA-39151: Table "AUTO_TRUMP_PP$OWNER"."FR2052A_EXCEPTIONS" exists. All dependent metadata and data will be skipped due to table_exists_action of skip
+ORA-39151: Table "AUTO_TRUMP_PP$OWNER"."USR_DQ_CHECK_RESULT" exists. All dependent metadata and data will be skipped due to table_exists_action of skip
+ORA-39151: Table "AUTO_TRUMP_PP$OWNER"."CFG_RPT_FORM_DQ_RULE" exists. All dependent metadata and data will be skipped due to table_exists_action of skip
+ORA-39151: Table "AUTO_TRUMP_PP$OWNER"."ALIASES" exists. All dependent metadata and data will be skipped due to table_exists_action of skip
+ORA-39151: Table "AUTO_TRUMP_PP$OWNER"."CFG_EXPORT_FILE_NAME" exists. All dependent metadata and data will be skipped due to table_exists_action of skip
+ORA-39151: Table "AUTO_TRUMP_PP$OWNER"."USR_NOTIFICATION_TYPE" exists. All dependent metadata and data will be skipped due to table_exists_action of skip
+ORA-39151: Table "AUTO_TRUMP_PP$OWNER"."USR_NOTIFICATION_REVISION" exists. All dependent metadata and data will be skipped due to table_exists_action of skip
+ORA-39151: Table "AUTO_TRUMP_PP$OWNER"."USR_NOTIFICATION_READ_STATUS" exists. All dependent metadata and data will be skipped due to table_exists_action of skip
+ORA-39151: Table "AUTO_TRUMP_PP$OWNER"."USR_NOTIFICATION_PARAM" exists. All dependent metadata and data will be skipped due to table_exists_action of skip
+ORA-39151: Table "AUTO_TRUMP_PP$OWNER"."USR_NOTIFICATION_INSTANCE" exists. All dependent metadata and data will be skipped due to table_exists_action of skip
+ORA-39151: Table "AUTO_TRUMP_PP$OWNER"."USR_NOTIFICATION" exists. All dependent metadata and data will be skipped due to table_exists_action of skip
+ORA-39151: Table "AUTO_TRUMP_PP$OWNER"."ACTIVEMQ_LOCK" exists. All dependent metadata and data will be skipped due to table_exists_action of skip
+ORA-39151: Table "AUTO_TRUMP_PP$OWNER"."USR_PHYSICAL_LOCATION" exists. All dependent metadata and data will be skipped due to table_exists_action of skip
+ORA-39151: Table "AUTO_TRUMP_PP$OWNER"."CFG_DATA_SCHEDULE_VIEW" exists. All dependent metadata and data will be skipped due to table_exists_action of skip
+ORA-39151: Table "AUTO_TRUMP_PP$OWNER"."CFG_DATA_SCHEDULE_EXPORT" exists. All dependent metadata and data will be skipped due to table_exists_action of skip
+ORA-39151: Table "AUTO_TRUMP_PP$OWNER"."CFG_TEXT_TEMPLATE" exists. All dependent metadata and data will be skipped due to table_exists_action of skip
+ORA-39151: Table "AUTO_TRUMP_PP$OWNER"."JOB_EXECUTION" exists. All dependent metadata and data will be skipped due to table_exists_action of skip
+ORA-39151: Table "AUTO_TRUMP_PP$OWNER"."JOB_INSTANCE" exists. All dependent metadata and data will be skipped due to table_exists_action of skip
+ORA-39151: Table "AUTO_TRUMP_PP$OWNER"."USR_DATA_QUALITY_CHECK_FAILURE" exists. All dependent metadata and data will be skipped due to table_exists_action of skip
+ORA-39151: Table "AUTO_TRUMP_PP$OWNER"."USR_FORM_INST_EXPORT_SRC_STEP" exists. All dependent metadata and data will be skipped due to table_exists_action of skip
+ORA-39151: Table "AUTO_TRUMP_PP$OWNER"."USR_FORM_INSTANCE_EXPORT_SRC" exists. All dependent metadata and data will be skipped due to table_exists_action of skip
+ORA-39151: Table "AUTO_TRUMP_PP$OWNER"."USR_FORM_INSTANCE_EXPORT" exists. All dependent metadata and data will be skipped due to table_exists_action of skip
+ORA-39151: Table "AUTO_TRUMP_PP$OWNER"."ETL_RECORD_LINK" exists. All dependent metadata and data will be skipped due to table_exists_action of skip
+ORA-39151: Table "AUTO_TRUMP_PP$OWNER"."FIN_FORM_INSTANCE_DEL_LOG" exists. All dependent metadata and data will be skipped due to table_exists_action of skip
+ORA-39151: Table "AUTO_TRUMP_PP$OWNER"."AUD_ACTIVE_SESSIONS" exists. All dependent metadata and data will be skipped due to table_exists_action of skip
+ORA-39151: Table "AUTO_TRUMP_PP$OWNER"."AUD_LOGIN_LOGOUT" exists. All dependent metadata and data will be skipped due to table_exists_action of skip
+ORA-39151: Table "AUTO_TRUMP_PP$OWNER"."SEC_USER_USER_GROUP" exists. All dependent metadata and data will be skipped due to table_exists_action of skip
+ORA-39151: Table "AUTO_TRUMP_PP$OWNER"."SEC_USER_GROUPS" exists. All dependent metadata and data will be skipped due to table_exists_action of skip
+ORA-39151: Table "AUTO_TRUMP_PP$OWNER"."USR_CALC_ENGINE_KEY_VAL_CONFIG" exists. All dependent metadata and data will be skipped due to table_exists_action of skip
+ORA-39151: Table "AUTO_TRUMP_PP$OWNER"."CFG_EXCEL_EXPORT_DESCRIPTOR" exists. All dependent metadata and data will be skipped due to table_exists_action of skip
+ORA-39151: Table "AUTO_TRUMP_PP$OWNER"."CFG_DPM_MAPPING" exists. All dependent metadata and data will be skipped due to table_exists_action of skip
+ORA-39151: Table "AUTO_TRUMP_PP$OWNER"."SEC_USER_DATA_PRIVI_PROFILE" exists. All dependent metadata and data will be skipped due to table_exists_action of skip
+ORA-39151: Table "AUTO_TRUMP_PP$OWNER"."SEC_DATA_GROUP_DATA_AUTHORIZE" exists. All dependent metadata and data will be skipped due to table_exists_action of skip
+ORA-39151: Table "AUTO_TRUMP_PP$OWNER"."SEC_DATA_AUTHORIZATION" exists. All dependent metadata and data will be skipped due to table_exists_action of skip
+ORA-39151: Table "AUTO_TRUMP_PP$OWNER"."USR_FORM_INST_IMPORT_SRC_STEP" exists. All dependent metadata and data will be skipped due to table_exists_action of skip
+ORA-39151: Table "AUTO_TRUMP_PP$OWNER"."ETL_BATCH_RUN_INVOCATION_STEP" exists. All dependent metadata and data will be skipped due to table_exists_action of skip
+ORA-39151: Table "AUTO_TRUMP_PP$OWNER"."ETL_BATCH_RUN_INVOCATION" exists. All dependent metadata and data will be skipped due to table_exists_action of skip
+ORA-39151: Table "AUTO_TRUMP_PP$OWNER"."USR_FORM_INSTANCE_IMPORT_SRC" exists. All dependent metadata and data will be skipped due to table_exists_action of skip
+ORA-39151: Table "AUTO_TRUMP_PP$OWNER"."USR_FORM_INSTANCE_IMPORT" exists. All dependent metadata and data will be skipped due to table_exists_action of skip
+ORA-39151: Table "AUTO_TRUMP_PP$OWNER"."SVC_SERVICE_REQUEST_LOG" exists. All dependent metadata and data will be skipped due to table_exists_action of skip
+ORA-39151: Table "AUTO_TRUMP_PP$OWNER"."USR_CALC_ENGINE_MAPPING" exists. All dependent metadata and data will be skipped due to table_exists_action of skip
+ORA-39151: Table "AUTO_TRUMP_PP$OWNER"."CFG_DW_VIEW_STRUCTURE" exists. All dependent metadata and data will be skipped due to table_exists_action of skip
+ORA-39151: Table "AUTO_TRUMP_PP$OWNER"."CFG_DW_FIELD_BINDING" exists. All dependent metadata and data will be skipped due to table_exists_action of skip
+ORA-39151: Table "AUTO_TRUMP_PP$OWNER"."CFG_DW_VIEW_BINDING" exists. All dependent metadata and data will be skipped due to table_exists_action of skip
+ORA-39151: Table "AUTO_TRUMP_PP$OWNER"."CFG_DW_BINDING_SET" exists. All dependent metadata and data will be skipped due to table_exists_action of skip
+ORA-39151: Table "AUTO_TRUMP_PP$OWNER"."CFG_DW_SYSTEM" exists. All dependent metadata and data will be skipped due to table_exists_action of skip
+ORA-39151: Table "AUTO_TRUMP_PP$OWNER"."USR_ENTITY_INSTALL_CONFIG" exists. All dependent metadata and data will be skipped due to table_exists_action of skip
+ORA-39151: Table "AUTO_TRUMP_PP$OWNER"."SEC_USER_DATA_GROUP" exists. All dependent metadata and data will be skipped due to table_exists_action of skip
+ORA-39151: Table "AUTO_TRUMP_PP$OWNER"."SEC_DATA_GROUP" exists. All dependent metadata and data will be skipped due to table_exists_action of skip
+ORA-39151: Table "AUTO_TRUMP_PP$OWNER"."USR_NATIVE_ENTITY" exists. All dependent metadata and data will be skipped due to table_exists_action of skip
+ORA-39151: Table "AUTO_TRUMP_PP$OWNER"."SEC_PRIVILEGE_PRIVILEGE_GROUPS" exists. All dependent metadata and data will be skipped due to table_exists_action of skip
+ORA-39151: Table "AUTO_TRUMP_PP$OWNER"."SEC_USER_INFO_PRIVILEGE_GRPS" exists. All dependent metadata and data will be skipped due to table_exists_action of skip
+ORA-39151: Table "AUTO_TRUMP_PP$OWNER"."FIN_ADJUSTMENT_LOG" exists. All dependent metadata and data will be skipped due to table_exists_action of skip
+ORA-39151: Table "AUTO_TRUMP_PP$OWNER"."FIN_ADJUSTMENT_INSTANCE" exists. All dependent metadata and data will be skipped due to table_exists_action of skip
+ORA-39151: Table "AUTO_TRUMP_PP$OWNER"."FIN_ADJUSTMENT" exists. All dependent metadata and data will be skipped due to table_exists_action of skip
+ORA-39151: Table "AUTO_TRUMP_PP$OWNER"."FIN_FORM_INSTANCE_VARIABLES" exists. All dependent metadata and data will be skipped due to table_exists_action of skip
+ORA-39151: Table "AUTO_TRUMP_PP$OWNER"."FIN_FORM_INSTANCE_ACTION_LOG" exists. All dependent metadata and data will be skipped due to table_exists_action of skip
+ORA-39151: Table "AUTO_TRUMP_PP$OWNER"."FIN_CELL_INSTANCE" exists. All dependent metadata and data will be skipped due to table_exists_action of skip
+ORA-39151: Table "AUTO_TRUMP_PP$OWNER"."FIN_FORM_INSTANCE_REVISION" exists. All dependent metadata and data will be skipped due to table_exists_action of skip
+ORA-39151: Table "AUTO_TRUMP_PP$OWNER"."FIN_FORM_INSTANCE" exists. All dependent metadata and data will be skipped due to table_exists_action of skip
+ORA-39151: Table "AUTO_TRUMP_PP$OWNER"."CFG_XMLXSLT_EXPORT" exists. All dependent metadata and data will be skipped due to table_exists_action of skip
+ORA-39151: Table "AUTO_TRUMP_PP$OWNER"."CFG_FORM_LINK_MODULE" exists. All dependent metadata and data will be skipped due to table_exists_action of skip
+ORA-39151: Table "AUTO_TRUMP_PP$OWNER"."CFG_FORM_LINK" exists. All dependent metadata and data will be skipped due to table_exists_action of skip
+ORA-39151: Table "AUTO_TRUMP_PP$OWNER"."CFG_EXPORT_FORMAT_MODULE" exists. All dependent metadata and data will be skipped due to table_exists_action of skip
+ORA-39151: Table "AUTO_TRUMP_PP$OWNER"."CFG_EXPORT_FORMAT" exists. All dependent metadata and data will be skipped due to table_exists_action of skip
+ORA-39151: Table "AUTO_TRUMP_PP$OWNER"."DPM_ITEM_CELL" exists. All dependent metadata and data will be skipped due to table_exists_action of skip
+ORA-39151: Table "AUTO_TRUMP_PP$OWNER"."DPM_ITEM_VERSION" exists. All dependent metadata and data will be skipped due to table_exists_action of skip
+ORA-39151: Table "AUTO_TRUMP_PP$OWNER"."DPM_ITEM" exists. All dependent metadata and data will be skipped due to table_exists_action of skip
+ORA-39151: Table "AUTO_TRUMP_PP$OWNER"."USR_FORM_ENTITY" exists. All dependent metadata and data will be skipped due to table_exists_action of skip
+ORA-39151: Table "AUTO_TRUMP_PP$OWNER"."USR_ENTITY_LINK" exists. All dependent metadata and data will be skipped due to table_exists_action of skip
+ORA-39151: Table "AUTO_TRUMP_PP$OWNER"."USR_SCHEDULE" exists. All dependent metadata and data will be skipped due to table_exists_action of skip
+ORA-39151: Table "AUTO_TRUMP_PP$OWNER"."USR_NON_WORKING_DAY" exists. All dependent metadata and data will be skipped due to table_exists_action of skip
+ORA-39151: Table "AUTO_TRUMP_PP$OWNER"."USR_BUSINESS_CALENDAR" exists. All dependent metadata and data will be skipped due to table_exists_action of skip
+ORA-39151: Table "AUTO_TRUMP_PP$OWNER"."DPM_TAXONOMY_FILING_INDICATOR" exists. All dependent metadata and data will be skipped due to table_exists_action of skip
+ORA-39151: Table "AUTO_TRUMP_PP$OWNER"."DPM_TAXONOMY_TABLE_VERSION" exists. All dependent metadata and data will be skipped due to table_exists_action of skip
+ORA-39151: Table "AUTO_TRUMP_PP$OWNER"."DPM_TAXONOMY_HISTORY" exists. All dependent metadata and data will be skipped due to table_exists_action of skip
+ORA-39151: Table "AUTO_TRUMP_PP$OWNER"."DPM_TABLE_GROUP_TEMPLATES" exists. All dependent metadata and data will be skipped due to table_exists_action of skip
+ORA-39151: Table "AUTO_TRUMP_PP$OWNER"."DPM_TEMPLATE" exists. All dependent metadata and data will be skipped due to table_exists_action of skip
+ORA-39151: Table "AUTO_TRUMP_PP$OWNER"."DPM_OPEN_MEMBER_RESTRICTION" exists. All dependent metadata and data will be skipped due to table_exists_action of skip
+ORA-39151: Table "AUTO_TRUMP_PP$OWNER"."CFG_CONFIG_REQUIRED_ALIASES" exists. All dependent metadata and data will be skipped due to table_exists_action of skip
+ORA-39151: Table "AUTO_TRUMP_PP$OWNER"."CFG_CONFIG_MAINTENANCE_LOG" exists. All dependent metadata and data will be skipped due to table_exists_action of skip
+ORA-39151: Table "AUTO_TRUMP_PP$OWNER"."CFG_INSTALLED_CONFIGURATIONS" exists. All dependent metadata and data will be skipped due to table_exists_action of skip
+ORA-39151: Table "AUTO_TRUMP_PP$OWNER"."DPM_TEMPLATE_DATA_POINT" exists. All dependent metadata and data will be skipped due to table_exists_action of skip
+ORA-39151: Table "AUTO_TRUMP_PP$OWNER"."DPM_TEMPLATE_VIEW" exists. All dependent metadata and data will be skipped due to table_exists_action of skip
+ORA-39151: Table "AUTO_TRUMP_PP$OWNER"."DPM_TEMPLATE_VIEW_DATA_POINT" exists. All dependent metadata and data will be skipped due to table_exists_action of skip
+ORA-39151: Table "AUTO_TRUMP_PP$OWNER"."DPM_TUPLE" exists. All dependent metadata and data will be skipped due to table_exists_action of skip
+ORA-39151: Table "AUTO_TRUMP_PP$OWNER"."DPM_TUPLE_DATA_POINT" exists. All dependent metadata and data will be skipped due to table_exists_action of skip
+ORA-39151: Table "AUTO_TRUMP_PP$OWNER"."LIC_LICENSE_PRIVILEGE" exists. All dependent metadata and data will be skipped due to table_exists_action of skip
+ORA-39151: Table "AUTO_TRUMP_PP$OWNER"."LIC_ACTIVE_LICENSE" exists. All dependent metadata and data will be skipped due to table_exists_action of skip
+ORA-39151: Table "AUTO_TRUMP_PP$OWNER"."USR_PREFERENCE" exists. All dependent metadata and data will be skipped due to table_exists_action of skip
+ORA-39151: Table "AUTO_TRUMP_PP$OWNER"."DPM_VARIABLE_OF_EXPRESSION" exists. All dependent metadata and data will be skipped due to table_exists_action of skip
+ORA-39151: Table "AUTO_TRUMP_PP$OWNER"."DPM_TABLE_VERSION" exists. All dependent metadata and data will be skipped due to table_exists_action of skip
+ORA-39151: Table "AUTO_TRUMP_PP$OWNER"."DPM_TABLE_GROUP" exists. All dependent metadata and data will be skipped due to table_exists_action of skip
+ORA-39151: Table "AUTO_TRUMP_PP$OWNER"."DPM_TABLE_CELL" exists. All dependent metadata and data will be skipped due to table_exists_action of skip
+ORA-39151: Table "AUTO_TRUMP_PP$OWNER"."DPM_TABLE" exists. All dependent metadata and data will be skipped due to table_exists_action of skip
+ORA-39151: Table "AUTO_TRUMP_PP$OWNER"."DPM_SUM_OVER_OPEN_AXIS" exists. All dependent metadata and data will be skipped due to table_exists_action of skip
+ORA-39151: Table "AUTO_TRUMP_PP$OWNER"."DPM_STRING_LIST" exists. All dependent metadata and data will be skipped due to table_exists_action of skip
+ORA-39151: Table "AUTO_TRUMP_PP$OWNER"."DPM_OPEN_AXIS_VAL_RESTRICTION" exists. All dependent metadata and data will be skipped due to table_exists_action of skip
+ORA-39151: Table "AUTO_TRUMP_PP$OWNER"."DPM_MODULE_TABLE_OR_GROUP" exists. All dependent metadata and data will be skipped due to table_exists_action of skip
+ORA-39151: Table "AUTO_TRUMP_PP$OWNER"."DPM_MODULE_DIMENSION_IMPLIED_V" exists. All dependent metadata and data will be skipped due to table_exists_action of skip
+ORA-39151: Table "AUTO_TRUMP_PP$OWNER"."DPM_MODULE_DATA_POINT_RESTRICT" exists. All dependent metadata and data will be skipped due to table_exists_action of skip
+ORA-39151: Table "AUTO_TRUMP_PP$OWNER"."DPM_MODULE" exists. All dependent metadata and data will be skipped due to table_exists_action of skip
+ORA-39151: Table "AUTO_TRUMP_PP$OWNER"."DPM_METRIC" exists. All dependent metadata and data will be skipped due to table_exists_action of skip
+ORA-39151: Table "AUTO_TRUMP_PP$OWNER"."DPM_MEMBER" exists. All dependent metadata and data will be skipped due to table_exists_action of skip
+ORA-39151: Table "AUTO_TRUMP_PP$OWNER"."DPM_INSTANCE_LEVEL_DIMENSION" exists. All dependent metadata and data will be skipped due to table_exists_action of skip
+ORA-39151: Table "AUTO_TRUMP_PP$OWNER"."DPM_INSTANCE_LEVEL_DATA_POINT" exists. All dependent metadata and data will be skipped due to table_exists_action of skip
+ORA-39151: Table "AUTO_TRUMP_PP$OWNER"."DPM_HIERARCHY_NODE" exists. All dependent metadata and data will be skipped due to table_exists_action of skip
+ORA-39151: Table "AUTO_TRUMP_PP$OWNER"."DPM_HIERARCHY" exists. All dependent metadata and data will be skipped due to table_exists_action of skip
+ORA-39151: Table "AUTO_TRUMP_PP$OWNER"."DPM_DIMENSION" exists. All dependent metadata and data will be skipped due to table_exists_action of skip
+ORA-39151: Table "AUTO_TRUMP_PP$OWNER"."DPM_DATA_POINT_VERSION" exists. All dependent metadata and data will be skipped due to table_exists_action of skip
+ORA-39151: Table "AUTO_TRUMP_PP$OWNER"."DPM_DATA_POINT" exists. All dependent metadata and data will be skipped due to table_exists_action of skip
+ORA-39151: Table "AUTO_TRUMP_PP$OWNER"."DPM_CONTEXT_OF_DATA_POINTS" exists. All dependent metadata and data will be skipped due to table_exists_action of skip
+ORA-39151: Table "AUTO_TRUMP_PP$OWNER"."DPM_CONCEPT" exists. All dependent metadata and data will be skipped due to table_exists_action of skip
+ORA-39151: Table "AUTO_TRUMP_PP$OWNER"."DPM_AXIS_ORDINATE" exists. All dependent metadata and data will be skipped due to table_exists_action of skip
+ORA-39151: Table "AUTO_TRUMP_PP$OWNER"."DPM_AXIS" exists. All dependent metadata and data will be skipped due to table_exists_action of skip
+ORA-39151: Table "AUTO_TRUMP_PP$OWNER"."SCHEMA_VERSION" exists. All dependent metadata and data will be skipped due to table_exists_action of skip
+ORA-39151: Table "AUTO_TRUMP_PP$OWNER"."DPM_CONCEPT_TRANSLATION" exists. All dependent metadata and data will be skipped due to table_exists_action of skip
+ORA-39151: Table "AUTO_TRUMP_PP$OWNER"."DPM_EXPRESSION" exists. All dependent metadata and data will be skipped due to table_exists_action of skip
+ORA-39151: Table "AUTO_TRUMP_PP$OWNER"."DPM_REFERENCES" exists. All dependent metadata and data will be skipped due to table_exists_action of skip
+ORA-39151: Table "AUTO_TRUMP_PP$OWNER"."DPM_STRING_LIST_VALUES" exists. All dependent metadata and data will be skipped due to table_exists_action of skip
+ORA-39151: Table "AUTO_TRUMP_PP$OWNER"."DPM_VALIDATION_RULE" exists. All dependent metadata and data will be skipped due to table_exists_action of skip
+ORA-39151: Table "AUTO_TRUMP_PP$OWNER"."SVC_SERVICE_REQUEST_STATUS" exists. All dependent metadata and data will be skipped due to table_exists_action of skip
+ORA-39151: Table "AUTO_TRUMP_PP$OWNER"."CFG_CONFIG_DEFINED_VARIABLES" exists. All dependent metadata and data will be skipped due to table_exists_action of skip
+ORA-39151: Table "AUTO_TRUMP_PP$OWNER"."CFG_RPT_DATA_QUALITY" exists. All dependent metadata and data will be skipped due to table_exists_action of skip
+ORA-39151: Table "AUTO_TRUMP_PP$OWNER"."STEP_EXECUTION" exists. All dependent metadata and data will be skipped due to table_exists_action of skip
+ORA-39151: Table "AUTO_TRUMP_PP$OWNER"."PARTITION_EXECUTION" exists. All dependent metadata and data will be skipped due to table_exists_action of skip
+ORA-39151: Table "AUTO_TRUMP_PP$OWNER"."ACTIVEMQ_ACKS" exists. All dependent metadata and data will be skipped due to table_exists_action of skip
+ORA-39151: Table "AUTO_TRUMP_PP$OWNER"."ACTIVEMQ_MSGS" exists. All dependent metadata and data will be skipped due to table_exists_action of skip
+ORA-39151: Table "AUTO_TRUMP_PP$OWNER"."USR_NOTIFICATION_ATT_INSTANCE" exists. All dependent metadata and data will be skipped due to table_exists_action of skip
+ORA-39151: Table "AUTO_TRUMP_PP$OWNER"."USR_NOTIFICATION_ATTACHMENT" exists. All dependent metadata and data will be skipped due to table_exists_action of skip
+ORA-39151: Table "AUTO_TRUMP_PP$OWNER"."USR_VARIABLE_VALUE" exists. All dependent metadata and data will be skipped due to table_exists_action of skip
+Processing object type SCHEMA_EXPORT/TABLE/TABLE_DATA
+Processing object type SCHEMA_EXPORT/TABLE/GRANT/OWNER_GRANT/OBJECT_GRANT
+Processing object type SCHEMA_EXPORT/TABLE/COMMENT
+Processing object type SCHEMA_EXPORT/TABLE/INDEX/INDEX
+Processing object type SCHEMA_EXPORT/TABLE/CONSTRAINT/CONSTRAINT
+Processing object type SCHEMA_EXPORT/TABLE/INDEX/STATISTICS/INDEX_STATISTICS
+Processing object type SCHEMA_EXPORT/VIEW/VIEW
+ORA-31684: Object type VIEW:"AUTO_TRUMP_PP$OWNER"."V_MODULES_TABLE_CONTENT" already exists
+ORA-31684: Object type VIEW:"AUTO_TRUMP_PP$OWNER"."V_MODULE_IMPIED_DATA_POINTS" already exists
+ORA-31684: Object type VIEW:"AUTO_TRUMP_PP$OWNER"."V_SERVICE_REQUEST_STATUS" already exists
+Processing object type SCHEMA_EXPORT/VIEW/GRANT/OWNER_GRANT/OBJECT_GRANT
+ORA-39111: Dependent object type OBJECT_GRANT:"AUTO_TRUMP_PP$OWNER" skipped, base object type VIEW:"AUTO_TRUMP_PP$OWNER"."V_MODULES_TABLE_CONTENT" already exists
+ORA-39111: Dependent object type OBJECT_GRANT:"AUTO_TRUMP_PP$OWNER" skipped, base object type VIEW:"AUTO_TRUMP_PP$OWNER"."V_MODULE_IMPIED_DATA_POINTS" already exists
+ORA-39111: Dependent object type OBJECT_GRANT:"AUTO_TRUMP_PP$OWNER" skipped, base object type VIEW:"AUTO_TRUMP_PP$OWNER"."V_SERVICE_REQUEST_STATUS" already exists
+Processing object type SCHEMA_EXPORT/TABLE/CONSTRAINT/REF_CONSTRAINT
+Processing object type SCHEMA_EXPORT/TABLE/TRIGGER
+Processing object type SCHEMA_EXPORT/TABLE/STATISTICS/TABLE_STATISTICS
+Job "SYSTEM"."AUTO_TRUMP_PP$OWNER" completed with 205 error(s) at Mon Jul 31 18:48:14 2017 elapsed 0 00:00:05

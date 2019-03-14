@@ -1,0 +1,463 @@
+./bin/config.sh -a LRM_FED_DID_v1.3.1.1.zip
+================================================================================
+enter config.sh
+JAVA_HOME NOT SET IN OCELOT.PROPERTIES
+JAVA_HOME NOT SET IN SYSTEM
+JAVA FIND IN PATH
+JAVA VERSION IS OK
+java version "1.7.0_79"
+OpenJDK Runtime Environment (rhel-2.5.5.4.el6-x86_64 u79-b14)
+OpenJDK 64-Bit Server VM (build 24.79-b02, mixed mode)
+java installed
+version: 1.15.3.1-b1019
+Start to UPLOAD config package LRM_FED_DID_v1.3.1.1.zip 
+System property [org.owasp.esapi.opsteam] is not set
+System property [org.owasp.esapi.devteam] is not set
+Attempting to load ESAPI.properties via file I/O.
+Attempting to load ESAPI.properties as resource file via file I/O.
+Not found in 'org.owasp.esapi.resources' directory or file not readable: /home/testp/trump_11/ESAPI.properties
+Not found in SystemResource Directory/resourceDirectory: .esapi/ESAPI.properties
+Not found in 'user.home' (/home/testp) directory: /home/testp/esapi/ESAPI.properties
+Loading ESAPI.properties via file I/O failed. Exception was: java.io.FileNotFoundException
+Attempting to load ESAPI.properties via the classpath.
+SUCCESSFULLY LOADED ESAPI.properties via the CLASSPATH from '/ (root)' using current thread context class loader!
+SecurityConfiguration for Validator.ConfigurationFile.MultiValued not found in ESAPI.properties. Using default: false
+SecurityConfiguration for Validator.ConfigurationFile not found in ESAPI.properties. Using default: validation.properties
+Attempting to load validation.properties via file I/O.
+Attempting to load validation.properties as resource file via file I/O.
+Not found in 'org.owasp.esapi.resources' directory or file not readable: /home/testp/trump_11/validation.properties
+Not found in SystemResource Directory/resourceDirectory: .esapi/validation.properties
+Not found in 'user.home' (/home/testp) directory: /home/testp/esapi/validation.properties
+Loading validation.properties via file I/O failed.
+Attempting to load validation.properties via the classpath.
+validation.properties could not be loaded by any means. fail. Exception was: java.lang.IllegalArgumentException: Failed to load ESAPI.properties as a classloader resource.
+SecurityConfiguration for ESAPI.printProperties not found in ESAPI.properties. Using default: false
+SecurityConfiguration for Encryptor.CipherTransformation not found in ESAPI.properties. Using default: AES/CBC/PKCS5Padding
+SecurityConfiguration for ESAPI.Encoder not found in ESAPI.properties. Using default: org.owasp.esapi.reference.DefaultEncoder
+SecurityConfiguration for ESAPI.Logger not found in ESAPI.properties. Using default: org.owasp.esapi.reference.JavaLogFactory
+SecurityConfiguration for Logger.LogApplicationName not found in ESAPI.properties. Using default: true
+SecurityConfiguration for Logger.LogServerIP not found in ESAPI.properties. Using default: true
+SecurityConfiguration for Logger.ApplicationName not found in ESAPI.properties. Using default: DefaultName
+Access db has been linked:/home/testp/trump_11/dbf86257-b5d4-4f76-81d6-7d4ad15ba701
+validating table CFG_CONFIG_DEFINED_VARIABLES exists in Microsoft Access's database 
+table CFG_CONFIG_DEFINED_VARIABLES is skipped ,reason: table CFG_CONFIG_DEFINED_VARIABLES can't be found in Microsoft Access's database
+validating table FormLink exists in Microsoft Access's database 
+table FormLink is skipped ,reason: table FormLink can't be found in Microsoft Access's database
+validating table FormLinkModule exists in Microsoft Access's database 
+table FormLinkModule is skipped ,reason: table FormLinkModule can't be found in Microsoft Access's database
+validating table ExportFormat exists in Microsoft Access's database 
+table ExportFormat is skipped ,reason: table ExportFormat can't be found in Microsoft Access's database
+validating table ExportFormatModule exists in Microsoft Access's database 
+table ExportFormatModule is skipped ,reason: table ExportFormatModule can't be found in Microsoft Access's database
+validating table XmlXSLTExport exists in Microsoft Access's database 
+table XmlXSLTExport is skipped ,reason: table XmlXSLTExport can't be found in Microsoft Access's database
+validating table CFG_DT_FORM_IMPORT_SET exists in Microsoft Access's database 
+validating table CFG_DT_FORM_IMPORT_SET exists in  the destination database
+validating column ID of dpm table CFG_DT_FORM_IMPORT_SET
+validating column FORM_IMPORT_SET_CODE of dpm table CFG_DT_FORM_IMPORT_SET
+validating column FORM_IMPORT_SET_DESCRIPTION of dpm table CFG_DT_FORM_IMPORT_SET
+validating table CFG_DT_FORM_IMPORT exists in Microsoft Access's database 
+validating table CFG_DT_FORM_IMPORT exists in  the destination database
+validating column ID of dpm table CFG_DT_FORM_IMPORT
+validating column DT_ID of dpm table CFG_DT_FORM_IMPORT
+validating column FORM_CODE of dpm table CFG_DT_FORM_IMPORT
+validating column FORM_VERSION of dpm table CFG_DT_FORM_IMPORT
+validating column TEMPLATE_CODE of dpm table CFG_DT_FORM_IMPORT
+validating column SOURCE_VIEW_CODE of dpm table CFG_DT_FORM_IMPORT
+validating column FORM_IMPORT_SET_ID of dpm table CFG_DT_FORM_IMPORT
+validating table CFG_DT_DECISION_TABLE exists in Microsoft Access's database 
+validating table CFG_DT_DECISION_TABLE exists in  the destination database
+validating column ID of dpm table CFG_DT_DECISION_TABLE
+validating column DECISION_TABLE_CODE of dpm table CFG_DT_DECISION_TABLE
+validating column GLOBAL_CONDITION of dpm table CFG_DT_DECISION_TABLE
+validating column TYPE of dpm table CFG_DT_DECISION_TABLE
+validating table CFG_DT_ENTRY exists in Microsoft Access's database 
+validating table CFG_DT_ENTRY exists in  the destination database
+validating column ID of dpm table CFG_DT_ENTRY
+validating column DT_ID of dpm table CFG_DT_ENTRY
+validating column CONDITION of dpm table CFG_DT_ENTRY
+validating column ENTRY_SEQUENCE_NUMBER of dpm table CFG_DT_ENTRY
+validating table CFG_DT_KEY_FIELD exists in Microsoft Access's database 
+validating table CFG_DT_KEY_FIELD exists in  the destination database
+validating column ID of dpm table CFG_DT_KEY_FIELD
+validating column DT_ENTRY_ID of dpm table CFG_DT_KEY_FIELD
+validating column TARGET_FIELD_CODE of dpm table CFG_DT_KEY_FIELD
+validating column SOURCE_EXPRESSION of dpm table CFG_DT_KEY_FIELD
+validating table CFG_DT_VALUE_FIELD exists in Microsoft Access's database 
+validating table CFG_DT_VALUE_FIELD exists in  the destination database
+validating column ID of dpm table CFG_DT_VALUE_FIELD
+validating column DT_ENTRY_ID of dpm table CFG_DT_VALUE_FIELD
+validating column TARGET_FIELD_CODE of dpm table CFG_DT_VALUE_FIELD
+validating column SOURCE_EXPRESSION of dpm table CFG_DT_VALUE_FIELD
+validating column AGGREGATION_TYPE of dpm table CFG_DT_VALUE_FIELD
+validating table CFG_DW_SYSTEM exists in Microsoft Access's database 
+validating table CFG_DW_SYSTEM exists in  the destination database
+validating column ID of dpm table CFG_DW_SYSTEM
+validating column SYSTEM_CODE of dpm table CFG_DW_SYSTEM
+validating column SYSTEM_DESCRIPTION of dpm table CFG_DW_SYSTEM
+validating table CFG_DW_BINDING_SET exists in Microsoft Access's database 
+validating table CFG_DW_BINDING_SET exists in  the destination database
+validating column ID of dpm table CFG_DW_BINDING_SET
+validating column ENTITY_ID_FIELD_CODE of dpm table CFG_DW_BINDING_SET
+validating column REFERENCE_DATE_FIELD_CODE of dpm table CFG_DW_BINDING_SET
+validating column RESULT_SET_ID_FIELD_CODE of dpm table CFG_DW_BINDING_SET
+validating column BINDING_SET_CODE of dpm table CFG_DW_BINDING_SET
+validating column DW_SYSTEM_ID of dpm table CFG_DW_BINDING_SET
+validating table CFG_DW_VIEW_BINDING exists in Microsoft Access's database 
+validating table CFG_DW_VIEW_BINDING exists in  the destination database
+validating column ID of dpm table CFG_DW_VIEW_BINDING
+validating column DW_BINDING_ID of dpm table CFG_DW_VIEW_BINDING
+validating column VIEW_CODE of dpm table CFG_DW_VIEW_BINDING
+validating column PHYSICAL_SCHEMA_NAME of dpm table CFG_DW_VIEW_BINDING
+validating column PHYSICAL_VIEW_NAME of dpm table CFG_DW_VIEW_BINDING
+validating column HAS_RESULT_SET_ID of dpm table CFG_DW_VIEW_BINDING
+validating table CFG_DW_FIELD_BINDING exists in Microsoft Access's database 
+validating table CFG_DW_FIELD_BINDING exists in  the destination database
+validating column ID of dpm table CFG_DW_FIELD_BINDING
+validating column DW_BINDING_ID of dpm table CFG_DW_FIELD_BINDING
+validating column FIELD_CODE of dpm table CFG_DW_FIELD_BINDING
+validating column PHYSICAL_COLUMN_NAME of dpm table CFG_DW_FIELD_BINDING
+validating column PHYSICAL_COLUMN_TYPE of dpm table CFG_DW_FIELD_BINDING
+validating column NUMERIC_SCALE_SET of dpm table CFG_DW_FIELD_BINDING
+validating column DESCRIPTION_FIELD_CODE of dpm table CFG_DW_FIELD_BINDING
+validating table CFG_DW_VIEW_STRUCTURE exists in Microsoft Access's database 
+validating table CFG_DW_VIEW_STRUCTURE exists in  the destination database
+validating column ID of dpm table CFG_DW_VIEW_STRUCTURE
+validating column DW_VIEW_ID of dpm table CFG_DW_VIEW_STRUCTURE
+validating column DW_FIELD_ID of dpm table CFG_DW_VIEW_STRUCTURE
+validating column IS_ROW_IDENTIFIER of dpm table CFG_DW_VIEW_STRUCTURE
+validating table DpmMapping exists in Microsoft Access's database 
+table DpmMapping is skipped ,reason: table DpmMapping can't be found in Microsoft Access's database
+validating table FormVarDataPoint exists in Microsoft Access's database 
+table FormVarDataPoint is skipped ,reason: table FormVarDataPoint can't be found in Microsoft Access's database
+validating table FormVars exists in Microsoft Access's database 
+table FormVars is skipped ,reason: table FormVars can't be found in Microsoft Access's database
+validating table GridKey exists in Microsoft Access's database 
+table GridKey is skipped ,reason: table GridKey can't be found in Microsoft Access's database
+validating table GridRef exists in Microsoft Access's database 
+table GridRef is skipped ,reason: table GridRef can't be found in Microsoft Access's database
+validating table Instances exists in Microsoft Access's database 
+table Instances is skipped ,reason: table Instances can't be found in Microsoft Access's database
+validating table InstanceSets exists in Microsoft Access's database 
+table InstanceSets is skipped ,reason: table InstanceSets can't be found in Microsoft Access's database
+validating table List exists in Microsoft Access's database 
+table List is skipped ,reason: table List can't be found in Microsoft Access's database
+validating table Ref exists in Microsoft Access's database 
+table Ref is skipped ,reason: table Ref can't be found in Microsoft Access's database
+validating table Rets exists in Microsoft Access's database 
+table Rets is skipped ,reason: table Rets can't be found in Microsoft Access's database
+validating table Sums exists in Microsoft Access's database 
+table Sums is skipped ,reason: table Sums can't be found in Microsoft Access's database
+validating table Vals exists in Microsoft Access's database 
+table Vals is skipped ,reason: table Vals can't be found in Microsoft Access's database
+validating table XVals exists in Microsoft Access's database 
+table XVals is skipped ,reason: table XVals can't be found in Microsoft Access's database
+validating table RefReturns exists in Microsoft Access's database 
+table RefReturns is skipped ,reason: table RefReturns can't be found in Microsoft Access's database
+validating table ExcelExportDescriptor exists in Microsoft Access's database 
+table ExcelExportDescriptor is skipped ,reason: table ExcelExportDescriptor can't be found in Microsoft Access's database
+validating table DataQuality exists in Microsoft Access's database 
+table DataQuality is skipped ,reason: table DataQuality can't be found in Microsoft Access's database
+validating table TextTemplate exists in Microsoft Access's database 
+table TextTemplate is skipped ,reason: table TextTemplate can't be found in Microsoft Access's database
+validating table DataScheduleExport exists in Microsoft Access's database 
+table DataScheduleExport is skipped ,reason: table DataScheduleExport can't be found in Microsoft Access's database
+validating table DataScheduleView exists in Microsoft Access's database 
+table DataScheduleView is skipped ,reason: table DataScheduleView can't be found in Microsoft Access's database
+validating table ExportFileName exists in Microsoft Access's database 
+table ExportFileName is skipped ,reason: table ExportFileName can't be found in Microsoft Access's database
+validating table CFG_RPT_FORM_DQ_RULE exists in Microsoft Access's database 
+table CFG_RPT_FORM_DQ_RULE is skipped ,reason: table CFG_RPT_FORM_DQ_RULE can't be found in Microsoft Access's database
+can not find the DPM mapping file with version: 1.0
+validating table Axis exists in Microsoft Access's database 
+table Axis is skipped ,reason: table Axis can't be found in Microsoft Access's database
+validating table AxisOrdinate exists in Microsoft Access's database 
+table AxisOrdinate is skipped ,reason: table AxisOrdinate can't be found in Microsoft Access's database
+validating table BalanceType exists in Microsoft Access's database 
+table BalanceType is skipped ,reason: table BalanceType can't be found in Microsoft Access's database
+validating table CellPosition exists in Microsoft Access's database 
+table CellPosition is skipped ,reason: table CellPosition can't be found in Microsoft Access's database
+validating table CellReference exists in Microsoft Access's database 
+table CellReference is skipped ,reason: table CellReference can't be found in Microsoft Access's database
+validating table Concept exists in Microsoft Access's database 
+table Concept is skipped ,reason: table Concept can't be found in Microsoft Access's database
+validating table ConceptReference exists in Microsoft Access's database 
+table ConceptReference is skipped ,reason: table ConceptReference can't be found in Microsoft Access's database
+validating table ConceptTranslation exists in Microsoft Access's database 
+table ConceptTranslation is skipped ,reason: table ConceptTranslation can't be found in Microsoft Access's database
+validating table ConceptualModule exists in Microsoft Access's database 
+table ConceptualModule is skipped ,reason: table ConceptualModule can't be found in Microsoft Access's database
+validating table ContextDefinition exists in Microsoft Access's database 
+table ContextDefinition is skipped ,reason: table ContextDefinition can't be found in Microsoft Access's database
+validating table ContextOfDataPoints exists in Microsoft Access's database 
+table ContextOfDataPoints is skipped ,reason: table ContextOfDataPoints can't be found in Microsoft Access's database
+validating table DataPoint exists in Microsoft Access's database 
+table DataPoint is skipped ,reason: table DataPoint can't be found in Microsoft Access's database
+validating table DataPointVersionVariable exists in Microsoft Access's database 
+table DataPointVersionVariable is skipped ,reason: table DataPointVersionVariable can't be found in Microsoft Access's database
+validating table DataPointVersion exists in Microsoft Access's database 
+table DataPointVersion is skipped ,reason: table DataPointVersion can't be found in Microsoft Access's database
+validating table DataType exists in Microsoft Access's database 
+table DataType is skipped ,reason: table DataType can't be found in Microsoft Access's database
+validating table Dimension exists in Microsoft Access's database 
+table Dimension is skipped ,reason: table Dimension can't be found in Microsoft Access's database
+validating table DimensionalCoordinate exists in Microsoft Access's database 
+table DimensionalCoordinate is skipped ,reason: table DimensionalCoordinate can't be found in Microsoft Access's database
+validating table Domain exists in Microsoft Access's database 
+table Domain is skipped ,reason: table Domain can't be found in Microsoft Access's database
+validating table Expression exists in Microsoft Access's database 
+table Expression is skipped ,reason: table Expression can't be found in Microsoft Access's database
+validating table ExpressionScope exists in Microsoft Access's database 
+table ExpressionScope is skipped ,reason: table ExpressionScope can't be found in Microsoft Access's database
+validating table FlowType exists in Microsoft Access's database 
+table FlowType is skipped ,reason: table FlowType can't be found in Microsoft Access's database
+validating table Hierarchy exists in Microsoft Access's database 
+table Hierarchy is skipped ,reason: table Hierarchy can't be found in Microsoft Access's database
+validating table HierarchyNode exists in Microsoft Access's database 
+table HierarchyNode is skipped ,reason: table HierarchyNode can't be found in Microsoft Access's database
+validating table HierarchyScope exists in Microsoft Access's database 
+table HierarchyScope is skipped ,reason: table HierarchyScope can't be found in Microsoft Access's database
+validating table HierarchyValidationRule exists in Microsoft Access's database 
+table HierarchyValidationRule is skipped ,reason: table HierarchyValidationRule can't be found in Microsoft Access's database
+validating table InstanceLevelConcept exists in Microsoft Access's database 
+table InstanceLevelConcept is skipped ,reason: table InstanceLevelConcept can't be found in Microsoft Access's database
+validating table InstanceLevelDataPoint exists in Microsoft Access's database 
+table InstanceLevelDataPoint is skipped ,reason: table InstanceLevelDataPoint can't be found in Microsoft Access's database
+validating table InstanceLevelDimension exists in Microsoft Access's database 
+table InstanceLevelDimension is skipped ,reason: table InstanceLevelDimension can't be found in Microsoft Access's database
+validating table Language exists in Microsoft Access's database 
+table Language is skipped ,reason: table Language can't be found in Microsoft Access's database
+validating table Member exists in Microsoft Access's database 
+table Member is skipped ,reason: table Member can't be found in Microsoft Access's database
+validating table Metric exists in Microsoft Access's database 
+table Metric is skipped ,reason: table Metric can't be found in Microsoft Access's database
+validating table MetricVariable exists in Microsoft Access's database 
+table MetricVariable is skipped ,reason: table MetricVariable can't be found in Microsoft Access's database
+validating table Module exists in Microsoft Access's database 
+table Module is skipped ,reason: table Module can't be found in Microsoft Access's database
+validating table ModuleDataPointRestriction exists in Microsoft Access's database 
+table ModuleDataPointRestriction is skipped ,reason: table ModuleDataPointRestriction can't be found in Microsoft Access's database
+validating table ModuleDimensionImpliedValue exists in Microsoft Access's database 
+table ModuleDimensionImpliedValue is skipped ,reason: table ModuleDimensionImpliedValue can't be found in Microsoft Access's database
+validating table ModuleTableOrGroup exists in Microsoft Access's database 
+table ModuleTableOrGroup is skipped ,reason: table ModuleTableOrGroup can't be found in Microsoft Access's database
+validating table ModuleTableVersion exists in Microsoft Access's database 
+table ModuleTableVersion is skipped ,reason: table ModuleTableVersion can't be found in Microsoft Access's database
+validating table OpenAxisValueRestriction exists in Microsoft Access's database 
+table OpenAxisValueRestriction is skipped ,reason: table OpenAxisValueRestriction can't be found in Microsoft Access's database
+validating table OpenMemberRestriction exists in Microsoft Access's database 
+table OpenMemberRestriction is skipped ,reason: table OpenMemberRestriction can't be found in Microsoft Access's database
+validating table OrdinateCategorisation exists in Microsoft Access's database 
+table OrdinateCategorisation is skipped ,reason: table OrdinateCategorisation can't be found in Microsoft Access's database
+validating table OrdinateVariable exists in Microsoft Access's database 
+table OrdinateVariable is skipped ,reason: table OrdinateVariable can't be found in Microsoft Access's database
+validating table Owner exists in Microsoft Access's database 
+table Owner is skipped ,reason: table Owner can't be found in Microsoft Access's database
+validating table PreCondition exists in Microsoft Access's database 
+table PreCondition is skipped ,reason: table PreCondition can't be found in Microsoft Access's database
+validating table ReferenceCategorisation exists in Microsoft Access's database 
+table ReferenceCategorisation is skipped ,reason: table ReferenceCategorisation can't be found in Microsoft Access's database
+validating table ReferencePeriodOffset exists in Microsoft Access's database 
+table ReferencePeriodOffset is skipped ,reason: table ReferencePeriodOffset can't be found in Microsoft Access's database
+validating table References exists in Microsoft Access's database 
+table References is skipped ,reason: table References can't be found in Microsoft Access's database
+validating table ReportingFramework exists in Microsoft Access's database 
+table ReportingFramework is skipped ,reason: table ReportingFramework can't be found in Microsoft Access's database
+validating table SpecificCellVariable exists in Microsoft Access's database 
+table SpecificCellVariable is skipped ,reason: table SpecificCellVariable can't be found in Microsoft Access's database
+validating table StringList exists in Microsoft Access's database 
+table StringList is skipped ,reason: table StringList can't be found in Microsoft Access's database
+validating table StringListValues exists in Microsoft Access's database 
+table StringListValues is skipped ,reason: table StringListValues can't be found in Microsoft Access's database
+validating table SumOfManyOrdinates exists in Microsoft Access's database 
+table SumOfManyOrdinates is skipped ,reason: table SumOfManyOrdinates can't be found in Microsoft Access's database
+validating table SumOverOpenAxis exists in Microsoft Access's database 
+table SumOverOpenAxis is skipped ,reason: table SumOverOpenAxis can't be found in Microsoft Access's database
+validating table Table exists in Microsoft Access's database 
+table Table is skipped ,reason: table Table can't be found in Microsoft Access's database
+validating table TableCell exists in Microsoft Access's database 
+table TableCell is skipped ,reason: table TableCell can't be found in Microsoft Access's database
+validating table TableGroup exists in Microsoft Access's database 
+table TableGroup is skipped ,reason: table TableGroup can't be found in Microsoft Access's database
+validating table TableGroupTemplates exists in Microsoft Access's database 
+table TableGroupTemplates is skipped ,reason: table TableGroupTemplates can't be found in Microsoft Access's database
+validating table TableVersion exists in Microsoft Access's database 
+table TableVersion is skipped ,reason: table TableVersion can't be found in Microsoft Access's database
+validating table Taxonomy exists in Microsoft Access's database 
+table Taxonomy is skipped ,reason: table Taxonomy can't be found in Microsoft Access's database
+validating table TaxonomyHistory exists in Microsoft Access's database 
+table TaxonomyHistory is skipped ,reason: table TaxonomyHistory can't be found in Microsoft Access's database
+validating table TaxonomyTableVersion exists in Microsoft Access's database 
+table TaxonomyTableVersion is skipped ,reason: table TaxonomyTableVersion can't be found in Microsoft Access's database
+validating table Template exists in Microsoft Access's database 
+table Template is skipped ,reason: table Template can't be found in Microsoft Access's database
+validating table ValidationRule exists in Microsoft Access's database 
+table ValidationRule is skipped ,reason: table ValidationRule can't be found in Microsoft Access's database
+validating table ValidationRuleSet exists in Microsoft Access's database 
+table ValidationRuleSet is skipped ,reason: table ValidationRuleSet can't be found in Microsoft Access's database
+validating table ValidationScope exists in Microsoft Access's database 
+table ValidationScope is skipped ,reason: table ValidationScope can't be found in Microsoft Access's database
+validating table VariableOfExpression exists in Microsoft Access's database 
+table VariableOfExpression is skipped ,reason: table VariableOfExpression can't be found in Microsoft Access's database
+validating table TaxonomyFilingIndicator exists in Microsoft Access's database 
+table TaxonomyFilingIndicator is skipped ,reason: table TaxonomyFilingIndicator can't be found in Microsoft Access's database
+validating table Item exists in Microsoft Access's database 
+table Item is skipped ,reason: table Item can't be found in Microsoft Access's database
+validating table ItemVersion exists in Microsoft Access's database 
+table ItemVersion is skipped ,reason: table ItemVersion can't be found in Microsoft Access's database
+validating table ItemCell exists in Microsoft Access's database 
+table ItemCell is skipped ,reason: table ItemCell can't be found in Microsoft Access's database
+validating table ModuleItemVersion exists in Microsoft Access's database 
+table ModuleItemVersion is skipped ,reason: table ModuleItemVersion can't be found in Microsoft Access's database
+SecurityConfiguration for ESAPI.Encoder not found in ESAPI.properties. Using default: org.owasp.esapi.reference.DefaultEncoder
+Access db has been closed:/home/testp/trump_11/dbf86257-b5d4-4f76-81d6-7d4ad15ba701
+uploading file manifest.xml
+SecurityConfiguration for ESAPI.Encoder not found in ESAPI.properties. Using default: org.owasp.esapi.reference.DefaultEncoder
+Access db has been linked:/home/testp/trump_11/dbf86257-b5d4-4f76-81d6-7d4ad15ba701
+Transferring record from access table CFG_DT_FORM_IMPORT_SET to destination table CFG_DT_FORM_IMPORT_SET (count: 1 )
+Unable to locate table meta data for '"CFG_DT_FORM_IMPORT_SET"' -- column names must be provided
+1 records have been transferred
+Transferred records from access table CFG_DT_FORM_IMPORT_SET to destination table CFG_DT_FORM_IMPORT_SET in 0 seconds 
+Transferring record from access table CFG_DT_FORM_IMPORT to destination table CFG_DT_FORM_IMPORT (count: 150 )
+Unable to locate table meta data for '"CFG_DT_FORM_IMPORT"' -- column names must be provided
+150 records have been transferred
+Transferred records from access table CFG_DT_FORM_IMPORT to destination table CFG_DT_FORM_IMPORT in 0 seconds 
+Transferring record from access table CFG_DT_DECISION_TABLE to destination table CFG_DT_DECISION_TABLE (count: 150 )
+Unable to locate table meta data for '"CFG_DT_DECISION_TABLE"' -- column names must be provided
+150 records have been transferred
+Transferred records from access table CFG_DT_DECISION_TABLE to destination table CFG_DT_DECISION_TABLE in 0 seconds 
+Transferring record from access table CFG_DT_ENTRY to destination table CFG_DT_ENTRY (count: 22596 )
+Unable to locate table meta data for '"CFG_DT_ENTRY"' -- column names must be provided
+2000 records have been transferred
+4000 records have been transferred
+6000 records have been transferred
+8000 records have been transferred
+10000 records have been transferred
+12000 records have been transferred
+14000 records have been transferred
+16000 records have been transferred
+18000 records have been transferred
+20000 records have been transferred
+22000 records have been transferred
+22596 records have been transferred
+Transferred records from access table CFG_DT_ENTRY to destination table CFG_DT_ENTRY in 1 seconds 
+Transferring record from access table CFG_DT_KEY_FIELD to destination table CFG_DT_KEY_FIELD (count: 24004 )
+Unable to locate table meta data for '"CFG_DT_KEY_FIELD"' -- column names must be provided
+2000 records have been transferred
+4000 records have been transferred
+6000 records have been transferred
+8000 records have been transferred
+10000 records have been transferred
+12000 records have been transferred
+14000 records have been transferred
+16000 records have been transferred
+18000 records have been transferred
+20000 records have been transferred
+22000 records have been transferred
+24000 records have been transferred
+24004 records have been transferred
+Transferred records from access table CFG_DT_KEY_FIELD to destination table CFG_DT_KEY_FIELD in 0 seconds 
+Transferring record from access table CFG_DT_VALUE_FIELD to destination table CFG_DT_VALUE_FIELD (count: 22596 )
+Unable to locate table meta data for '"CFG_DT_VALUE_FIELD"' -- column names must be provided
+2000 records have been transferred
+4000 records have been transferred
+6000 records have been transferred
+8000 records have been transferred
+10000 records have been transferred
+12000 records have been transferred
+14000 records have been transferred
+16000 records have been transferred
+18000 records have been transferred
+20000 records have been transferred
+22000 records have been transferred
+22596 records have been transferred
+Transferred records from access table CFG_DT_VALUE_FIELD to destination table CFG_DT_VALUE_FIELD in 0 seconds 
+Transferring record from access table CFG_DW_SYSTEM to destination table CFG_DW_SYSTEM (count: 1 )
+Unable to locate table meta data for '"CFG_DW_SYSTEM"' -- column names must be provided
+1 records have been transferred
+Transferred records from access table CFG_DW_SYSTEM to destination table CFG_DW_SYSTEM in 0 seconds 
+Transferring record from access table CFG_DW_BINDING_SET to destination table CFG_DW_BINDING_SET (count: 1 )
+Unable to locate table meta data for '"CFG_DW_BINDING_SET"' -- column names must be provided
+1 records have been transferred
+Transferred records from access table CFG_DW_BINDING_SET to destination table CFG_DW_BINDING_SET in 0 seconds 
+Transferring record from access table CFG_DW_VIEW_BINDING to destination table CFG_DW_VIEW_BINDING (count: 34 )
+Unable to locate table meta data for '"CFG_DW_VIEW_BINDING"' -- column names must be provided
+34 records have been transferred
+Transferred records from access table CFG_DW_VIEW_BINDING to destination table CFG_DW_VIEW_BINDING in 0 seconds 
+Transferring record from access table CFG_DW_FIELD_BINDING to destination table CFG_DW_FIELD_BINDING (count: 641 )
+Unable to locate table meta data for '"CFG_DW_FIELD_BINDING"' -- column names must be provided
+641 records have been transferred
+Transferred records from access table CFG_DW_FIELD_BINDING to destination table CFG_DW_FIELD_BINDING in 0 seconds 
+Transferring record from access table CFG_DW_VIEW_STRUCTURE to destination table CFG_DW_VIEW_STRUCTURE (count: 1270 )
+Unable to locate table meta data for '"CFG_DW_VIEW_STRUCTURE"' -- column names must be provided
+1270 records have been transferred
+Transferred records from access table CFG_DW_VIEW_STRUCTURE to destination table CFG_DW_VIEW_STRUCTURE in 0 seconds 
+SecurityConfiguration for ESAPI.Encoder not found in ESAPI.properties. Using default: org.owasp.esapi.reference.DefaultEncoder
+Access db has been closed:/home/testp/trump_11/dbf86257-b5d4-4f76-81d6-7d4ad15ba701
+can not find the DPM mapping file with version: 1.0
+SecurityConfiguration for ESAPI.Encoder not found in ESAPI.properties. Using default: org.owasp.esapi.reference.DefaultEncoder
+Access db has been linked:/home/testp/trump_11/dbf86257-b5d4-4f76-81d6-7d4ad15ba701
+SecurityConfiguration for ESAPI.Encoder not found in ESAPI.properties. Using default: org.owasp.esapi.reference.DefaultEncoder
+Access db has been closed:/home/testp/trump_11/dbf86257-b5d4-4f76-81d6-7d4ad15ba701
+dpm access has been loaded
+save product configuration to database
+product configuration saved to database
+Alias 'LRM FED DATA SOURCE' skipped, reason: field 'dbhost' is empty
+[ReApply Aliases] : aliases are {LRM FED DATA SOURCE=[dbhost]:null,[dbport]:0,[dbusername]:null,[dbname]:null,[dbinstance]:null,[dbSchemaName]:null}, reapplying aliases are [com.lombardrisk.ocelot.core.model.config.AliasDto@e4354215]
+[ReApply Aliases] : Alias 'LRM FED DATA SOURCE' is skipped to reapply ,reason:Field 'dbhost' is empty 
+[ReApply Aliases] : successfully
+LRM FED DATA SOURCE INVALID Field 'dbhost' is empty
+Configuration package has been added to REPORTER Protal, but but one or more Toolset product aliases were found to be invalid. Please check your alias status with the Configuration Manager (or config.bat --listaliases on command line).
+commit config package for product LRM_FED version of 1.3.1.1,these may take some minutes, please wait for a while...
+Not found the Access DB, it may have been closed
+UPLOAD Configuration package LRM_FED_DID_v1.3.1.1.zip successfully
+./bin/config.sh -ea LRM_FED -iv 1.3.1.1 -alias "LRM FED DATA SOURCE" -aif "bin/FEDalias.properties"
+================================================================================
+enter config.sh
+JAVA_HOME NOT SET IN OCELOT.PROPERTIES
+JAVA_HOME NOT SET IN SYSTEM
+JAVA FIND IN PATH
+JAVA VERSION IS OK
+java version "1.7.0_79"
+OpenJDK Runtime Environment (rhel-2.5.5.4.el6-x86_64 u79-b14)
+OpenJDK 64-Bit Server VM (build 24.79-b02, mixed mode)
+java installed
+version: 1.15.3.1-b1019
+Start to edit alias for connection: [dbhost]:172.20.20.49,[dbport]:1521,[dbusername]:DSDBAUTO,[dbname]:null,[dbinstance]:ora12c,[dbSchemaName]:DSDBAUTO, signature: 1607237277
+System property [org.owasp.esapi.opsteam] is not set
+System property [org.owasp.esapi.devteam] is not set
+Attempting to load ESAPI.properties via file I/O.
+Attempting to load ESAPI.properties as resource file via file I/O.
+Not found in 'org.owasp.esapi.resources' directory or file not readable: /home/testp/trump_11/ESAPI.properties
+Not found in SystemResource Directory/resourceDirectory: .esapi/ESAPI.properties
+Not found in 'user.home' (/home/testp) directory: /home/testp/esapi/ESAPI.properties
+Loading ESAPI.properties via file I/O failed. Exception was: java.io.FileNotFoundException
+Attempting to load ESAPI.properties via the classpath.
+SUCCESSFULLY LOADED ESAPI.properties via the CLASSPATH from '/ (root)' using current thread context class loader!
+SecurityConfiguration for Validator.ConfigurationFile.MultiValued not found in ESAPI.properties. Using default: false
+SecurityConfiguration for Validator.ConfigurationFile not found in ESAPI.properties. Using default: validation.properties
+Attempting to load validation.properties via file I/O.
+Attempting to load validation.properties as resource file via file I/O.
+Not found in 'org.owasp.esapi.resources' directory or file not readable: /home/testp/trump_11/validation.properties
+Not found in SystemResource Directory/resourceDirectory: .esapi/validation.properties
+Not found in 'user.home' (/home/testp) directory: /home/testp/esapi/validation.properties
+Loading validation.properties via file I/O failed.
+Attempting to load validation.properties via the classpath.
+validation.properties could not be loaded by any means. fail. Exception was: java.lang.IllegalArgumentException: Failed to load ESAPI.properties as a classloader resource.
+SecurityConfiguration for ESAPI.printProperties not found in ESAPI.properties. Using default: false
+SecurityConfiguration for Encryptor.CipherTransformation not found in ESAPI.properties. Using default: AES/CBC/PKCS5Padding
+SecurityConfiguration for ESAPI.Encoder not found in ESAPI.properties. Using default: org.owasp.esapi.reference.DefaultEncoder
+SecurityConfiguration for ESAPI.Logger not found in ESAPI.properties. Using default: org.owasp.esapi.reference.JavaLogFactory
+SecurityConfiguration for Logger.LogApplicationName not found in ESAPI.properties. Using default: true
+SecurityConfiguration for Logger.LogServerIP not found in ESAPI.properties. Using default: true
+SecurityConfiguration for Logger.ApplicationName not found in ESAPI.properties. Using default: DefaultName
+Connection to Schema <DSDBAUTO> successful.
+editAlias rows updated = 1
+found datasource JNDI name for alias : 
+unable to edit alias because of can't find datasource JNDI name
+Alias 'LRM FED DATA SOURCE' accepted without check
+[ReApply Aliases] : aliases are {LRM FED DATA SOURCE=[dbhost]:172.20.20.49,[dbport]:1521,[dbusername]:DSDBAUTO,[dbname]:null,[dbinstance]:ora12c,[dbSchemaName]:DSDBAUTO}, reapplying aliases are [com.lombardrisk.ocelot.core.model.config.AliasDto@e4354215]
+[ReApply Aliases] : connection of alias 'LRM FED DATA SOURCE' is valid
+[ReApply Aliases] : datasource has been created in standalone.xml for alias 'LRM FED DATA SOURCE'
+[ReApply Aliases] : successfully
+end to edit alias: 

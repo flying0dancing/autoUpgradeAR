@@ -1,0 +1,228 @@
+Jul 12, 2017 10:01:32 PM INFO: Logging initialized at level 'INFO'
+Jul 12, 2017 10:01:32 PM INFO: Commandline arguments: -options ARInstall qa11_testp.properties 
+Jul 12, 2017 10:01:33 PM INFO: Detected platform: red_hat_linux,version=2.6.32-573.el6.x86_64,arch=x64,symbolicName=null,javaVersion=1.7.0_79
+Jul 12, 2017 10:01:33 PM WARNING: Failed to determine hostname and IP address
+****************************************************************
+****************************************************************
+****************************************************************
+*********************installation starts here*******************
+****************************************************************
+****************************************************************
+****************************************************************
+An error occurred while trying to get the machine ip address. 'localhost' will be used instead.
+java.net.UnknownHostException: sha-com-qa-11: sha-com-qa-11: Temporary failure in name resolution
+	at java.net.InetAddress.getLocalHost(InetAddress.java:1473)
+	at com.lombardrisk.ocelot.installer.action.BrokerIDAction.executeAction(BrokerIDAction.java:28)
+	at com.izforge.izpack.installer.panel.AbstractPanelView.execute(AbstractPanelView.java:559)
+	at com.izforge.izpack.installer.panel.AbstractPanelView.executePostValidationActions(AbstractPanelView.java:341)
+	at com.izforge.izpack.installer.panel.AbstractPanelView.isValid(AbstractPanelView.java:264)
+	at com.izforge.izpack.installer.panel.AbstractPanelView.isValid(AbstractPanelView.java:239)
+	at com.izforge.izpack.installer.panel.AbstractPanels.executeValidationActions(AbstractPanels.java:597)
+	at com.izforge.izpack.installer.panel.AbstractPanels.isValid(AbstractPanels.java:177)
+	at com.izforge.izpack.installer.panel.AbstractPanels.next(AbstractPanels.java:249)
+	at com.izforge.izpack.installer.panel.AbstractPanels.next(AbstractPanels.java:234)
+	at com.izforge.izpack.installer.console.ConsoleInstaller.run(ConsoleInstaller.java:183)
+	at com.izforge.izpack.installer.bootstrap.Installer.launchConsoleInstaller(Installer.java:262)
+	at com.izforge.izpack.installer.bootstrap.Installer.launchInstall(Installer.java:225)
+	at com.izforge.izpack.installer.bootstrap.Installer.start(Installer.java:193)
+	at com.izforge.izpack.installer.bootstrap.Installer.main(Installer.java:72)
+Caused by: java.net.UnknownHostException: sha-com-qa-11: Temporary failure in name resolution
+	at java.net.Inet6AddressImpl.lookupAllHostAddr(Native Method)
+	at java.net.InetAddress$1.lookupAllHostAddr(InetAddress.java:901)
+	at java.net.InetAddress.getAddressesFromNameService(InetAddress.java:1293)
+	at java.net.InetAddress.getLocalHost(InetAddress.java:1469)
+	... 14 more
+ocelot.first.install is:true
+[ Starting to unpack ]
+[ Processing package:  (1/5) ]
+[ Processing package:  (2/5) ]
+[ Processing package: AgileREPORTER Install (3/5) ]
+[ Processing package: Finish (5/5) ]
+Jul 12, 2017 10:02:51 PM WARNING: Options file /home/testp/trump_11/ocelot.properties.configback to patch from could not be found, no patches will be applied
+Created dir: /tmp/ocelotInstall734052206
+create ocelot system datasources...
+ocelot datasources and toolset datasources has been created
+Login policy config...
+Login policy has been configured
+JBOSS HTTP Connector has been configured
+cache container for modeshape has been configured
+Jboss Web HTTP Ports have been configured
+Jboss virtual server has been configured
+Jboss GZip compression is on
+JBOSS has been configured
+Expanding: /home/testp/trump_11/jboss-eap-6.4.0.Alpha/standalone/deployments/ocelot/WEB-INF/lib/ocelot-admin-1.15.3.1-b1019.jar into /tmp/ocelotInstall734052206/ocelot-admin
+Deleting: /home/testp/trump_11/jboss-eap-6.4.0.Alpha/standalone/deployments/ocelot/WEB-INF/lib/ocelot-admin-1.15.3.1-b1019.jar
+Expanding: /home/testp/trump_11/jboss-eap-6.4.0.Alpha/standalone/deployments/ocelot/WEB-INF/lib/ocelot-config-1.15.3.1-b1019.jar into /tmp/ocelotInstall734052206/ocelot-config
+Deleting: /home/testp/trump_11/jboss-eap-6.4.0.Alpha/standalone/deployments/ocelot/WEB-INF/lib/ocelot-config-1.15.3.1-b1019.jar
+Expanding: /home/testp/trump_11/jboss-eap-6.4.0.Alpha/standalone/deployments/ocelot/WEB-INF/lib/ocelot-forms-common-1.15.3.1-b1019.jar into /tmp/ocelotInstall734052206/ocelot-forms-common
+Deleting: /home/testp/trump_11/jboss-eap-6.4.0.Alpha/standalone/deployments/ocelot/WEB-INF/lib/ocelot-forms-common-1.15.3.1-b1019.jar
+Expanding: /home/testp/trump_11/jboss-eap-6.4.0.Alpha/standalone/deployments/ocelot/WEB-INF/lib/ocelot-default-security-1.15.3.1-b1019.jar into /tmp/ocelotInstall734052206/ocelot-default-security
+Deleting: /home/testp/trump_11/jboss-eap-6.4.0.Alpha/standalone/deployments/ocelot/WEB-INF/lib/ocelot-default-security-1.15.3.1-b1019.jar
+Expanding: /home/testp/trump_11/jboss-eap-6.4.0.Alpha/standalone/deployments/ocelot/WEB-INF/lib/ocelot-forms-default-1.15.3.1-b1019.jar into /tmp/ocelotInstall734052206/ocelot-forms-default
+Deleting: /home/testp/trump_11/jboss-eap-6.4.0.Alpha/standalone/deployments/ocelot/WEB-INF/lib/ocelot-forms-default-1.15.3.1-b1019.jar
+Expanding: /home/testp/trump_11/jboss-eap-6.4.0.Alpha/standalone/deployments/ocelot/WEB-INF/lib/ocelot-forms-reporter-1.15.3.1-b1019.jar into /tmp/ocelotInstall734052206/ocelot-forms-reporter
+Deleting: /home/testp/trump_11/jboss-eap-6.4.0.Alpha/standalone/deployments/ocelot/WEB-INF/lib/ocelot-forms-reporter-1.15.3.1-b1019.jar
+Expanding: /home/testp/trump_11/jboss-eap-6.4.0.Alpha/standalone/deployments/ocelot/WEB-INF/lib/ocelot-toolset-security-1.15.3.1-b1019.jar into /tmp/ocelotInstall734052206/ocelot-toolset-security
+Deleting: /home/testp/trump_11/jboss-eap-6.4.0.Alpha/standalone/deployments/ocelot/WEB-INF/lib/ocelot-toolset-security-1.15.3.1-b1019.jar
+Expanding: /home/testp/trump_11/tools/ocelot-config-tool.jar into /tmp/ocelotInstall734052206/ocelot-config-tool
+Deleting: /home/testp/trump_11/tools/ocelot-config-tool.jar
+Expanding: /home/testp/trump_11/tools/ocelot-cf-setting-tool.jar into /tmp/ocelotInstall734052206/ocelot-cf-setting-tool
+Deleting: /home/testp/trump_11/tools/ocelot-cf-setting-tool.jar
+Expanding: /home/testp/trump_11/jboss-eap-6.4.0.Alpha/standalone/deployments/ocelot/WEB-INF/lib/ocelot-notification-1.15.3.1-b1019.jar into /tmp/ocelotInstall734052206/ocelot-notification
+Deleting: /home/testp/trump_11/jboss-eap-6.4.0.Alpha/standalone/deployments/ocelot/WEB-INF/lib/ocelot-notification-1.15.3.1-b1019.jar
+Adding the NotificationMDB to the ejb-jar.xml file..
+Adding the BatchRunJobResumerMdb to the ejb-jar.xml file..
+message3: /tmp/ocelotInstall734052206/ocelot-config
+message3: /tmp/ocelotInstall734052206/ocelot-forms-common
+message3: /tmp/ocelotInstall734052206/ocelot-admin
+message3: /tmp/ocelotInstall734052206/ocelot-default-security
+message3: /tmp/ocelotInstall734052206/ocelot-forms-default
+message3: /tmp/ocelotInstall734052206/ocelot-notification
+all of jpa persistence.xml has been configured
+Copying 1 file to /home/testp/trump_11/jboss-eap-6.4.0.Alpha/standalone/deployments/ocelot/WEB-INF/classes
+ocelot.properties has been copy into ocelot war archive
+web.xml has been configured
+Updating property file: /tmp/ocelotInstall734052206/ocelot-config-tool/config.properties
+config.properties for config tool has been modified
+Creating new property file: /tmp/ocelotInstall734052206/ocelot-config-tool/log4j_installer.properties
+Creating new property file: /tmp/ocelotInstall734052206/ocelot-config-tool/log4j.properties
+log4j.properties for config tool has been modified
+log4j.xml for config tool has been modified
+infinispan for config tool has been configured
+active mq has been configured
+Updating property file: /home/testp/trump_11/ocelot.properties
+Building zip: /home/testp/trump_11/jboss-eap-6.4.0.Alpha/standalone/deployments/ocelot/WEB-INF/lib/ocelot-admin-1.15.3.1-b1019.jar
+Building zip: /home/testp/trump_11/jboss-eap-6.4.0.Alpha/standalone/deployments/ocelot/WEB-INF/lib/ocelot-forms-reporter-1.15.3.1-b1019.jar
+Building zip: /home/testp/trump_11/jboss-eap-6.4.0.Alpha/standalone/deployments/ocelot/WEB-INF/lib/ocelot-config-1.15.3.1-b1019.jar
+Building zip: /home/testp/trump_11/jboss-eap-6.4.0.Alpha/standalone/deployments/ocelot/WEB-INF/lib/ocelot-forms-common-1.15.3.1-b1019.jar
+Building zip: /home/testp/trump_11/jboss-eap-6.4.0.Alpha/standalone/deployments/ocelot/WEB-INF/lib/ocelot-default-security-1.15.3.1-b1019.jar
+Building zip: /home/testp/trump_11/jboss-eap-6.4.0.Alpha/standalone/deployments/ocelot/WEB-INF/lib/ocelot-forms-default-1.15.3.1-b1019.jar
+Building zip: /home/testp/trump_11/jboss-eap-6.4.0.Alpha/standalone/deployments/ocelot/WEB-INF/lib/ocelot-notification-1.15.3.1-b1019.jar
+Building zip: /home/testp/trump_11/jboss-eap-6.4.0.Alpha/standalone/deployments/ocelot/WEB-INF/lib/ocelot-toolset-security-1.15.3.1-b1019.jar
+Building zip: /home/testp/trump_11/jboss-eap-6.4.0.Alpha/standalone/deployments/ocelot.war
+Deleting directory /home/testp/trump_11/jboss-eap-6.4.0.Alpha/standalone/deployments/ocelot
+Building zip: /home/testp/trump_11/tools/ocelot-config-tool.jar
+Building zip: /home/testp/trump_11/tools/ocelot-cf-setting-tool.jar
+Building zip: /home/testp/trump_11/jboss-eap-6.4.0.Alpha/standalone/deployments/activemq-5.8.0.rar
+Deleting directory /home/testp/trump_11/jboss-eap-6.4.0.Alpha/standalone/deployments/activemq-5.8.0
+ocelot war archive has been updated
+Updating property file: /home/testp/trump_11/tools/ocelot-dbscript/conf/flyway.properties
+flyway.properties has been configured
+Flyway.setInitialVersion(MigrationVersion) has been deprecated. Use setInitVersion(MigrationVersion) instead. Will be removed in Flyway 3.0.
+Creating Metadata table: "AUTO_TRUMP_11$OWNER"."SCHEMA_VERSION"
+Current version of schema "AUTO_TRUMP_11$OWNER": << Empty Schema >>
+Migrating schema "AUTO_TRUMP_11$OWNER" to version 1
+Migrating schema "AUTO_TRUMP_11$OWNER" to version 2
+Migrating schema "AUTO_TRUMP_11$OWNER" to version 3
+Migrating schema "AUTO_TRUMP_11$OWNER" to version 4
+Migrating schema "AUTO_TRUMP_11$OWNER" to version 5
+Migrating schema "AUTO_TRUMP_11$OWNER" to version 6
+Migrating schema "AUTO_TRUMP_11$OWNER" to version 7
+Migrating schema "AUTO_TRUMP_11$OWNER" to version 8
+Migrating schema "AUTO_TRUMP_11$OWNER" to version 9
+Migrating schema "AUTO_TRUMP_11$OWNER" to version 10
+Migrating schema "AUTO_TRUMP_11$OWNER" to version 11
+Migrating schema "AUTO_TRUMP_11$OWNER" to version 12
+Migrating schema "AUTO_TRUMP_11$OWNER" to version 13
+Migrating schema "AUTO_TRUMP_11$OWNER" to version 14
+Migrating schema "AUTO_TRUMP_11$OWNER" to version 15
+Migrating schema "AUTO_TRUMP_11$OWNER" to version 16
+Migrating schema "AUTO_TRUMP_11$OWNER" to version 17
+Migrating schema "AUTO_TRUMP_11$OWNER" to version 18
+Migrating schema "AUTO_TRUMP_11$OWNER" to version 19
+Migrating schema "AUTO_TRUMP_11$OWNER" to version 20
+Migrating schema "AUTO_TRUMP_11$OWNER" to version 21
+Migrating schema "AUTO_TRUMP_11$OWNER" to version 22
+Migrating schema "AUTO_TRUMP_11$OWNER" to version 23
+Migrating schema "AUTO_TRUMP_11$OWNER" to version 24
+Migrating schema "AUTO_TRUMP_11$OWNER" to version 25
+Migrating schema "AUTO_TRUMP_11$OWNER" to version 26
+Migrating schema "AUTO_TRUMP_11$OWNER" to version 27
+Migrating schema "AUTO_TRUMP_11$OWNER" to version 28
+Migrating schema "AUTO_TRUMP_11$OWNER" to version 29
+Migrating schema "AUTO_TRUMP_11$OWNER" to version 30
+Migrating schema "AUTO_TRUMP_11$OWNER" to version 31
+Migrating schema "AUTO_TRUMP_11$OWNER" to version 32
+Migrating schema "AUTO_TRUMP_11$OWNER" to version 33
+Migrating schema "AUTO_TRUMP_11$OWNER" to version 34
+Migrating schema "AUTO_TRUMP_11$OWNER" to version 35
+Migrating schema "AUTO_TRUMP_11$OWNER" to version 36
+Migrating schema "AUTO_TRUMP_11$OWNER" to version 37
+Migrating schema "AUTO_TRUMP_11$OWNER" to version 38
+Migrating schema "AUTO_TRUMP_11$OWNER" to version 39
+Migrating schema "AUTO_TRUMP_11$OWNER" to version 40
+Migrating schema "AUTO_TRUMP_11$OWNER" to version 41
+Migrating schema "AUTO_TRUMP_11$OWNER" to version 42
+Migrating schema "AUTO_TRUMP_11$OWNER" to version 43
+Migrating schema "AUTO_TRUMP_11$OWNER" to version 44
+Migrating schema "AUTO_TRUMP_11$OWNER" to version 45
+Migrating schema "AUTO_TRUMP_11$OWNER" to version 46
+Migrating schema "AUTO_TRUMP_11$OWNER" to version 47
+Migrating schema "AUTO_TRUMP_11$OWNER" to version 48
+Migrating schema "AUTO_TRUMP_11$OWNER" to version 49
+Migrating schema "AUTO_TRUMP_11$OWNER" to version 11401
+Migrating schema "AUTO_TRUMP_11$OWNER" to version 11402
+Migrating schema "AUTO_TRUMP_11$OWNER" to version 11403
+Migrating schema "AUTO_TRUMP_11$OWNER" to version 11404
+Migrating schema "AUTO_TRUMP_11$OWNER" to version 11405
+Migrating schema "AUTO_TRUMP_11$OWNER" to version 11406
+Migrating schema "AUTO_TRUMP_11$OWNER" to version 11407
+Migrating schema "AUTO_TRUMP_11$OWNER" to version 11408
+Migrating schema "AUTO_TRUMP_11$OWNER" to version 11409
+Migrating schema "AUTO_TRUMP_11$OWNER" to version 11410
+Migrating schema "AUTO_TRUMP_11$OWNER" to version 11411
+Migrating schema "AUTO_TRUMP_11$OWNER" to version 11412
+Migrating schema "AUTO_TRUMP_11$OWNER" to version 11413
+Migrating schema "AUTO_TRUMP_11$OWNER" to version 11414
+Migrating schema "AUTO_TRUMP_11$OWNER" to version 11415
+Migrating schema "AUTO_TRUMP_11$OWNER" to version 11416
+Migrating schema "AUTO_TRUMP_11$OWNER" to version 11417
+Migrating schema "AUTO_TRUMP_11$OWNER" to version 11418
+Migrating schema "AUTO_TRUMP_11$OWNER" to version 11419
+Migrating schema "AUTO_TRUMP_11$OWNER" to version 11420
+Migrating schema "AUTO_TRUMP_11$OWNER" to version 11421
+Migrating schema "AUTO_TRUMP_11$OWNER" to version 11422
+Migrating schema "AUTO_TRUMP_11$OWNER" to version 11423
+Migrating schema "AUTO_TRUMP_11$OWNER" to version 11424
+Migrating schema "AUTO_TRUMP_11$OWNER" to version 11425
+Migrating schema "AUTO_TRUMP_11$OWNER" to version 11426
+Migrating schema "AUTO_TRUMP_11$OWNER" to version 11427
+Migrating schema "AUTO_TRUMP_11$OWNER" to version 11428
+Migrating schema "AUTO_TRUMP_11$OWNER" to version 11501
+Migrating schema "AUTO_TRUMP_11$OWNER" to version 11502
+Migrating schema "AUTO_TRUMP_11$OWNER" to version 11503
+Migrating schema "AUTO_TRUMP_11$OWNER" to version 11504
+Migrating schema "AUTO_TRUMP_11$OWNER" to version 11505
+Migrating schema "AUTO_TRUMP_11$OWNER" to version 11506
+Migrating schema "AUTO_TRUMP_11$OWNER" to version 11509
+Migrating schema "AUTO_TRUMP_11$OWNER" to version 11510
+Migrating schema "AUTO_TRUMP_11$OWNER" to version 11511
+Migrating schema "AUTO_TRUMP_11$OWNER" to version 11512
+Migrating schema "AUTO_TRUMP_11$OWNER" to version 11513
+Migrating schema "AUTO_TRUMP_11$OWNER" to version 11514
+Migrating schema "AUTO_TRUMP_11$OWNER" to version 11515
+Migrating schema "AUTO_TRUMP_11$OWNER" to version 11516
+Migrating schema "AUTO_TRUMP_11$OWNER" to version 11520
+Migrating schema "AUTO_TRUMP_11$OWNER" to version 11521
+Migrating schema "AUTO_TRUMP_11$OWNER" to version 11523
+Migrating schema "AUTO_TRUMP_11$OWNER" to version 11524
+Migrating schema "AUTO_TRUMP_11$OWNER" to version 11525
+Migrating schema "AUTO_TRUMP_11$OWNER" to version 11530
+Migrating schema "AUTO_TRUMP_11$OWNER" to version 11531
+Migrating schema "AUTO_TRUMP_11$OWNER" to version 11532
+Migrating schema "AUTO_TRUMP_11$OWNER" to version 11533
+Migrating schema "AUTO_TRUMP_11$OWNER" to version 11534
+Successfully applied 101 migrations to schema "AUTO_TRUMP_11$OWNER" (execution time 00:23.114s).
+flyway database scripts has been upgraded
+reapply all toolset aliases...
+No active product configuration founded!
+reapply all toolset alias finished
+Updating property file: /home/testp/trump_11/zookeeper-3.4.9/conf/zoo.cfg
+Updating property file: /home/testp/trump_11/zookeeper-3.4.9/conf/zoo.cfg
+Zookeeper has been configured
+Deleting directory /tmp/ocelotInstall734052206
+unixShellTidyup completed
+Created dir: /home/testp/trump_11/temp
+AgileREPORTER has been installed
+[ Unpacking finished ]
+[ Console installation done ]

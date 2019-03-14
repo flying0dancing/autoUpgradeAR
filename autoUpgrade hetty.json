@@ -1,0 +1,63 @@
+[
+  {
+    "databaseServers":
+    [
+       {
+        "id": 0,
+        "name": "FEDAUTO_database",
+        "driver": "oracle",
+        "host": "172.20.20.49",
+        "loginuser":"oracle",
+        "loginpassword":"0racle11",
+        "port": null,
+        "sidORinstance": "ora12c",
+        "username": "FED4AUTO\\$OWNER",
+        "userpassword":"password",
+        "fromuser":"FED4AUTO\\$OWNER",
+        "dumpfile": "FED4AUTO.dmp",
+        "dumpfolder": "/home/oracle/backup/"
+      }      
+    ],
+    "applicationServers":
+    [
+      {
+        "id": 0,
+        "description":"AR installations",
+        "host": "sha-com-qa-3",
+        "loginuser":"test",
+        "loginpassword":"password",
+        "port": null,
+        "type":"0",
+        "app": "AgileREPORTER-1.15.4-b1112.jar",
+        "appfolder":"Z:\\ProductLine\\ReportPortalPackage\\1.15.4",
+        "properties":"FEDAUTO_154.properties",
+        "propertiesfolder":"Z:\\ProductLine\\FED\\Auto\\1.10.0",
+        "installfolder":"/home/test/FEDAUTO/"
+      },
+      {
+        "id": 1,
+        "description":"AR for fed",
+        "type":"1",
+        "app": "ARforFED_v1.10.0.5.lrm",
+        "appfolder":"Z:\\ProductLine\\FED\\Package\\v1.10.0\\",
+        "properties":"",
+        "propertiesfolder":"",
+        "installfolder":"/home/test/FEDAUTO/"
+      },
+      {
+        "id": 2,
+        "description":"LRM FED DID",
+        "type":"1",
+        "app": "LRM_FED_DID_v1.4.1.2.zip",
+        "appfolder":"Z:\\ProductLine\\FED\\Package\\v1.10.0\\",
+        "properties":"alias_ora12c.properties",
+        "propertiesfolder":"Z:\\ProductLine\\FED\\Auto\\1.10.0",
+        "installfolder":"/home/test/FEDAUTO/",
+        "DIDprefix":"LRM_FED",
+        "DIDimplementationVersion":"1.4.1.2",
+        "DIDaliasName":"LRM FED DATA SOURCE"
+      }
+    ]
+  }
+  
+]
