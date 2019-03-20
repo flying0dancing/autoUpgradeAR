@@ -45,6 +45,11 @@ if [ -z ${PASSWORD} ];then
    PASSWORD=password
 fi
 
+if [ -z $DIRECTORY ];then
+   DIRECTORY=`dirname $(readlink -f "$0")`
+   echo "Your input DIRECTORY is null, use default ${DIRECTORY}"
+fi 
+
 . /usr/local/bin/oraenv <<< $SIDORINSTANCE >/dev/null
 $ORACLE_HOME/bin/sqlplus /nolog <<EOF
 
@@ -56,6 +61,7 @@ $ORACLE_HOME/bin/sqlplus /nolog <<EOF
   SELECT COUNT(*) INTO coun FROM ALL_USERS WHERE USERNAME='$USERNAME';
   IF coun>0 THEN
   EXECUTE IMMEDIATE 'DROP USER $USERNAME CASCADE';
+  EXECUTE IMMEDIATE 'DROP ROLE ${USERNAME}\$RW_ROLE CASCADE';
   END IF;
   END;
   /
@@ -81,7 +87,10 @@ $ORACLE_HOME/bin/sqlplus /nolog <<EOF
   GRANT CREATE VIEW TO ${USERNAME};
   GRANT UNLIMITED TABLESPACE TO ${USERNAME};
   GRANT CREATE MATERIALIZED VIEW TO ${USERNAME};
+  CREATE OR REPLACE DIRECTORY EXPORT_TEMP AS '$DIRECTORY'
 
+  CREATE ROLE ${USERNAME}\$RW_ROLE;
+  GRANT ${USERNAME}\$RW_ROLE to ${USERNAME};
 
 EOF
 
